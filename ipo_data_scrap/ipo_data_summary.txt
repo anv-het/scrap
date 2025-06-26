@@ -1,0 +1,425 @@
+Total IPOs found: 15
+
+
+--- Processing IPO: Indogulf Cropsciences (ID: 1299) ---
+  Detail URL: https://www.investorgain.com/ipo/indogulf-cropsciences-ipo/1299/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 21)
+    - Company Logo URL: Present (Length: 73)
+    - Company Description: Present (Length: 770)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 8)
+    - Company Address: Present (Length: 82)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: HDB Financial (ID: 1276) ---
+  Detail URL: https://www.investorgain.com/ipo/hdb-financial/1276/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 13)
+    - Company Logo URL: Present (Length: 62)
+    - Company Description: Present (Length: 751)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 8)
+    - Company Address: Present (Length: 77)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Sambhv Steel Tubes (ID: 1279) ---
+  Detail URL: https://www.investorgain.com/ipo/sambhv-steel-tubes-ipo/1279/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 18)
+    - Company Logo URL: Present (Length: 67)
+    - Company Description: Present (Length: 760)
+    - IPO GMP: Present (Length: 1)
+    - Company Address: Present (Length: 73)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Financial Information: Not Found
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Kalpataru (ID: 1277) ---
+  Detail URL: https://www.investorgain.com/ipo/kalpataru-ipo/1277/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 9)
+    - Company Logo URL: Present (Length: 57)
+    - Company Description: Present (Length: 706)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 7)
+    - Company Address: Present (Length: 66)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Ellenbarrie Industrial Gases (ID: 1278) ---
+  Detail URL: https://www.investorgain.com/ipo/ellenbarrie-industrial-gases-ipo/1278/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 28)
+    - Company Logo URL: Present (Length: 70)
+    - Company Description: Present (Length: 790)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 8)
+    - Company Address: Present (Length: 51)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Globe Civil Projects (ID: 1280) ---
+  Detail URL: https://www.investorgain.com/ipo/globe-civil-projects-ipo/1280/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 20)
+    - Company Logo URL: Present (Length: 59)
+    - Company Description: Present (Length: 736)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 8)
+    - Company Address: Present (Length: 62)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Arisinfra Solutions (ID: 1275) ---
+  Detail URL: https://www.investorgain.com/ipo/arisinfra-solutions-ipo/1275/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 19)
+    - Company Logo URL: Present (Length: 57)
+    - Company Description: Present (Length: 405)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 8)
+    - Company Address: Present (Length: 128)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Silky Overseas (ID: 1307) ---
+  Detail URL: https://www.investorgain.com/ipo/silky-overseas-sme-ipo/1307/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 14)
+    - Company Logo URL: Present (Length: 62)
+    - Company Description: Present (Length: 474)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 8)
+    - Company Address: Present (Length: 126)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Vandan Foods (ID: 1306) ---
+  Detail URL: https://www.investorgain.com/ipo/vandan-foods-sme-ipo/1306/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 12)
+    - Company Logo URL: Present (Length: 64)
+    - Company Description: Present (Length: 690)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 8)
+    - Company Address: Present (Length: 88)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Cedaar Textile IPO (ID: 1304) ---
+  Detail URL: https://www.investorgain.com/ipo/cedaar-textile-sme-ipo/1304/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 18)
+    - Company Logo URL: Present (Length: 63)
+    - Company Description: Present (Length: 715)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 7)
+    - Company Address: Present (Length: 79)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Pushpa Jewellers (ID: 1302) ---
+  Detail URL: https://www.investorgain.com/ipo/pushpa-jewellers-sme-ipo/1302/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 16)
+    - Company Logo URL: Present (Length: 62)
+    - Company Description: Present (Length: 738)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 7)
+    - Company Address: Present (Length: 77)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Marc Loire (ID: 1301) ---
+  Detail URL: https://www.investorgain.com/ipo/marc-loire-sme-ipo/1301/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 10)
+    - Company Logo URL: Present (Length: 62)
+    - Company Description: Present (Length: 684)
+    - IPO GMP: Present (Length: 1)
+    - Company Address: Present (Length: 88)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Financial Information: Not Found
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Adcounty Media India (ID: 1303) ---
+  Detail URL: https://www.investorgain.com/ipo/adcounty-media-india-sme-ipo/1303/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 20)
+    - Company Logo URL: Present (Length: 63)
+    - Company Description: Present (Length: 719)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 6)
+    - Company Address: Present (Length: 117)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Neetu Yoshi (ID: 1295) ---
+  Detail URL: https://www.investorgain.com/ipo/neetu-yoshi-sme-ipo/1295/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 11)
+    - Company Logo URL: Present (Length: 63)
+    - Company Description: Present (Length: 691)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 7)
+    - Company Address: Present (Length: 42)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+--- Processing IPO: Ace Alpha Tech (ID: 1289) ---
+  Detail URL: https://www.investorgain.com/ipo/ace-alpha-tech-sme-ipo/1289/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 14)
+    - Company Logo URL: Present (Length: 61)
+    - Company Description: Present (Length: 730)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 7)
+    - Company Address: Present (Length: 69)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
+Scraping finished. Total IPOs scraped: 15
+Raw JSON data saved to 'ipo_data_v2.json'.

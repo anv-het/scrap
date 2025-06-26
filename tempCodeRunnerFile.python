@@ -1,0 +1,6 @@
+import pgeocode
+
+nomi = pgeocode.Nominatim('IN')  # 'IN' is the country code for India
+result = nomi.query_postal_code("Mumbai")
+
+print(result)

@@ -1,0 +1,591 @@
+==============================================================================================================
+
+URl : https://www.investorgain.com/ipo/ajc-jewel-sme-ipo/1281/
+
+HTML scraping :
+
+th api : https://webnodejs.investorgain.com/cloud/ipo/list-read
+ this api give reponse like :
+ 
+ {
+    "msg": 1,
+    "ipoList": [
+        {
+            "id": 1299,
+            "company_short_name": "Indogulf Cropsciences",
+            "issue_size": "&#8377;200.00 Cr",
+            "issue_open_dt": "26-06-2025",
+            "issue_end_dt": "30-06-2025",
+            "listing_at": "BSE, NSE",
+            "urlrewrite_folder_name": "indogulf-cropsciences-ipo",
+            "urlrewrite_folder_name_main": "ipo",
+            "ipo_status": "Upcoming",
+            "ipo_category": "Mainline",
+            "orderdate": "30-06-2025",
+            "orderdate_dateformat": "2025-06-30T00:00:00.000Z",
+            "class_ipo_status": "color-lightyellow"
+        },
+        {
+            "id": 1276,
+            "company_short_name": "HDB Financial",
+            "issue_size": "&#8377;12500.00 Cr",
+            "issue_open_dt": "25-06-2025",
+            "issue_end_dt": "27-06-2025",
+            "listing_at": "BSE, NSE",
+            "urlrewrite_folder_name": "hdb-financial",
+            "urlrewrite_folder_name_main": "ipo",
+            "ipo_status": "Upcoming",
+            "ipo_category": "Mainline",
+            "orderdate": "27-06-2025",
+            "orderdate_dateformat": "2025-06-27T00:00:00.000Z",
+            "class_ipo_status": "color-lightyellow"
+        },
+		..............
+        
+    ]
+}
+
+
+as of this reponse we can get soime data like ipo id company short name,and mores details as well.
+
+some whare may be help that api.
+
+now we have to scrap data from thios page so here i atteched some tages , div name , ids.
+1. IPO name:  div class=col-lg-6  -> <h1>Cedaar Textile&nbsp;IPO SME IPO Details 2025| Dates, Prices, Lot, GMP</h1>
+
+2. IPO detailes button when we click this text so that show a IPO details like 1.{ipo name}IPO Detail 2.Recommendations 3.IPO Subscription 4. Allotment Status 5.IPO GMP. so those detailes we can get from the via this pages links ans also after click this text the HTML formate also change.
+<ul class="nav nav-pills my-3" style="background: rgb(229, 229, 229);"><li class="nav-item"><a class="nav-link
+                    active" title="Cedaar Textile&nbsp;IPO Detail" href="/ipo/cedaar-textile-sme-ipo/1304/">Cedaar Textile&nbsp;IPO IPO Detail</a></li><li class="nav-item"><a class="nav-link
+                    " title="Cedaar Textile&nbsp;IPO IPO Recommendation" href="/recommendations/cedaar-textile-sme-ipo/1304/">Recommendations</a></li><li class="nav-item"><a class="nav-link
+                    " title="Cedaar Textile&nbsp;IPO IPO Subscription" href="/subscription/cedaar-textile-sme-ipo/1304/">Subscription</a></li><li class="nav-item"><a class="nav-link
+                    " title="Cedaar Textile&nbsp;IPO IPO Allotment
+                    Status" href="/allotment-status/cedaar-textile-sme-ipo/1304/">Allotment Status</a></li><li class="nav-item"><a class="nav-link
+                    " title="IPO GMP" href="/gmp/cedaar-textile-sme-ipo/1304/">GMP</a></li></ul>
+
+3. The frist one click text that redirect on the page that give a basics details for the IPO company : IPO Detail so that HTML stucture like.
+	now in to this page we get data most off the data from this page:
+	1. image of IPO company ;
+		<div class="div-logo float-start pe-3"><img loading="lazy" alt="Cedaar Textile&nbsp;IPO Logo" title="Cedaar Textile&nbsp;IPO Logo" width="240" height="600" class="img-fluid" src="https://www.chittorgarh.net/images/ipo/cedaar-textile-logo.jpeg"></div>
+
+	2.Then this dive give use a ipo detailes about what comapny do and basic some details about IPO coapmy so that is like :
+		<div class="float-none mb-2 ms-2"><p><b>Cedaar Textile&nbsp;IPO IPO</b>, a SME IPO of <b>₹57.85 Cr</b> opens for subscription from  <b>June 30, 2025 to July 2, 2025</b>. The IPO consists of ₹57.85 Cr fresh issue.</p><p>The face value of each share is 10, and the price band is set between <b>130.00-140.00 per share</b>. Retail investors can apply to the Cedaar Textile&nbsp;IPO SME IPO with a minimum application of 2 lots, each comprising <b>1000 shares—amounting to a total investment of Rs140000</b>.</p><p>The tentative listing date on the exchange<b> (NSE SME) is 07-07-2025</b>.</p><p>Stay tuned with us to get more details about Cedaar Textile&nbsp;IPO SME IPO including business overview, financial performance, live subscription status, allotment details, daily grey market premium (GMP), listing date, and listing price.</p></div>
+		
+	3. {ipo name} SME IPO Details tabale stucture like :
+		<div itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">Cedaar Textile&nbsp;IPO SME IPO Details</h2><table class="table table-bordered table-striped table-hover w-auto"><tbody><tr><td><strong>SME IPO Issue Opening Date: </strong></td><td data-title="Open Dt">30th Jun 2025</td></tr><tr><td><strong>SME IPO Issue Closing Date: </strong></td><td data-title="Close Dt">2nd Jul 2025</td></tr><tr><td><strong>SME IPO Issue Price: </strong></td><td data-title="Issue Price">₹130.00-140.00 Per Share</td></tr><tr><td><strong>DRHP: </strong></td><td data-title="Cedaar Textile&nbsp;IPO SME IPO DRHP"><a title="Cedaar Textile&nbsp;IPO SME IPO DRHP" target="_blank" href="https://nsearchives.nseindia.com/emerge/corporates/content/Registration_24122024194010_FINALDRHP.pdf"><span class="btn btn-xs btn-warning">Download DRHP</span></a></td></tr><tr><td><strong>RHP: </strong></td><td data-title="Cedaar Textile&nbsp;IPO SME IPO RHP"><a title="Cedaar Textile&nbsp;IPO SME IPO RHP" target="_blank" href="https://ftfinsec.com/resource/Offer_Documents/Image/RHP_Cedaar_Textile_Limited.pdf"><span class="btn btn-xs btn-success">Download RHP</span></a></td></tr><tr><td><strong>IPO Listing At: </strong></td><td data-title="IPO Listing At">NSE SME</td></tr><tr><td><strong>Retail Quota: </strong></td><td data-title="RII Quota">Not Less than 35% of Net Issue</td></tr><tr><td><strong>SME IPO Issue Type: </strong></td><td data-title="Issue Type">Book Build Issue</td></tr><tr><td><strong>SME IPO Issue Size: </strong></td><td data-title="Issue Size">₹57.85 Cr</td></tr><tr><td><strong>Fresh Issue: </strong></td><td data-title="Issue Size">₹57.85 Cr</td></tr><tr><td><strong>Face Value: </strong></td><td data-title="Face Value">₹10 Per Equity Share</td></tr><tr><td><strong>Promoter Holding Pre IPO: </strong></td><td data-title="Pro Holding Pre">100</td></tr><tr><td><strong>Promoter Holding Post IPO: </strong></td><td data-title="Pro Holding Post">68.66</td></tr></tbody></table></div>
+	
+	4.{IPO Name} IPO Important Dates:
+		<div class="col-lg-6 col-md-6 col-sm-12"><div itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">Cedaar Textile&nbsp;IPO SME IPO Important Dates</h2><p>Get important updates regarding Cedaar Textile&nbsp;IPO SME IPO tentative timeline covering SME IPO opening, closing, allotment, and listing dates. Dates are updated as they are announced.</p><table class="table table-bordered table-striped table-hover w-auto"><caption>Cedaar Textile&nbsp;IPO SME IPO dates</caption><thead><tr><th class="th103 text-start">SME IPO Activity</th><th class="th103 text-start">Date</th></tr></thead><tbody><tr class="td102"><td><strong>Basis of Allotment Date* </strong></td><td data-title="Allotment Dt">3rd Jul 2025</td></tr><tr class="td102"><td><strong>Refunds Initiation* </strong></td><td data-title="Refund Dt">4th Jul 2025</td></tr><tr class="td102"><td><strong>Credit of Shares to Demat* </strong></td><td data-title="Share Cr Dt">4th Jul 2025</td></tr><tr class="td102"><td><strong> SME IPO Listing Date* </strong></td><td data-title="Listing Dt">7th Jul 2025</td></tr></tbody></table><p><em><small>* - Tentative Dates</small></em></p></div><div itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">Cedaar Textile&nbsp;IPO SME IPO Lots</h2><table class="table table-bordered table-striped table-hover w-auto"><thead><tr><th class="th103 text-start">SME IPO Activity</th><th class="th103 text-start">Date</th></tr></thead><tbody><tr><td><strong>Issue Price </strong></td><td data-title="Issue Price">₹130.00-140.00</td></tr><tr><td><strong>Market Lot:</strong></td><td data-title="Market Lot">1,000 Shares</td></tr><tr><td><strong> Individual Investor: </strong></td><td data-title="1 Lot Amount"><b>₹1,40,000</b></td></tr><tr><td><strong>Min HNI Lots: </strong></td><td data-title="HNI Min Lots">2000 shares (2 lots) </td></tr></tbody></table></div></div>
+		
+		into this div we have got two Table
+			4.1: The frist table that give a data like about IPO dates:
+				<div itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">AJC Jewel SME IPO Important Dates</h2><p>Get important updates regarding AJC Jewel SME IPO tentative timeline covering SME IPO opening, closing, allotment, and listing dates. Dates are updated as they are announced.</p><table class="table table-bordered table-striped table-hover w-auto"><caption>AJC Jewel SME IPO dates</caption><thead><tr><th class="th103 text-start">SME IPO Activity</th><th class="th103 text-start">Date</th></tr></thead><tbody><tr class="td102"><td><strong>Basis of Allotment Date* </strong></td><td data-title="Allotment Dt">27th Jun 2025</td></tr><tr class="td102"><td><strong>Refunds Initiation* </strong></td><td data-title="Refund Dt">30th Jun 2025</td></tr><tr class="td102"><td><strong>Credit of Shares to Demat* </strong></td><td data-title="Share Cr Dt">30th Jun 2025</td></tr><tr class="td102"><td><strong> SME IPO Listing Date* </strong></td><td data-title="Listing Dt">1st Jul 2025</td></tr></tbody></table><p><em><small>* - Tentative Dates</small></em></p></div>
+			4.2: The secend table that give a data like IPO Lots sizes about:
+				<div itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">AJC Jewel SME IPO Lots</h2><table class="table table-bordered table-striped table-hover w-auto"><thead><tr><th class="th103 text-start">SME IPO Activity</th><th class="th103 text-start">Date</th></tr></thead><tbody><tr><td><strong>Issue Price </strong></td><td data-title="Issue Price">₹90.00-95.00</td></tr><tr><td><strong>Market Lot:</strong></td><td data-title="Market Lot">1,200 Shares</td></tr><tr><td><strong> Individual Investor: </strong></td><td data-title="1 Lot Amount"><b>₹2,28,000</b></td></tr><tr><td><strong>Min HNI Lots: </strong></td><td data-title="HNI Min Lots">3600 shares (3 lots) </td></tr></tbody></table></div>
+			
+		
+	5. {IPO name} IPO GMP** : that table show a last updated GMP for IPO :
+		<table class="table table-bordered table-striped w-auto"><thead><tr><th class="th103">GMP Date</th><th class="th103">IPO Price</th><th class="th103">GMP</th><th class="th103">Sub2 Sauda Rate</th><th class="th103">Estimated Listing Price</th><th class="th103">Estimated Profit*</th><th class="th103">Last Updated</th></tr></thead><tbody><tr>
+                        <td class="" data-title="GMP Date">24-06-2025 </td>
+                        <td class="" data-title="GMP Price">95.00</td>
+                        <td class="" data-title="GMP">₹9</td>
+                        <td class="" data-title="Sub2 Sauda">8200</td>
+                        <td class="" data-title="Estimated Listing Price">₹104 (<span class="text-success fw-bold">9.47%</span>)</td>
+                        <td class=" text-success fw-bold" data-title="Estimated Profit Per Lot">₹10800</td>
+                        <td class="" data-title="Last updated">24-Jun-2025 14:56</td>
+                      </tr></tbody></table>
+					  
+	
+	6. This div give more detailes about IPO company.
+		<div class="col-12" itemscope="" itemtype="http://schema.org/Table"><h3 itemprop="about">About Company - <!-- -->AJC Jewel</h3><div><p>AJC Jewel manufacturers is engaged in the business of manfuacturing and designing a range of wholesale gold jewelleries. It offers extensive range of gold jewellery designs in 22karat and 18 karat , like plain gold, rose gold, jewelleries studded with Cubic Zircon and/or coloured stones.</p>
+		<p>Its product portfoio includes Anklet, Bangle, Bracelet, Earrings, Necklace, Nose Pin, Pendant, Ring and customized named jewelleries (like Name Bracelet, Name Pendant, Name Ring) etc. based on customers preferences. The products are sold to local dealers, showrooms and small-scale jewellery shops in bulk.</p>
+		<p>Its gold jewellery manufacturing facility is located at Inkel Greens Edu City, Malappuram across 21,780.76 Sq. Ft. The facility is equipped with necessary equipments like  3D printer, Wax Injector, Casting Machine, and polishing equipment and other handling equipment.</p></div><h3>AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Strengths</h3><div><ul>
+		<li>Wide product range with unique designs</li>
+		<li>Experienced Promoter and management team with proven execution capabilities</li>
+		<li>Long-standing relationship with reputed jewellery dealers</li>
+		<li>Organised manufacturing setup under one roof</li>
+		</ul></div><div class="table-responsive"><table class="table table-bordered table-striped table-hover w-auto"><thead><tr class="text-nowrap"><td class="th103"><strong>Incorporation</strong></td><td class="th103"><strong>Sector</strong></td><td class="th103"><strong>IPO Issue Size</strong></td><td class="th103"><strong>Website</strong></td></tr></thead><tbody><tr class="td102"><td>2018</td><td>Gems, Jewellery And Watches</td><td>₹14.59 Cr</td><td><a title="AJC Jewel Website" target="_blank" href="https://ajcjewel.com/ab">https://ajcjewel.com/ab</a></td></tr></tbody></table></div></div>
+		
+		lets breck this div and understood this dv what we get from this div data like :
+		6.1  : <h3 itemprop="about">About Company - <!-- -->AJC Jewel</h3>  -> ipo copmany name
+		6.2 : Under this div gold a something numbers of pharagraf that hgold a detailes about IPO copmany.
+			<div><p>AJC Jewel manufacturers is engaged in the business of manfuacturing and designing a range of wholesale gold jewelleries. It offers extensive range of gold jewellery designs in 22karat and 18 karat , like plain gold, rose gold, jewelleries studded with Cubic Zircon and/or coloured stones.</p>
+			<p>Its product portfoio includes Anklet, Bangle, Bracelet, Earrings, Necklace, Nose Pin, Pendant, Ring and customized named jewelleries (like Name Bracelet, Name Pendant, Name Ring) etc. based on customers preferences. The products are sold to local dealers, showrooms and small-scale jewellery shops in bulk.</p>
+			<p>Its gold jewellery manufacturing facility is located at Inkel Greens Edu City, Malappuram across 21,780.76 Sq. Ft. The facility is equipped with necessary equipments like  3D printer, Wax Injector, Casting Machine, and polishing equipment and other handling equipment.</p></div>
+		
+		6.3: <h3>AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Strengths</h3> -> a Strengths about the ipo 
+		6.4: this div detailes about IPO Strengths
+			<div><ul>
+			<li>Wide product range with unique designs</li>
+			<li>Experienced Promoter and management team with proven execution capabilities</li>
+			<li>Long-standing relationship with reputed jewellery dealers</li>
+			<li>Organised manufacturing setup under one roof</li>
+			</ul></div>
+		
+		6.5 this tabels show detaiels like : comapny Incorporation	Sector	IPO Issue Size	Website 
+			<div class="table-responsive"><table class="table table-bordered table-striped table-hover w-auto"><thead><tr class="text-nowrap"><td class="th103"><strong>Incorporation</strong></td><td class="th103"><strong>Sector</strong></td><td class="th103"><strong>IPO Issue Size</strong></td><td class="th103"><strong>Website</strong></td></tr></thead><tbody><tr class="td102"><td>2018</td><td>Gems, Jewellery And Watches</td><td>₹14.59 Cr</td><td><a title="AJC Jewel Website" target="_blank" href="https://ajcjewel.com/ab">https://ajcjewel.com/ab</a></td></tr></tbody></table></div>
+			
+			
+			
+	7.This div give detailes about the company Objective
+		main div 
+		
+		<div class="row"><div class="col-12"><h3>AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Objective</h3><div><p>The Company AJC Jewel IPO proposes to utilise the Net Proceeds from the Issue towards the following objects:</p>                          <div class="table-responsive">                              <table class="table table-bordered table-striped w-auto" id="ObjectiveIssue">                                  <thead>                                      <tr>                                          <th>S.No.</th>                                          <th>Objects of the Issue</th>                                          <th>Expected Amount <small style="font-style: italic;">(Rs. in crores)</small></th>                                      </tr>                                  </thead>                                  <tbody><tr>                                  <td>1</td>                                  <td>Funding of capital expenditure requirements for purchase of new Equipment by the Company</td>                                  <td class="text-end">2.63</td>                              </tr><tr>                                  <td>2</td>                                  <td>Repayment/prepayment of all or certain of the borrowings availed of by the Company</td>                                  <td class="text-end">8.90</td>                              </tr><tr>                                  <td>3</td>                                  <td>General corporate purposes</td>                                  <td class="text-end"></td>                              </tr></tbody></table></div></div></div></div>
+		
+		
+		lets breck this div :
+		7.1: <h3>AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Objective</h3> titale ipo name 
+		7.2 : This give a table and setiels about company Objective 
+			<div class="table-responsive">                              <table class="table table-bordered table-striped w-auto" id="ObjectiveIssue">                                  <thead>                                      <tr>                                          <th>S.No.</th>                                          <th>Objects of the Issue</th>                                          <th>Expected Amount <small style="font-style: italic;">(Rs. in crores)</small></th>                                      </tr>                                  </thead>                                  <tbody><tr>                                  <td>1</td>                                  <td>Funding of capital expenditure requirements for purchase of new Equipment by the Company</td>                                  <td class="text-end">2.63</td>                              </tr><tr>                                  <td>2</td>                                  <td>Repayment/prepayment of all or certain of the borrowings availed of by the Company</td>                                  <td class="text-end">8.90</td>                              </tr><tr>                                  <td>3</td>                                  <td>General corporate purposes</td>                                  <td class="text-end"></td>                              </tr></tbody></table></div>
+																				
+				
+	8.Subscription data about IPO, IPO Bidding Live Updates,Financial Information (Restated),peer comparison from DRHP/RHP. :
+	main div : 
+		
+		
+		<div class="row"><div class="col-12" itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Live Subscription (<!-- -->BSE SME<!-- -->)</h2><p>The table below is live update of <!-- -->SME IPO<!-- --> bidding details from <!-- -->BSE SME<!-- -->.</p></div><div id="biddingDetails"></div><div><ul>
+			  <li>Qualified Institutional Buyers: 3,03,600.00 Shares (28.02%)</li>
+			  <li>Non-Institutional Investors: 2,37,600 Shares (21.93%)</li>
+			  
+			  
+			  <li>Retail Individual Investor: 5,42,400 Shares (50.06%)</li>
+			  
+			  
+			</ul></div><div><div class="table-responsive">
+			  <table class="table table-bordered table-striped table-hover w-auto">
+							  <caption>IPO Bidding Live Updates from BSE SME</caption>
+							  <thead>
+								<tr class="th103">
+								  <th class="th103">Day</th>
+								  <th class="th103">&nbsp;</th>
+								  <th class="th103">QIB</th><th class="th103">NII</th><th class="th103">RII</th>
+								  <th class="th103">Total</th>
+								</tr>
+							  </thead>
+							  <tbody>
+							  <tr>
+								<td data-title="Day">&nbsp;</td>
+								<td data-title="Offering"># of Share Offered</td>
+								<td data-title="QIB Offered">3,03,600</td><td data-title="NII Offered">2,37,600</td><td data-title="RII Offered">5,42,400</td>
+								<td data-title="Total Offered">10,83,600</td>
+							  </tr>
+							  <tr>
+								<td data-title="Day">&nbsp;</td>
+								<td data-title="Lots">Number of Lots Offered</td>
+								<td data-title="QIB Lots">253</td><td data-title="NII Lots">198</td><td data-title="RII Lots">452</td>
+								<td data-title="Total Lots Offered">903</td>
+							  </tr>
+		  
+							  <tr>
+								<td data-title="Day1">1</td>
+								<td data-title="Bid Date-Day1">23rd Jun 2025 17:06</td>
+								<td data-title="QIB-Day1">0.00x</td><td data-title="NII-Day1">0.40x</td><td data-title="RII-Day1">0.23x</td>
+								<td data-title="Total-Day1">0.20x</td>
+							  </tr>
+							
+							  <tr>
+								<td data-title="Day2">2</td>
+								<td data-title="Bid Date-Day2">24th Jun 2025 17:06</td>
+								<td data-title="QIB-Day2">0.00x</td><td data-title="NII-Day2">0.16x</td><td data-title="RII-Day2">0.64x</td>
+								<td data-title="Total-Day2">0.36x</td>
+							  </tr>
+							</tbody></table></div></div><div class="col-12" itemscope="" itemtype="http://schema.org/Table"><div><div class="row"><div class="col-md-12"><h2 itemprop="about" class="border-bottom">AJC Jewel Manufacturers Limited Financial Information (Restated)</h2><div class="table-responsive"><table class="table table-bordered table-striped w-auto" id="financialTable"><tbody><tr><td>Period Ended</td><td>31 Dec 2024</td><td>31 Mar 2024</td><td>31 Mar 2023</td><td>31 Mar 2022</td></tr><tr><td>Assets</td><td class="text-end">34.28</td><td class="text-end">36.73</td><td class="text-end">36.00</td><td class="text-end">16.42</td></tr><tr><td>Revenue</td><td class="text-end">175.53</td><td class="text-end">246.84</td><td class="text-end">194.25</td><td class="text-end">127.40</td></tr><tr><td>Profit After Tax</td><td class="text-end">1.85</td><td class="text-end">3.32</td><td class="text-end">2.04</td><td class="text-end">1.26</td></tr><tr><td>EBITDA</td><td class="text-end">3.64</td><td class="text-end">5.40</td><td class="text-end">3.94</td><td class="text-end">2.14</td></tr><tr><td>Net Worth</td><td class="text-end">13.90</td><td class="text-end">12.04</td><td class="text-end">7.12</td><td class="text-end">5.08</td></tr><tr><td>Reserves and Surplus</td><td class="text-end">9.45</td><td class="text-end">7.60</td><td class="text-end">4.28</td><td class="text-end">2.24</td></tr><tr><td>Total Borrowing</td><td class="text-end">18.41</td><td class="text-end">22.48</td><td class="text-end">26.23</td><td class="text-end">6.61</td></tr></tbody><tfoot><tr class="border-0"><td class="text-end border-0" colspan="5"><small>Amount in ₹ Crore</small></td></tr></tfoot></table></div></div></div></div></div><div class="col-12" itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Peer Comparison</h2><p>The table below show peer comparison from DRHP/RHP.</p><div class="table-responsive"><table class="table table-bordered table-striped table-hover w-auto"><thead><tr><th class="th103">Company</th><th class="th103">EPS Basic</th><th class="th103">NAV</th><th class="th103">P/E(x)</th><th class="th103">RoNW</th><th class="th103">Financial statements</th></tr></thead><tbody><tr><td data-title="Company">AJC Jewel Manufacturers Limited</td><td data-title="EPS-B">8.24</td><td data-title="NAV">29.88</td><td data-title="P/E"></td><td data-title="RoNW">27.56</td><td data-title="FS">Restated</td></tr><tr><td data-title="Company">Sky Gold Ltd</td><td data-title="EPS-B">35.18</td><td data-title="NAV">184.42</td><td data-title="P/E">10.52</td><td data-title="RoNW">16.58</td><td data-title="FS"></td></tr><tr><td data-title="Company">Patdiam Jewellery Ltd</td><td data-title="EPS-B">14.3</td><td data-title="NAV">138.41</td><td data-title="P/E">26.43</td><td data-title="RoNW">10.33</td><td data-title="FS"></td></tr></tbody></table></div></div></div>
+				
+			
+		Lets breck this div and get data:
+			
+		8.1 : Under this div we can get data like : Qualified Institutional Buyers,Non-Institutional Investors,Retail Individual Investor :
+				<div id="biddingDetails"></div>
+				<div><ul>
+				  <li>Qualified Institutional Buyers: 3,03,600.00 Shares (28.02%)</li>
+				  <li>Non-Institutional Investors: 2,37,600 Shares (21.93%)</li>
+				  <li>Retail Individual Investor: 5,42,400 Shares (50.06%)</li>
+				</ul></div>
+			
+		86.2 : This div show table show a how many multiplex IPO Bidding live by : QIB	NII	RII	Total
+				<div><div class="table-responsive">
+					<table class="table table-bordered table-striped table-hover w-auto">
+                          <caption>IPO Bidding Live Updates from BSE SME</caption>
+                          <thead>
+                            <tr class="th103">
+                              <th class="th103">Day</th>
+                              <th class="th103">&nbsp;</th>
+                              <th class="th103">QIB</th><th class="th103">NII</th><th class="th103">RII</th>
+                              <th class="th103">Total</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                          <tr>
+                            <td data-title="Day">&nbsp;</td>
+                            <td data-title="Offering"># of Share Offered</td>
+                            <td data-title="QIB Offered">3,03,600</td><td data-title="NII Offered">2,37,600</td><td data-title="RII Offered">5,42,400</td>
+                            <td data-title="Total Offered">10,83,600</td>
+                          </tr>
+                          <tr>
+                            <td data-title="Day">&nbsp;</td>
+                            <td data-title="Lots">Number of Lots Offered</td>
+                            <td data-title="QIB Lots">253</td><td data-title="NII Lots">198</td><td data-title="RII Lots">452</td>
+                            <td data-title="Total Lots Offered">903</td>
+                          </tr>
+      
+                          <tr>
+                            <td data-title="Day1">1</td>
+                            <td data-title="Bid Date-Day1">23rd Jun 2025 17:06</td>
+                            <td data-title="QIB-Day1">0.00x</td><td data-title="NII-Day1">0.40x</td><td data-title="RII-Day1">0.23x</td>
+                            <td data-title="Total-Day1">0.20x</td>
+                          </tr>
+                        
+                          <tr>
+                            <td data-title="Day2">2</td>
+                            <td data-title="Bid Date-Day2">24th Jun 2025 17:06</td>
+                            <td data-title="QIB-Day2">0.00x</td><td data-title="NII-Day2">0.16x</td><td data-title="RII-Day2">0.64x</td>
+                            <td data-title="Total-Day2">0.36x</td>
+                          </tr>
+                        </tbody></table></div></div>
+			
+		8.3 :IPO company Financial Information (Restated) table:
+				<div class="col-12" itemscope="" itemtype="http://schema.org/Table"><div><div class="row"><div class="col-md-12"><h2 itemprop="about" class="border-bottom">AJC Jewel Manufacturers Limited Financial Information (Restated)</h2><div class="table-responsive"><table class="table table-bordered table-striped w-auto" id="financialTable"><tbody><tr><td>Period Ended</td><td>31 Dec 2024</td><td>31 Mar 2024</td><td>31 Mar 2023</td><td>31 Mar 2022</td></tr><tr><td>Assets</td><td class="text-end">34.28</td><td class="text-end">36.73</td><td class="text-end">36.00</td><td class="text-end">16.42</td></tr><tr><td>Revenue</td><td class="text-end">175.53</td><td class="text-end">246.84</td><td class="text-end">194.25</td><td class="text-end">127.40</td></tr><tr><td>Profit After Tax</td><td class="text-end">1.85</td><td class="text-end">3.32</td><td class="text-end">2.04</td><td class="text-end">1.26</td></tr><tr><td>EBITDA</td><td class="text-end">3.64</td><td class="text-end">5.40</td><td class="text-end">3.94</td><td class="text-end">2.14</td></tr><tr><td>Net Worth</td><td class="text-end">13.90</td><td class="text-end">12.04</td><td class="text-end">7.12</td><td class="text-end">5.08</td></tr><tr><td>Reserves and Surplus</td><td class="text-end">9.45</td><td class="text-end">7.60</td><td class="text-end">4.28</td><td class="text-end">2.24</td></tr><tr><td>Total Borrowing</td><td class="text-end">18.41</td><td class="text-end">22.48</td><td class="text-end">26.23</td><td class="text-end">6.61</td></tr></tbody><tfoot><tr class="border-0"><td class="text-end border-0" colspan="5"><small>Amount in ₹ Crore</small></td></tr></tfoot></table></div></div></div></div></div>
+				
+		8.4 : IPO  Peer Comparison table :
+				<div class="col-12" itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Peer Comparison</h2><p>The table below show peer comparison from DRHP/RHP.</p><div class="table-responsive"><table class="table table-bordered table-striped table-hover w-auto"><thead><tr><th class="th103">Company</th><th class="th103">EPS Basic</th><th class="th103">NAV</th><th class="th103">P/E(x)</th><th class="th103">RoNW</th><th class="th103">Financial statements</th></tr></thead><tbody><tr><td data-title="Company">AJC Jewel Manufacturers Limited</td><td data-title="EPS-B">8.24</td><td data-title="NAV">29.88</td><td data-title="P/E"></td><td data-title="RoNW">27.56</td><td data-title="FS">Restated</td></tr><tr><td data-title="Company">Sky Gold Ltd</td><td data-title="EPS-B">35.18</td><td data-title="NAV">184.42</td><td data-title="P/E">10.52</td><td data-title="RoNW">16.58</td><td data-title="FS"></td></tr><tr><td data-title="Company">Patdiam Jewellery Ltd</td><td data-title="EPS-B">14.3</td><td data-title="NAV">138.41</td><td data-title="P/E">26.43</td><td data-title="RoNW">10.33</td><td data-title="FS"></td></tr></tbody></table></div></div>
+				
+		
+	9: IPO Company data like (Company Address ,  IPO Registrar office, IPO Lead Manager details ) :
+		<div class="row"><div class="col-lg-4 col-md-4 col-sm-4"><div class="card"><div class="card-header headbg2"><h3>Company Address</h3></div><div class="card-body" style="height:200px;overflow-y:auto;padding-bottom:0px"><strong>AJC Jewel Manufacturers Limited<!-- --> </strong><br> <div>38/227-Z, Inkel Greens Edu City,<br>Karathode-Konampara Road, Panakkad Village,<br>Pattarkadavu, Malappuram, Ernad</div><br>Malappuram<!-- -->,<!-- -->Kerala<!-- -->-<!-- -->676519<!-- --> <br>India<br><strong>Website</strong>: <!-- -->https://ajcjewel.com/ab<br><strong>Phone</strong>: <!-- -->+91 9567916106<br><strong>Email</strong>: <!-- -->investors@ajcjewel.com</div></div></div><div class="col-lg-4 col-md-4 col-sm-4"><div class="card"><div class="card-header headbg2"><h3>AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Registrar</h3></div><div class="card-body" style="height:200px;overflow-y:auto;padding-bottom:0px"><strong>Bigshare Services Pvt Ltd</strong><br>1st Floor, Bharat Tin Works Building,<br>Opp. Vasant Oasis,Makwana Road,<br>Marol, Andheri(E), Mumbai - 400 059<br><strong>Website:</strong> https://ipo.bigshareonline.com/IPO_Status.html<br><strong>Phone:</strong> +91-22-6263 8200<br><strong>Email:</strong> ipo@bigshareonline.com</div></div></div><div class="col-lg-4 col-md-4 col-sm-4"><div class="card bg-default"><div class="card-header headbg2"><h3>AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Lead Manager</h3></div><div class="card-body" style="height:200px;overflow-y:auto;padding-bottom:0px"><ol><li><a title="Smart Horizon Capital Advisors Private Limited" href="/report/ipos-by-lead-manager/556/smart-horizon-capital-advisors/"><u>Smart Horizon Capital Advisors Private Limited</u></a></li></ol></div></div></div></div>
+		
+		lets breck that :
+		9.1	: this table show a data about company address :
+			<div class="col-lg-4 col-md-4 col-sm-4"><div class="card"><div class="card-header headbg2"><h3>Company Address</h3></div><div class="card-body" style="height:200px;overflow-y:auto;padding-bottom:0px"><strong>AJC Jewel Manufacturers Limited<!-- --> </strong><br> <div>38/227-Z, Inkel Greens Edu City,<br>Karathode-Konampara Road, Panakkad Village,<br>Pattarkadavu, Malappuram, Ernad</div><br>Malappuram<!-- -->,<!-- -->Kerala<!-- -->-<!-- -->676519<!-- --> <br>India<br><strong>Website</strong>: <!-- -->https://ajcjewel.com/ab<br><strong>Phone</strong>: <!-- -->+91 9567916106<br><strong>Email</strong>: <!-- -->investors@ajcjewel.com</div></div></div>
+			
+		9.2 : this div show a detailes about IPO Registrar office detailes and address
+			<div class="col-lg-4 col-md-4 col-sm-4"><div class="card"><div class="card-header headbg2"><h3>AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Registrar</h3></div><div class="card-body" style="height:200px;overflow-y:auto;padding-bottom:0px"><strong>Bigshare Services Pvt Ltd</strong><br>1st Floor, Bharat Tin Works Building,<br>Opp. Vasant Oasis,Makwana Road,<br>Marol, Andheri(E), Mumbai - 400 059<br><strong>Website:</strong> https://ipo.bigshareonline.com/IPO_Status.html<br><strong>Phone:</strong> +91-22-6263 8200<br><strong>Email:</strong> ipo@bigshareonline.com</div></div></div>
+		
+		9.3 : IPO Lead Manager
+			<div class="col-lg-4 col-md-4 col-sm-4"><div class="card bg-default"><div class="card-header headbg2"><h3>AJC Jewel<!-- --> <!-- -->SME IPO<!-- --> Lead Manager</h3></div><div class="card-body" style="height:200px;overflow-y:auto;padding-bottom:0px"><ol><li><a title="Smart Horizon Capital Advisors Private Limited" href="/report/ipos-by-lead-manager/556/smart-horizon-capital-advisors/"><u>Smart Horizon Capital Advisors Private Limited</u></a></li></ol></div></div></div>
+			
+			
+			
+			
+the ipo name here for exapmale data (Globe Civil Projects)
+from this api we have to get IPO data like : 
+
+1.Image of IPO company from atteched frist img tag
+
+2.Then we get a something 3 and more pragraf about the IPO comapny detailes descriptions. from dv name = float-none mb-2 ms-2 under p tag.
+
+3.The ipo data from table div name as : class="col-lg-6 col-md-6 col-sm-12"  under the div -> itemscope the under we got a two tag frist h2 is -> itemprop="about" that is a name so we can also check here and verify he IPO name , then we nect tag is -> <table class="table table-bordered table-striped table-hover w-auto"> 
+	this table give data : (1. IPO Issue Opening Date = Date, 2. IPO Issue Closing Date = Date, 3. IPO Issue Price = Price Range, 4. DRHP = URL, 5. RHP = URL, 6. Anchor List = URL, 7. IPO Listing At = Stock Exchanges, 8. Retail Quota = Percentage Description, 9. IPO Issue Type = Issue Type, 10. IPO Issue Size = Amount, 11. Fresh Issue = Amount, 12. Face Value = Amount per Share, 13. Promoter Holding Pre IPO = Percentage, 14. Promoter Holding Post IPO = Percentage)
+
+4.Next IPO dates like (**1. Basis of Allotment Date = Date, 2. Refunds Initiation = Date, 3. Credit of Shares to Demat = Date, 4. IPO Listing Date = Date**)
+	those dates table we can get from : div <div itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">Globe Civil Projects IPO Important Dates</h2> see that tale and get this data from there.
+
+5.From the next table give a dta like = (1. Issue Price = Price Range, 2. Market Lot = Number of Shares, 3. Retail Min = Amount, 4. Min Small HNI Lots (2–10 Lakh) = Shares, Lots, and Amount, 5. Min Big HNI Lots (10+ Lakh) = Shares, Lots, and Amount) 
+	those data we can grt from : <div itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">Globe Civil Projects IPO Lots</h2> this table under this div .
+
+6.The nes tabale give a data (1. GMP Date = Date, 2. IPO Price = Price, 3. GMP = Price, 4. Sub2 Sauda Rate = Deal Value, 5. Estimated Listing Price = Price with Percentage, 6. Estimated Profit = Amount per Lot, 7. Last Updated = Date & Time) this table div bellow upper div line wise code.
+	<div class="col-lg-8 col-md-6 col-sm-12 px-0"><div><div class="table-responsive" itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">Globe Civil Projects IPO GMP**</h2><table class="table table-bordered table-striped w-auto">
+
+7.About Company ipo comapny detailes in pharagraf. something 3 or may be more.
+	that we can get from ->  <div class="col-12" itemscope="" itemtype="http://schema.org/Table"><h3 itemprop="about">About Company - Globe Civil Projects</h3><div> under this div tha dive have paragraph tages that is a detailes about ipo.
+
+8.Nest we have a <h3>Globe Civil Projects IPO Strengths</h3> this give a name we can veryfy we on right treck also next we can get ipo IPO Strengths from <div><ul>
+	<li>Strong project management and execution capabilities.</li>
+	<li>Growing order book and higher pre-qualification credentials</li>
+	<li>Strong and consistent financial performance track record</li>
+	<li>Experienced promoters and management team.</li>
+	<li></li></ul></div>
+
+from this div that is after a <h3>Globe Civi .... this tag.
+
+9.then next table give data about ipo : (1. Incorporation = Year, 2. Sector = Industry Type, 3. IPO Issue Size = Amount, 4. Website = URL)
+	<div class="table-responsive"><table class="table table-bordered table-striped table-hover w-auto"><thead><tr class="text-nowrap"><td class="th103"><strong>Incorporation</strong></td.....
+
+10.Next IPO Objective data that is next div and we collect data, 1. h3  the ipo name we can right treack ckeck then from into table = (1. Object 1 = Description & Amount, 2. Object 2 = Description & Amount, 3. Object 3 = Description (No specified amount))
+	<div class="col-12"><h3>Globe Civil Projects IPO Objective</h3><div><p>The Company Globe Civil Projects IPO proposes to utilise the Net Proceeds from the Issue towards the following objects:</p><div class="table-responsive"><table class="table table-bordered table-striped w-auto" id="ObjectiveIssue"><thead><tr>............
+11. the subscription for IPO data 
+	<div class="col-12" itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">Globe Civil Projects IPO Live Subscription (BSE, NSE)</h2><p>The table below is live update of IPO bidding details from BSE, NSE.</p></div>
+	next :
+	<div><ul>
+          <li>Qualified Institutional Buyers: 33,52,112.00 Shares (28.57%)</li>
+          <li>Non-Institutional Investors: 25,14,084 Shares (21.43%)</li>
+          <li>Small NII (SNII- Bid below ₹10L): 8,38,028 Shares (7.14%)</li>
+          <li>Big NII (BNII- Bid above ₹10L): 16,76,056 Shares (14.29%)</li>
+          <li>Retail Individual Investor: 58,66,196 Shares (50.00%)</li>
+        </ul></div>
+	those data is (1. Qualified Institutional Buyers = Shares & Percentage, 2. Non-Institutional Investors = Shares & Percentage, 3. Small NII (SNII - Bid below ₹10L) = Shares & Percentage, 4. Big NII (BNII - Bid above ₹10L) = Shares & Percentage, 5. Retail Individual Investor = Shares & Percentage)
+	
+	then the table data is a how many X IPO is subscription head tiatle as a "IPO Bidding Live Updates from BSE, NSE" -> <div class="table-responsive">
+          <table class="table table-bordered table-striped table-hover w-auto">
+                          <caption>IPO Bidding Live Updates from BSE, NSE</caption>
+                          <thead.....
+	from this table we get data & table pattern like : (1. Day = Day Number or Date, 2. Offering Type = Description, 3. QIB = Shares / Lots / Subscription, 4. NII = Shares / Lots / Subscription, 5. SNII (Below ₹10L) = Shares / Lots / Subscription, 6. BNII (Above ₹10L) = Shares / Lots / Subscription, 7. RII = Shares / Lots / Subscription, 8. Total = Combined Shares / Lots / Subscription)
+
+12. IPO Financial Information (Restated Consolidated) those data = (1. Period Ended = Date, 2. Assets = Amount in ₹ Crore, 3. Revenue = Amount in ₹ Crore, 4. Profit After Tax = Amount in ₹ Crore, 5. EBITDA = Amount in ₹ Crore, 6. Net Worth = Amount in ₹ Crore, 7. Reserves and Surplus = Amount in ₹ Crore, 8. Total Borrowing = Amount in ₹ Crore)
+	<div class="table-responsive"><table class="table table-bordered table-striped w-auto" id="financialTable"><tbody><tr><td>Period Ended</td><td>31 Dec.......
+	
+13. Ipo IPO Peer Comparison Data = (1. Company = Name, 2. EPS Basic = Earnings Per Share (Basic), 3. EPS Diluted = Earnings Per Share (Diluted), 4. NAV = Net Asset Value, 5. P/E(x) = Price to Earnings Ratio, 6. RoNW = Return on Net Worth (%), 7. Financial Statements = Type (e.g., Consolidated)).
+	<div class="col-12" itemscope="" itemtype="http://schema.org/Table"><h2 itemprop="about">Globe Civil Projects IPO Peer Comparison</h2><p>The table below show peer comparison from DRHP/RHP.</p><div class="table-responsive"><table class="table table-bordered table-striped table-hover w-auto"><thead><tr><th class="th103">Company</th><th class="th103">EPS Basic</th><th class="th103">EPS Diluted</th><th class="th103">NAV</th
+
+14. This table and code give data like na a 3 Div the frist div give data abou : Company address 2.  IPO Registrar 3.IPO Lead Manager	
+	<div class="row"><div class="col-lg-4 col-md-4 col-sm-4"><div class="card"><div class="card-header headbg2"><h3>Company Address</h3></div><div class="card-body" style="height: 200px; overflow-y: auto; padding-bottom: 0px;"><strong>Globe Civil Projects Limited </strong><br> <div>D-40,<br>Okhla Industrial Area<br>Phase-I</div><br>Delhi,New Delhi-110020 <br>India<br><strong>Website</strong>: http://www.globecivilprojects.com/<br><strong>Phone</strong>: +91 11 46561560<br><strong>Email</strong>: cs@glo
+	(1. Company Address = Full Address, 2. Company Website = URL, 3. Company Phone = Phone Number, 4. Company Email = Email Address, 5. IPO Registrar = Name & Contact Details, 6. Registrar Website = URL, 7. Registrar Phone = Phone Number, 8. Registrar Email = Email Address, 9. IPO Lead Manager = Name)
+
+15.The last corner this div give a date time when the data lst update as off now so that we have to get also :
+	<div class="float-end my-2"><p>Last Updated on 24-Jun-2025 21:07:03</p></div>
+	
+
+The HTML contains multiple <div> sections and <table> blocks. Each table has a heading (like "Globe Civil Projects IPO Details", "Globe Civil Projects IPO Important Dates", etc.). I want to extract the data section-wise and table-wise into JSON format.
+
+For each table:
+Use the heading/title (inside <h2> or near the table) as the key in the final JSON.
+Convert table rows into key-value pairs.
+Maintain separate JSON objects for each table.
+
+
+Also, if a table is inside a <div> with a known class (like col-lg-6), use that to help locate it.
+{
+  "IPO Name": "Globe Civil Projects",
+  "IPO Details": {
+    "IPO Issue Opening Date": "24th Jun 2025",
+    "IPO Issue Closing Date": "26th Jun 2025",
+    "IPO Issue Price": "₹67.00-71.00 Per Share",
+    "DRHP": "https://www.sebi.gov.in/filings/public-issues/oct-2024/globe-civil-projects-limited_87298.html",
+    "RHP": "https://www.sebi.gov.in/filings/public-issues/jun-2025/globe-civil-projects-limited-rhp_94642.html",
+    "Anchor List": "https://www.chittorgarh.net/reports/anchor-investor/gcpl-anchorallocationreport.pdf",
+    "IPO Listing At": "BSE, NSE",
+    "Retail Quota": "Not less than 35% of the Issue",
+    "IPO Issue Type": "Book Build Issue",
+    "IPO Issue Size": "₹119.00 Cr",
+    "Fresh Issue": "₹119.00 Cr",
+    "Face Value": "₹10 Per Equity Share",
+    "Promoter Holding Pre IPO": "88.14",
+    "Promoter Holding Post IPO": "63.43"
+  },
+  "IPO Important Dates": {
+    "Basis of Allotment Date": "27th Jun 2025",
+    "Refunds Initiation": "30th Jun 2025",
+    "Credit of Shares to Demat": "30th Jun 2025",
+    "IPO Listing Date": "1st Jul 2025"
+  },
+  "IPO Lots": {
+    "Issue Price": "₹67.00-71.00",
+    "Market Lot": "211 Shares",
+    "Retail Min": "₹14,981",
+    "Min Small HNI Lots(2-10 Lakh)": "2954 shares (14 lots) - ₹2,09,734",
+    "Min Big HNI Lots(10+ Lakh)": "14137 shares (67 lots) - ₹10,03,727"
+  },
+  "IPO GMP": [
+    {
+      "GMP Date": "24-06-2025",
+      "IPO Price": "71.00",
+      "GMP": "₹13",
+      "Sub2 Sauda Rate": "2100/29400",
+      "Estimated Listing Price": "₹84 (18.31%)",
+      "Estimated Profit*": "₹2743",
+      "Last Updated": "24-Jun-2025 21:37"
+    }
+  ],
+  "About Company": "Globe Civil Project is an integrated engineering, procurement, and construction (EPC) company. The company is engaged in infrastructure projects, like Transport and logistics projects, social and commercial projects, and non-infrastructure projects like commercial offices and housing.\nThe company has also diversified into specialized infrastructure and non-infrastructure projects like railway bridges, airport terminal, elevated railway terminal, and railway bridges and hospitals.\nAdditionally, the company also provides mechanical, electrical, and plumbing, architectural and structural work, etc\nIt is also a registered Class-1 Super contractor with the Central Public Work Department (“CPWD”), Government of India to tender for any work up to Rs 650 crore.",
+  "IPO Strengths": [
+    "Strong project management and execution capabilities.",
+    "Growing order book and higher pre-qualification credentials",
+    "Strong and consistent financial performance track record",
+    "Experienced promoters and management team."
+  ],
+  "Company General Information": {
+    "Incorporation": "2002",
+    "Sector": "Civil Construction",
+    "IPO Issue Size": "₹119.00 Cr",
+    "Website": "http://www.globecivilprojects.com/"
+  },
+  "IPO Objective": [
+    {
+      "S.No.": "1",
+      "Objects of the Issue": "Funding working capital requirements of the Company.",
+      "Expected Amount (Rs. in crores)": "75.00"
+    },
+    {
+      "S.No.": "2",
+      "Objects of the Issue": "Capital expenditure towards purchase of construction equipments/ machineries.",
+      "Expected Amount (Rs. in crores)": "14.26"
+    },
+    {
+      "S.No.": "3",
+      "Objects of the Issue": "General corporate purposes.",
+      "Expected Amount (Rs. in crores)": ""
+    }
+  ],
+  "Live Subscription Summary": {
+    "Qualified Institutional Buyers": "33,52,112.00 Shares (28.57%)",
+    "Non-Institutional Investors": "25,14,084 Shares (21.43%)",
+    "Small NII (SNII- Bid below ₹10L)": "8,38,028 Shares (7.14%)",
+    "Big NII (BNII- Bid above ₹10L)": "16,76,056 Shares (14.29%)",
+    "Retail Individual Investor": "58,66,196 Shares (50.00%)"
+  },
+  "IPO Bidding Live Updates": [
+    {
+      "Day": "&nbsp;",
+      "&nbsp;": "# of Share Offered",
+      "QIB": "33,52,112",
+      "NII": "25,14,084",
+      "SNII (Below ₹10L)": "8,38,028",
+      "BNII(Above ₹10L)": "16,76,056",
+      "RII": "58,66,196",
+      "Total": "1,17,32,392"
+    },
+    {
+      "Day": "&nbsp;",
+      "&nbsp;": "Number of Lots Offered",
+      "QIB": "15887",
+      "NII": "11915",
+      "SNII (Below ₹10L)": "3972",
+      "BNII(Above ₹10L)": "7943",
+      "RII": "27802",
+      "Total": "55604"
+    },
+    {
+      "Day": "1",
+      "&nbsp;": "24th Jun 2025 17:06",
+      "QIB": "8.06x",
+      "NII": "8.17x",
+      "SNII (Below ₹10L)": "8.33x",
+      "BNII(Above ₹10L)": "8.04x",
+      "RII": "5.84x",
+      "Total": "6.97x"
+    }
+  ],
+  "Company Financial Information (Restated Consolidated)": [
+    {
+      "Metric": "Period Ended",
+      "31 Dec 2024": "31 Dec 2024",
+      "31 Mar 2024": "31 Mar 2024",
+      "31 Mar 2023": "31 Mar 2023",
+      "31 Mar 2022": "31 Mar 2022"
+    },
+    {
+      "Metric": "Assets",
+      "31 Dec 2024": "374.60",
+      "31 Mar 2024": "317.83",
+      "31 Mar 2023": "275.04",
+      "31 Mar 2022": "229.79"
+    },
+    {
+      "Metric": "Revenue",
+      "31 Dec 2024": "256.74",
+      "31 Mar 2024": "334.81",
+      "31 Mar 2023": "235.17",
+      "31 Mar 2022": "286.78"
+    },
+    {
+      "Metric": "Profit After Tax",
+      "31 Dec 2024": "17.79",
+      "31 Mar 2024": "15.38",
+      "31 Mar 2023": "4.85",
+      "31 Mar 2022": "5.20"
+    },
+    {
+      "Metric": "EBITDA",
+      "31 Dec 2024": "39.30",
+      "31 Mar 2024": "44.65",
+      "31 Mar 2023": "20.80",
+      "31 Mar 2022": "22.91"
+    },
+    {
+      "Metric": "Net Worth",
+      "31 Dec 2024": "99.83",
+      "31 Mar 2024": "77.67",
+      "31 Mar 2023": "62.44",
+      "31 Mar 2022": "57.45"
+    },
+    {
+      "Metric": "Reserves and Surplus",
+      "31 Dec 2024": "56.87",
+      "31 Mar 2024": "75.19",
+      "31 Mar 2023": "59.97",
+      "31 Mar 2022": "54.98"
+    },
+    {
+      "Metric": "Total Borrowing",
+      "31 Dec 2024": "137.97",
+      "31 Mar 2024": "124.48",
+      "31 Mar 2023": "97.00",
+      "31 Mar 2022": "70.76"
+    }
+  ],
+  "IPO Peer Comparison": [
+    {
+      "Company": "Globe Civil Projects Limited",
+      "EPS Basic": "3.58",
+      "EPS Diluted": "3.58",
+      "NAV": "18.1",
+      "P/E(x)": "",
+      "RoNW": "19.8",
+      "Financial statements": "Consolidated"
+    },
+    {
+      "Company": "B.l.kashyap And Sons Ltd.",
+      "EPS Basic": "2.33",
+      "EPS Diluted": "2.33",
+      "NAV": "22.02",
+      "P/E(x)": "29.57",
+      "RoNW": "10.58",
+      "Financial statements": "Consolidated"
+    },
+    {
+      "Company": "Ceigall India Limited",
+      "EPS Basic": "19.37",
+      "EPS Diluted": "19.37",
+      "NAV": "57.68",
+      "P/E(x)": "12.88",
+      "RoNW": "33.57",
+      "Financial statements": "Consolidated"
+    },
+    {
+      "Company": "Psp Projects Ltd",
+      "EPS Basic": "34.16",
+      "EPS Diluted": "34.16",
+      "NAV": "222.5",
+      "P/E(x)": "20.38",
+      "RoNW": "13.49",
+      "Financial statements": "Consolidated"
+    },
+    {
+      "Company": "Capacite Infraprojects Ltd",
+      "EPS Basic": "16.09",
+      "EPS Diluted": "16.09",
+      "NAV": "179.3",
+      "P/E(x)": "20.56",
+      "RoNW": "7.93",
+      "Financial statements": "Consolidated"
+    },
+    {
+      "Company": "Ahluwalia Contracts (india) Ltd.",
+      "EPS Basic": "55.95",
+      "EPS Diluted": "55.95",
+      "NAV": "238.84",
+      "P/E(x)": "16.41",
+      "RoNW": "23.43",
+      "Financial statements": "Consolidated"
+    }
+  ],
+  "Contact & Management Details": {
+    "Company Address": {
+      "Name": "Globe Civil Projects Limited",
+      "Address": "D-40,\nOkhla Industrial Area\nPhase-I\nDelhi,New Delhi-110020\nIndia",
+      "Website": "http://www.globecivilprojects.com/",
+      "Phone": "+91 11 46561560",
+      "Email": "cs@globecivilprojects.com"
+    },
+    "IPO Registrar": {
+      "Name": "Kfin Technologies Limited",
+      "Address": "KFintech, Tower-B, Plot No 31 & 32,\nFinancial District,\nNanakramguda, Gachibowli,\nHyderabad, Telangana India - 500 032.",
+      "Website": "https://kosmic.kfintech.com/ipostatus/",
+      "Phone": "04067162222, 04079611000",
+      "Email": "gcpl.ipo@kfintech.com"
+    },
+    "IPO Lead Manager": [
+      "MEFCOM Capital Markets Limited"
+    ]
+  },
+  "Last Updated": "24-Jun-2025 21:07:03"
+}
+
