@@ -390,7 +390,7 @@ if __name__ == "__main__":
         ipo_cleaned_data = clean_ipo_data(ipo_raw_data)
         
         # --- Output to JSON file ---
-        json_filename = "ipo_data.json"
+        json_filename = "ipo_data_onvestogain.json"
         with open(json_filename, 'w', encoding='utf-8') as f:
             json.dump(ipo_cleaned_data, f, indent=4, ensure_ascii=False)
         print(f"\nData saved to {json_filename} (JSON format)")

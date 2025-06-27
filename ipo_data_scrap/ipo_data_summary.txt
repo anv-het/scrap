@@ -1,16 +1,15 @@
 Total IPOs found: 15
 
 
---- Processing IPO: Indogulf Cropsciences (ID: 1299) ---
-  Detail URL: https://www.investorgain.com/ipo/indogulf-cropsciences-ipo/1299/
+--- Processing IPO: Crizac (ID: 1308) ---
+  Detail URL: https://www.investorgain.com/ipo/crizac-ipo/1308/
   Status: Successfully Scraped.
   Extracted Data Points:
-    - IPO Name: Present (Length: 21)
-    - Company Logo URL: Present (Length: 73)
-    - Company Description: Present (Length: 770)
+    - IPO Name: Present (Length: 6)
+    - Company Logo URL: Present (Length: 55)
+    - Company Description: Present (Length: 694)
     - IPO GMP: Present (Length: 1)
-    - Financial Information: Present (Length: 8)
-    - Company Address: Present (Length: 82)
+    - Company Address: Present (Length: 105)
   Missing Data Points:
     - IPO Details: Not Found (h2 heading for IPO Details missing)
     - Important Dates: Not Found
@@ -21,6 +20,7 @@ Total IPOs found: 15
     - IPO Objective: Not Found
     - Subscription Overview: Not Found (Live Subscription heading missing)
     - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Financial Information: Not Found
     - Peer Comparison: Not Found
     - Company Website: Not Found
     - Company Phone: Not Found
@@ -29,16 +29,16 @@ Total IPOs found: 15
     - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
     - Last Updated: Not Found (Last Updated div missing)
 
---- Processing IPO: HDB Financial (ID: 1276) ---
-  Detail URL: https://www.investorgain.com/ipo/hdb-financial/1276/
+--- Processing IPO: Indogulf Cropsciences (ID: 1299) ---
+  Detail URL: https://www.investorgain.com/ipo/indogulf-cropsciences-ipo/1299/
   Status: Successfully Scraped.
   Extracted Data Points:
-    - IPO Name: Present (Length: 13)
-    - Company Logo URL: Present (Length: 62)
-    - Company Description: Present (Length: 751)
+    - IPO Name: Present (Length: 21)
+    - Company Logo URL: Present (Length: 73)
+    - Company Description: Present (Length: 769)
     - IPO GMP: Present (Length: 1)
     - Financial Information: Present (Length: 8)
-    - Company Address: Present (Length: 77)
+    - Company Address: Present (Length: 82)
   Missing Data Points:
     - IPO Details: Not Found (h2 heading for IPO Details missing)
     - Important Dates: Not Found
@@ -63,7 +63,7 @@ Total IPOs found: 15
   Extracted Data Points:
     - IPO Name: Present (Length: 18)
     - Company Logo URL: Present (Length: 67)
-    - Company Description: Present (Length: 760)
+    - Company Description: Present (Length: 759)
     - IPO GMP: Present (Length: 1)
     - Company Address: Present (Length: 73)
   Missing Data Points:
@@ -85,13 +85,41 @@ Total IPOs found: 15
     - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
     - Last Updated: Not Found (Last Updated div missing)
 
+--- Processing IPO: HDB Financial (ID: 1276) ---
+  Detail URL: https://www.investorgain.com/ipo/hdb-financial/1276/
+  Status: Successfully Scraped.
+  Extracted Data Points:
+    - IPO Name: Present (Length: 13)
+    - Company Logo URL: Present (Length: 62)
+    - Company Description: Present (Length: 750)
+    - IPO GMP: Present (Length: 1)
+    - Financial Information: Present (Length: 8)
+    - Company Address: Present (Length: 77)
+  Missing Data Points:
+    - IPO Details: Not Found (h2 heading for IPO Details missing)
+    - Important Dates: Not Found
+    - IPO Lots: Not Found
+    - About Company: Not Found (About Company heading missing)
+    - Strengths: Not Found (Strengths heading missing)
+    - Company General Info: Not Found
+    - IPO Objective: Not Found
+    - Subscription Overview: Not Found (Live Subscription heading missing)
+    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
+    - Peer Comparison: Not Found
+    - Company Website: Not Found
+    - Company Phone: Not Found
+    - Company Email: Not Found
+    - IPO Registrar: Not Found (IPO Registrar heading missing)
+    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
+    - Last Updated: Not Found (Last Updated div missing)
+
 --- Processing IPO: Kalpataru (ID: 1277) ---
   Detail URL: https://www.investorgain.com/ipo/kalpataru-ipo/1277/
   Status: Successfully Scraped.
   Extracted Data Points:
     - IPO Name: Present (Length: 9)
     - Company Logo URL: Present (Length: 57)
-    - Company Description: Present (Length: 706)
+    - Company Description: Present (Length: 705)
     - IPO GMP: Present (Length: 1)
     - Financial Information: Present (Length: 7)
     - Company Address: Present (Length: 66)
@@ -119,7 +147,7 @@ Total IPOs found: 15
   Extracted Data Points:
     - IPO Name: Present (Length: 28)
     - Company Logo URL: Present (Length: 70)
-    - Company Description: Present (Length: 790)
+    - Company Description: Present (Length: 789)
     - IPO GMP: Present (Length: 1)
     - Financial Information: Present (Length: 8)
     - Company Address: Present (Length: 51)
@@ -147,7 +175,7 @@ Total IPOs found: 15
   Extracted Data Points:
     - IPO Name: Present (Length: 20)
     - Company Logo URL: Present (Length: 59)
-    - Company Description: Present (Length: 736)
+    - Company Description: Present (Length: 735)
     - IPO GMP: Present (Length: 1)
     - Financial Information: Present (Length: 8)
     - Company Address: Present (Length: 62)
@@ -203,7 +231,7 @@ Total IPOs found: 15
   Extracted Data Points:
     - IPO Name: Present (Length: 14)
     - Company Logo URL: Present (Length: 62)
-    - Company Description: Present (Length: 474)
+    - Company Description: Present (Length: 701)
     - IPO GMP: Present (Length: 1)
     - Financial Information: Present (Length: 8)
     - Company Address: Present (Length: 126)
@@ -231,7 +259,7 @@ Total IPOs found: 15
   Extracted Data Points:
     - IPO Name: Present (Length: 12)
     - Company Logo URL: Present (Length: 64)
-    - Company Description: Present (Length: 690)
+    - Company Description: Present (Length: 689)
     - IPO GMP: Present (Length: 1)
     - Financial Information: Present (Length: 8)
     - Company Address: Present (Length: 88)
@@ -259,7 +287,7 @@ Total IPOs found: 15
   Extracted Data Points:
     - IPO Name: Present (Length: 18)
     - Company Logo URL: Present (Length: 63)
-    - Company Description: Present (Length: 715)
+    - Company Description: Present (Length: 714)
     - IPO GMP: Present (Length: 1)
     - Financial Information: Present (Length: 7)
     - Company Address: Present (Length: 79)
@@ -287,7 +315,7 @@ Total IPOs found: 15
   Extracted Data Points:
     - IPO Name: Present (Length: 16)
     - Company Logo URL: Present (Length: 62)
-    - Company Description: Present (Length: 738)
+    - Company Description: Present (Length: 737)
     - IPO GMP: Present (Length: 1)
     - Financial Information: Present (Length: 7)
     - Company Address: Present (Length: 77)
@@ -315,7 +343,7 @@ Total IPOs found: 15
   Extracted Data Points:
     - IPO Name: Present (Length: 10)
     - Company Logo URL: Present (Length: 62)
-    - Company Description: Present (Length: 684)
+    - Company Description: Present (Length: 683)
     - IPO GMP: Present (Length: 1)
     - Company Address: Present (Length: 88)
   Missing Data Points:
@@ -343,9 +371,9 @@ Total IPOs found: 15
   Extracted Data Points:
     - IPO Name: Present (Length: 20)
     - Company Logo URL: Present (Length: 63)
-    - Company Description: Present (Length: 719)
+    - Company Description: Present (Length: 718)
     - IPO GMP: Present (Length: 1)
-    - Financial Information: Present (Length: 6)
+    - Financial Information: Present (Length: 7)
     - Company Address: Present (Length: 117)
   Missing Data Points:
     - IPO Details: Not Found (h2 heading for IPO Details missing)
@@ -371,7 +399,7 @@ Total IPOs found: 15
   Extracted Data Points:
     - IPO Name: Present (Length: 11)
     - Company Logo URL: Present (Length: 63)
-    - Company Description: Present (Length: 691)
+    - Company Description: Present (Length: 690)
     - IPO GMP: Present (Length: 1)
     - Financial Information: Present (Length: 7)
     - Company Address: Present (Length: 42)
@@ -393,33 +421,5 @@ Total IPOs found: 15
     - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
     - Last Updated: Not Found (Last Updated div missing)
 
---- Processing IPO: Ace Alpha Tech (ID: 1289) ---
-  Detail URL: https://www.investorgain.com/ipo/ace-alpha-tech-sme-ipo/1289/
-  Status: Successfully Scraped.
-  Extracted Data Points:
-    - IPO Name: Present (Length: 14)
-    - Company Logo URL: Present (Length: 61)
-    - Company Description: Present (Length: 730)
-    - IPO GMP: Present (Length: 1)
-    - Financial Information: Present (Length: 7)
-    - Company Address: Present (Length: 69)
-  Missing Data Points:
-    - IPO Details: Not Found (h2 heading for IPO Details missing)
-    - Important Dates: Not Found
-    - IPO Lots: Not Found
-    - About Company: Not Found (About Company heading missing)
-    - Strengths: Not Found (Strengths heading missing)
-    - Company General Info: Not Found
-    - IPO Objective: Not Found
-    - Subscription Overview: Not Found (Live Subscription heading missing)
-    - IPO Bidding Live Updates: Not Found (Live Subscription heading missing)
-    - Peer Comparison: Not Found
-    - Company Website: Not Found
-    - Company Phone: Not Found
-    - Company Email: Not Found
-    - IPO Registrar: Not Found (IPO Registrar heading missing)
-    - IPO Lead Manager: Not Found (IPO Lead Manager heading missing)
-    - Last Updated: Not Found (Last Updated div missing)
-
 Scraping finished. Total IPOs scraped: 15
-Raw JSON data saved to 'ipo_data_v2.json'.
+Raw JSON data saved to 'ipo_data_v2_1.json'.
