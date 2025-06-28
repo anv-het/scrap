@@ -1,0 +1,1607 @@
+[
+    {
+        "IPO ID (from List API)": 1310,
+        "Company Name (from List API)": "Travel Food Services",
+        "Seq": "1",
+        "id (GMP Data)": "20804",
+        "ipo_id (GMP Data)": "1310",
+        "gmp_date": "28-06-2025",
+        "gmp": "0",
+        "gmp_comments": "<p class='text-danger my-2'>GMP for Travel Food Services IPO has not started yet. We are updating the GMP information on a daily basis. Please visit us again soon for the latest GMP updates.</p>",
+        "gmp_compare_desc": "<p>The GMP for Travel Food Services IPO has started from 2 session. It is still very early to determine the direction of the GMP. We are updating the information every day, stay tuned with the latest GMP and more details. Stay tuned to learn more about <strong>Travel Food Services IPO daily GMP </strong> performance and expected expected listing price.</p>",
+        "subject_to_sauda": "-",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "",
+        "estimated_listing_price": "",
+        "gmp_percent_calc": "<span class=\"\">0.00%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "--",
+        "est_profit": "",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated": "28-Jun-2025 5:55",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "28-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "27-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( % )",
+                "Estimated Profit": "",
+                "Last Updated": "27-Jun-2025 12:07"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1308,
+        "Company Name (from List API)": "Crizac",
+        "Seq": "1",
+        "id (GMP Data)": "20803",
+        "ipo_id (GMP Data)": "1308",
+        "gmp_date": "28-06-2025",
+        "gmp": "0",
+        "gmp_comments": "<p>Crizac IPO <strong>last GMP is &#8377;0</strong>, last updated Jun 28th 2025 03:37 PM. With the price band of 245.00, Crizac IPO's <strong>estimated listing price</strong> is <strong>&#8377;245</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>0.00%</strong>.</p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 3 sessions grey market activities, today IPO GMP trend, no major movement is observed in GMP, expect same trend till listing day. Stay with us to know the daily price trend of Crizac IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "0",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "245.00",
+        "estimated_listing_price": "245",
+        "gmp_percent_calc": "<span class=\"\">0.00%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "--",
+        "est_profit": "0",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:37 PM",
+        "last_updated": "28-Jun-2025 15:37",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "245.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹245 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "28-Jun-2025 15:37"
+            },
+            {
+                "GMP Date": "27-06-2025",
+                "IPO Price": "245.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹245 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "27-Jun-2025 23:30"
+            },
+            {
+                "GMP Date": "26-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( % )",
+                "Estimated Profit": "",
+                "Last Updated": "26-Jun-2025 13:07"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1299,
+        "Company Name (from List API)": "Indogulf Cropsciences",
+        "Seq": "1",
+        "id (GMP Data)": "20795",
+        "ipo_id (GMP Data)": "1299",
+        "gmp_date": "28-06-2025",
+        "gmp": "9",
+        "gmp_comments": "<p>Indogulf Cropsciences IPO <strong>last GMP is &#8377;9</strong>, last updated Jun 28th 2025 03:28 PM. With the price band of 111.00, Indogulf Cropsciences IPO's <strong>estimated listing price</strong> is <strong>&#8377;120</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>8.11%</strong>.<span class='d-block ps-5 my-3'><mark><strong>>> Indogulf Cropsciences IPO Retail Subject to Sauda: &#8377;900 </strong></mark></span><span class='d-block ps-5 my-3'><mark><strong>>> Indogulf Cropsciences IPO Small HNI Subject to Sauda: &#8377;12600 </strong></mark></span></p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 7 sessions grey market activities, today IPO GMP trending <strong>upward</strong> and expects <strong>a strong listing</strong>. The lowest GMP is &#8377;0.00, while the highest GMP is &#8377;11.00. Stay with us to know the daily price trend of Indogulf Cropsciences IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "900",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "111.00",
+        "estimated_listing_price": "120",
+        "gmp_percent_calc": "<span class=\"text-success fw-bold\">8.11%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "900/12600",
+        "est_profit": "1215",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:28 PM",
+        "last_updated": "28-Jun-2025 15:28",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "111.00",
+                "GMP": "₹9",
+                "Sub2 Sauda Rate": "900/12600",
+                "Estimated Listing Price": "₹120 ( 8.11% )",
+                "Estimated Profit": "₹1215",
+                "Last Updated": "28-Jun-2025 15:28"
+            },
+            {
+                "GMP Date": "27-06-2025",
+                "IPO Price": "111.00",
+                "GMP": "₹9",
+                "Sub2 Sauda Rate": "900/12600",
+                "Estimated Listing Price": "₹120 ( 8.11% )",
+                "Estimated Profit": "₹1215",
+                "Last Updated": "27-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "26-06-2025 Open",
+                "IPO Price": "111.00",
+                "GMP": "₹9",
+                "Sub2 Sauda Rate": "900/12600",
+                "Estimated Listing Price": "₹120 ( 8.11% )",
+                "Estimated Profit": "₹1215",
+                "Last Updated": "26-Jun-2025 23:33"
+            },
+            {
+                "GMP Date": "25-06-2025",
+                "IPO Price": "111.00",
+                "GMP": "₹11",
+                "Sub2 Sauda Rate": "1100/15400",
+                "Estimated Listing Price": "₹122 ( 9.91% )",
+                "Estimated Profit": "₹1485",
+                "Last Updated": "25-Jun-2025 23:36"
+            },
+            {
+                "GMP Date": "24-06-2025",
+                "IPO Price": "111.00",
+                "GMP": "₹11",
+                "Sub2 Sauda Rate": "1100/15400",
+                "Estimated Listing Price": "₹122 ( 9.91% )",
+                "Estimated Profit": "₹1485",
+                "Last Updated": "24-Jun-2025 23:31"
+            },
+            {
+                "GMP Date": "23-06-2025",
+                "IPO Price": "111.00",
+                "GMP": "₹11",
+                "Sub2 Sauda Rate": "1100/15400",
+                "Estimated Listing Price": "₹122 ( 9.91% )",
+                "Estimated Profit": "₹1485",
+                "Last Updated": "23-Jun-2025 23:31"
+            },
+            {
+                "GMP Date": "22-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( % )",
+                "Estimated Profit": "",
+                "Last Updated": "22-Jun-2025 6:07"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1279,
+        "Company Name (from List API)": "Sambhv Steel Tubes",
+        "Seq": "1",
+        "id (GMP Data)": "20782",
+        "ipo_id (GMP Data)": "1279",
+        "gmp_date": "28-06-2025",
+        "gmp": "14",
+        "gmp_comments": "<p>Sambhv Steel Tubes IPO <strong>last GMP is &#8377;14</strong>, last updated Jun 28th 2025 03:37 PM. With the price band of 82.00, Sambhv Steel Tubes IPO's <strong>estimated listing price</strong> is <strong>&#8377;96</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>17.07%</strong>.<span class='d-block ps-5 my-3'><mark><strong>>> Sambhv Steel Tubes IPO Retail Subject to Sauda: &#8377;1900 </strong></mark></span><span class='d-block ps-5 my-3'><mark><strong>>> Sambhv Steel Tubes IPO Small HNI Subject to Sauda: &#8377;26600 </strong></mark></span></p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 16 sessions grey market activities, today IPO GMP <strong>points upward</strong> and expects a strong listing. The lowest GMP is &#8377;0.00, while the highest GMP is &#8377;14.00. Stay with us to know the daily price trend of Sambhv Steel Tubes IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "1900",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "82.00",
+        "estimated_listing_price": "96",
+        "gmp_percent_calc": "<span class=\"text-success fw-bold\">17.07%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "1900/26600",
+        "est_profit": "2548",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:37 PM",
+        "last_updated": "28-Jun-2025 15:37",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "82.00",
+                "GMP": "₹14",
+                "Sub2 Sauda Rate": "1900/26600",
+                "Estimated Listing Price": "₹96 ( 17.07% )",
+                "Estimated Profit": "₹2548",
+                "Last Updated": "28-Jun-2025 15:37"
+            },
+            {
+                "GMP Date": "27-06-2025 Close",
+                "IPO Price": "82.00",
+                "GMP": "₹14",
+                "Sub2 Sauda Rate": "1900/26600",
+                "Estimated Listing Price": "₹96 ( 17.07% )",
+                "Estimated Profit": "₹2548",
+                "Last Updated": "27-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "26-06-2025",
+                "IPO Price": "82.00",
+                "GMP": "₹11",
+                "Sub2 Sauda Rate": "1500/21000",
+                "Estimated Listing Price": "₹93 ( 13.41% )",
+                "Estimated Profit": "₹2002",
+                "Last Updated": "26-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "25-06-2025 Open",
+                "IPO Price": "82.00",
+                "GMP": "₹10",
+                "Sub2 Sauda Rate": "1400/19600",
+                "Estimated Listing Price": "₹92 ( 12.20% )",
+                "Estimated Profit": "₹1820",
+                "Last Updated": "25-Jun-2025 23:30"
+            },
+            {
+                "GMP Date": "24-06-2025",
+                "IPO Price": "82.00",
+                "GMP": "₹5",
+                "Sub2 Sauda Rate": "700/9800",
+                "Estimated Listing Price": "₹87 ( 6.10% )",
+                "Estimated Profit": "₹910",
+                "Last Updated": "24-Jun-2025 23:31"
+            },
+            {
+                "GMP Date": "23-06-2025",
+                "IPO Price": "82.00",
+                "GMP": "₹7",
+                "Sub2 Sauda Rate": "1000/14000",
+                "Estimated Listing Price": "₹89 ( 8.54% )",
+                "Estimated Profit": "₹1274",
+                "Last Updated": "23-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "22-06-2025",
+                "IPO Price": "82.00",
+                "GMP": "₹8",
+                "Sub2 Sauda Rate": "1100/15400",
+                "Estimated Listing Price": "₹90 ( 9.76% )",
+                "Estimated Profit": "₹1456",
+                "Last Updated": "22-Jun-2025 23:31"
+            },
+            {
+                "GMP Date": "21-06-2025",
+                "IPO Price": "82.00",
+                "GMP": "₹8",
+                "Sub2 Sauda Rate": "1100/15400",
+                "Estimated Listing Price": "₹90 ( 9.76% )",
+                "Estimated Profit": "₹1456",
+                "Last Updated": "21-Jun-2025 23:36"
+            },
+            {
+                "GMP Date": "20-06-2025",
+                "IPO Price": "82.00",
+                "GMP": "₹11",
+                "Sub2 Sauda Rate": "1500/21000",
+                "Estimated Listing Price": "₹93 ( 13.41% )",
+                "Estimated Profit": "₹2002",
+                "Last Updated": "20-Jun-2025 23:31"
+            },
+            {
+                "GMP Date": "19-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "19-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "18-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "18-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "17-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "17-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "16-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "16-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "15-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "15-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "14-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "14-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "13-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( % )",
+                "Estimated Profit": "",
+                "Last Updated": "13-Jun-2025 17:07"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1276,
+        "Company Name (from List API)": "HDB Financial",
+        "Seq": "1",
+        "id (GMP Data)": "20779",
+        "ipo_id (GMP Data)": "1276",
+        "gmp_date": "28-06-2025",
+        "gmp": "54",
+        "gmp_comments": "<p>HDB Financial IPO <strong>last GMP is &#8377;54</strong>, last updated Jun 28th 2025 03:29 PM. With the price band of 740.00, HDB Financial IPO's <strong>estimated listing price</strong> is <strong>&#8377;794</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>7.30%</strong>.<span class='d-block ps-5 my-3'><mark><strong>>> HDB Financial IPO Retail Subject to Sauda: &#8377;800 </strong></mark></span><span class='d-block ps-5 my-3'><mark><strong>>> HDB Financial IPO Small HNI Subject to Sauda: &#8377;11200 </strong></mark></span></p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 16 sessions grey market activities, today IPO GMP trending <strong>upward</strong> and expects <strong>a strong listing</strong>. The lowest GMP is &#8377;0.00, while the highest GMP is &#8377;104.50. Stay with us to know the daily price trend of HDB Financial IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "800",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "740.00",
+        "estimated_listing_price": "794",
+        "gmp_percent_calc": "<span class=\"text-success fw-bold\">7.30%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "D",
+        "gmp_active_record_flag": "1",
+        "sub2": "800/11200",
+        "est_profit": "1080",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:29 PM",
+        "last_updated": "28-Jun-2025 15:29",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "740.00",
+                "GMP": "₹54",
+                "Sub2 Sauda Rate": "800/11200",
+                "Estimated Listing Price": "₹794 ( 7.30% )",
+                "Estimated Profit": "₹1080",
+                "Last Updated": "28-Jun-2025 15:29"
+            },
+            {
+                "GMP Date": "27-06-2025 Close",
+                "IPO Price": "740.00",
+                "GMP": "₹57",
+                "Sub2 Sauda Rate": "900/12600",
+                "Estimated Listing Price": "₹797 ( 7.70% )",
+                "Estimated Profit": "₹1140",
+                "Last Updated": "27-Jun-2025 23:28"
+            },
+            {
+                "GMP Date": "26-06-2025",
+                "IPO Price": "740.00",
+                "GMP": "₹60",
+                "Sub2 Sauda Rate": "900/12600",
+                "Estimated Listing Price": "₹800 ( 8.11% )",
+                "Estimated Profit": "₹1200",
+                "Last Updated": "26-Jun-2025 23:35"
+            },
+            {
+                "GMP Date": "25-06-2025 Open",
+                "IPO Price": "740.00",
+                "GMP": "₹50.5",
+                "Sub2 Sauda Rate": "800/11200",
+                "Estimated Listing Price": "₹790.5 ( 6.82% )",
+                "Estimated Profit": "₹1010",
+                "Last Updated": "25-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "24-06-2025",
+                "IPO Price": "740.00",
+                "GMP": "₹74",
+                "Sub2 Sauda Rate": "1100/15400",
+                "Estimated Listing Price": "₹814 ( 10.00% )",
+                "Estimated Profit": "₹1480",
+                "Last Updated": "24-Jun-2025 23:31"
+            },
+            {
+                "GMP Date": "23-06-2025",
+                "IPO Price": "740.00",
+                "GMP": "₹66",
+                "Sub2 Sauda Rate": "1000/14000",
+                "Estimated Listing Price": "₹806 ( 8.92% )",
+                "Estimated Profit": "₹1320",
+                "Last Updated": "23-Jun-2025 23:35"
+            },
+            {
+                "GMP Date": "22-06-2025",
+                "IPO Price": "740.00",
+                "GMP": "₹47.5",
+                "Sub2 Sauda Rate": "700/9800",
+                "Estimated Listing Price": "₹787.5 ( 6.42% )",
+                "Estimated Profit": "₹950",
+                "Last Updated": "22-Jun-2025 23:28"
+            },
+            {
+                "GMP Date": "21-06-2025",
+                "IPO Price": "740.00",
+                "GMP": "₹49",
+                "Sub2 Sauda Rate": "700/9800",
+                "Estimated Listing Price": "₹789 ( 6.62% )",
+                "Estimated Profit": "₹980",
+                "Last Updated": "21-Jun-2025 23:32"
+            },
+            {
+                "GMP Date": "20-06-2025",
+                "IPO Price": "740.00",
+                "GMP": "₹91",
+                "Sub2 Sauda Rate": "1400/19600",
+                "Estimated Listing Price": "₹831 ( 12.30% )",
+                "Estimated Profit": "₹1820",
+                "Last Updated": "20-Jun-2025 23:28"
+            },
+            {
+                "GMP Date": "19-06-2025",
+                "IPO Price": "740.00",
+                "GMP": "₹83",
+                "Sub2 Sauda Rate": "1300/18200",
+                "Estimated Listing Price": "₹823 ( 11.22% )",
+                "Estimated Profit": "₹1660",
+                "Last Updated": "19-Jun-2025 23:30"
+            },
+            {
+                "GMP Date": "18-06-2025",
+                "IPO Price": "NA",
+                "GMP": "₹104.5",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹104.5 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "18-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "17-06-2025",
+                "IPO Price": "NA",
+                "GMP": "₹93",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹93 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "17-Jun-2025 23:33"
+            },
+            {
+                "GMP Date": "16-06-2025",
+                "IPO Price": "NA",
+                "GMP": "₹93",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹93 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "16-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "15-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "15-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "14-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "14-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "13-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( % )",
+                "Estimated Profit": "",
+                "Last Updated": "13-Jun-2025 10:07"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1280,
+        "Company Name (from List API)": "Globe Civil Projects",
+        "Seq": "1",
+        "id (GMP Data)": "20783",
+        "ipo_id (GMP Data)": "1280",
+        "gmp_date": "28-06-2025",
+        "gmp": "23",
+        "gmp_comments": "<p>Globe Civil Projects IPO <strong>last GMP is &#8377;23</strong>, last updated Jun 28th 2025 03:36 PM. With the price band of 71.00, Globe Civil Projects IPO's <strong>estimated listing price</strong> is <strong>&#8377;94</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>32.39%</strong>.<span class='d-block ps-5 my-3'><mark><strong>>> Globe Civil Projects IPO Retail Subject to Sauda: &#8377;3700 </strong></mark></span><span class='d-block ps-5 my-3'><mark><strong>>> Globe Civil Projects IPO Small HNI Subject to Sauda: &#8377;51800 </strong></mark></span></p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 14 sessions grey market activities, today IPO GMP <strong>points upward</strong> and expects a strong listing. The lowest GMP is &#8377;0.00, while the highest GMP is &#8377;23.00. Stay with us to know the daily price trend of Globe Civil Projects IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "3700",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "71.00",
+        "estimated_listing_price": "94",
+        "gmp_percent_calc": "<span class=\"text-success fw-bold\">32.39%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "3700/51800",
+        "est_profit": "4853",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:36 PM",
+        "last_updated": "28-Jun-2025 15:36",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "71.00",
+                "GMP": "₹23",
+                "Sub2 Sauda Rate": "3700/51800",
+                "Estimated Listing Price": "₹94 ( 32.39% )",
+                "Estimated Profit": "₹4853",
+                "Last Updated": "28-Jun-2025 15:36"
+            },
+            {
+                "GMP Date": "27-06-2025 Allotment",
+                "IPO Price": "71.00",
+                "GMP": "₹23",
+                "Sub2 Sauda Rate": "3700/51800",
+                "Estimated Listing Price": "₹94 ( 32.39% )",
+                "Estimated Profit": "₹4853",
+                "Last Updated": "27-Jun-2025 23:36"
+            },
+            {
+                "GMP Date": "26-06-2025 Close",
+                "IPO Price": "71.00",
+                "GMP": "₹19",
+                "Sub2 Sauda Rate": "3000/42000",
+                "Estimated Listing Price": "₹90 ( 26.76% )",
+                "Estimated Profit": "₹4009",
+                "Last Updated": "26-Jun-2025 23:33"
+            },
+            {
+                "GMP Date": "25-06-2025",
+                "IPO Price": "71.00",
+                "GMP": "₹15",
+                "Sub2 Sauda Rate": "2400/33600",
+                "Estimated Listing Price": "₹86 ( 21.13% )",
+                "Estimated Profit": "₹3165",
+                "Last Updated": "25-Jun-2025 23:31"
+            },
+            {
+                "GMP Date": "24-06-2025 Open",
+                "IPO Price": "71.00",
+                "GMP": "₹12",
+                "Sub2 Sauda Rate": "1900/26600",
+                "Estimated Listing Price": "₹83 ( 16.90% )",
+                "Estimated Profit": "₹2532",
+                "Last Updated": "24-Jun-2025 23:36"
+            },
+            {
+                "GMP Date": "23-06-2025",
+                "IPO Price": "71.00",
+                "GMP": "₹15",
+                "Sub2 Sauda Rate": "2400/33600",
+                "Estimated Listing Price": "₹86 ( 21.13% )",
+                "Estimated Profit": "₹3165",
+                "Last Updated": "23-Jun-2025 23:31"
+            },
+            {
+                "GMP Date": "22-06-2025",
+                "IPO Price": "71.00",
+                "GMP": "₹13",
+                "Sub2 Sauda Rate": "2100/29400",
+                "Estimated Listing Price": "₹84 ( 18.31% )",
+                "Estimated Profit": "₹2743",
+                "Last Updated": "22-Jun-2025 23:30"
+            },
+            {
+                "GMP Date": "21-06-2025",
+                "IPO Price": "71.00",
+                "GMP": "₹13",
+                "Sub2 Sauda Rate": "2100/29400",
+                "Estimated Listing Price": "₹84 ( 18.31% )",
+                "Estimated Profit": "₹2743",
+                "Last Updated": "21-Jun-2025 23:32"
+            },
+            {
+                "GMP Date": "20-06-2025",
+                "IPO Price": "71.00",
+                "GMP": "₹13",
+                "Sub2 Sauda Rate": "2100/29400",
+                "Estimated Listing Price": "₹84 ( 18.31% )",
+                "Estimated Profit": "₹2743",
+                "Last Updated": "20-Jun-2025 23:36"
+            },
+            {
+                "GMP Date": "19-06-2025",
+                "IPO Price": "71.00",
+                "GMP": "₹11",
+                "Sub2 Sauda Rate": "1800/25200",
+                "Estimated Listing Price": "₹82 ( 15.49% )",
+                "Estimated Profit": "₹2321",
+                "Last Updated": "19-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "18-06-2025",
+                "IPO Price": "71.00",
+                "GMP": "₹9",
+                "Sub2 Sauda Rate": "1400/19600",
+                "Estimated Listing Price": "₹80 ( 12.68% )",
+                "Estimated Profit": "₹1899",
+                "Last Updated": "18-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "17-06-2025",
+                "IPO Price": "71.00",
+                "GMP": "₹7",
+                "Sub2 Sauda Rate": "1100/15400",
+                "Estimated Listing Price": "₹78 ( 9.86% )",
+                "Estimated Profit": "₹1477",
+                "Last Updated": "17-Jun-2025 23:32"
+            },
+            {
+                "GMP Date": "16-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "16-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "15-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( % )",
+                "Estimated Profit": "",
+                "Last Updated": "15-Jun-2025 12:07"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1278,
+        "Company Name (from List API)": "Ellenbarrie Industrial Gases",
+        "Seq": "1",
+        "id (GMP Data)": "20781",
+        "ipo_id (GMP Data)": "1278",
+        "gmp_date": "28-06-2025",
+        "gmp": "41",
+        "gmp_comments": "<p>Ellenbarrie Industrial Gases IPO <strong>last GMP is &#8377;41</strong>, last updated Jun 28th 2025 03:30 PM. With the price band of 400.00, Ellenbarrie Industrial Gases IPO's <strong>estimated listing price</strong> is <strong>&#8377;441</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>10.25%</strong>.<span class='d-block ps-5 my-3'><mark><strong>>> Ellenbarrie Industrial Gases IPO Retail Subject to Sauda: &#8377;1200 </strong></mark></span><span class='d-block ps-5 my-3'><mark><strong>>> Ellenbarrie Industrial Gases IPO Small HNI Subject to Sauda: &#8377;16800 </strong></mark></span></p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 16 sessions grey market activities, today IPO GMP trending <strong>upward</strong> and expects <strong>a strong listing</strong>. The lowest GMP is &#8377;0.00, while the highest GMP is &#8377;43.00. Stay with us to know the daily price trend of Ellenbarrie Industrial Gases IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "1200",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "400.00",
+        "estimated_listing_price": "441",
+        "gmp_percent_calc": "<span class=\"text-success fw-bold\">10.25%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "D",
+        "gmp_active_record_flag": "1",
+        "sub2": "1200/16800",
+        "est_profit": "1517",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:30 PM",
+        "last_updated": "28-Jun-2025 15:30",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "400.00",
+                "GMP": "₹41",
+                "Sub2 Sauda Rate": "1200/16800",
+                "Estimated Listing Price": "₹441 ( 10.25% )",
+                "Estimated Profit": "₹1517",
+                "Last Updated": "28-Jun-2025 15:30"
+            },
+            {
+                "GMP Date": "27-06-2025 Allotment",
+                "IPO Price": "400.00",
+                "GMP": "₹43",
+                "Sub2 Sauda Rate": "1200/16800",
+                "Estimated Listing Price": "₹443 ( 10.75% )",
+                "Estimated Profit": "₹1591",
+                "Last Updated": "27-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "26-06-2025 Close",
+                "IPO Price": "400.00",
+                "GMP": "₹41",
+                "Sub2 Sauda Rate": "1200/16800",
+                "Estimated Listing Price": "₹441 ( 10.25% )",
+                "Estimated Profit": "₹1517",
+                "Last Updated": "26-Jun-2025 23:28"
+            },
+            {
+                "GMP Date": "25-06-2025",
+                "IPO Price": "400.00",
+                "GMP": "₹19",
+                "Sub2 Sauda Rate": "500/7000",
+                "Estimated Listing Price": "₹419 ( 4.75% )",
+                "Estimated Profit": "₹703",
+                "Last Updated": "25-Jun-2025 23:28"
+            },
+            {
+                "GMP Date": "24-06-2025 Open",
+                "IPO Price": "400.00",
+                "GMP": "₹26",
+                "Sub2 Sauda Rate": "700/9800",
+                "Estimated Listing Price": "₹426 ( 6.50% )",
+                "Estimated Profit": "₹962",
+                "Last Updated": "24-Jun-2025 23:30"
+            },
+            {
+                "GMP Date": "23-06-2025",
+                "IPO Price": "400.00",
+                "GMP": "₹7",
+                "Sub2 Sauda Rate": "200/2800",
+                "Estimated Listing Price": "₹407 ( 1.75% )",
+                "Estimated Profit": "₹259",
+                "Last Updated": "23-Jun-2025 23:35"
+            },
+            {
+                "GMP Date": "22-06-2025",
+                "IPO Price": "400.00",
+                "GMP": "₹10",
+                "Sub2 Sauda Rate": "300/4200",
+                "Estimated Listing Price": "₹410 ( 2.50% )",
+                "Estimated Profit": "₹370",
+                "Last Updated": "22-Jun-2025 23:32"
+            },
+            {
+                "GMP Date": "21-06-2025",
+                "IPO Price": "400.00",
+                "GMP": "₹12",
+                "Sub2 Sauda Rate": "300/4200",
+                "Estimated Listing Price": "₹412 ( 3.00% )",
+                "Estimated Profit": "₹444",
+                "Last Updated": "21-Jun-2025 23:33"
+            },
+            {
+                "GMP Date": "20-06-2025",
+                "IPO Price": "400.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹400 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "20-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "19-06-2025",
+                "IPO Price": "400.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹400 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "19-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "18-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "18-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "17-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "17-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "16-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "16-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "15-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "15-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "14-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "14-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "13-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( % )",
+                "Estimated Profit": "",
+                "Last Updated": "13-Jun-2025 15:46"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1277,
+        "Company Name (from List API)": "Kalpataru",
+        "Seq": "1",
+        "id (GMP Data)": "20780",
+        "ipo_id (GMP Data)": "1277",
+        "gmp_date": "28-06-2025",
+        "gmp": "0",
+        "gmp_comments": "<p>Kalpataru IPO <strong>last GMP is &#8377;0</strong>, last updated Jun 28th 2025 03:35 PM. With the price band of 414.00, Kalpataru IPO's <strong>estimated listing price</strong> is <strong>&#8377;414</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>0.00%</strong>.</p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 16 sessions grey market activities, today IPO GMP <strong>points downward</strong> and expects to drop more. The lowest GMP is &#8377;0.00, while the highest GMP is &#8377;11.00. Stay with us to know the daily price trend of Kalpataru IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "0",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "414.00",
+        "estimated_listing_price": "414",
+        "gmp_percent_calc": "<span class=\"\">0.00%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "D",
+        "gmp_active_record_flag": "1",
+        "sub2": "--",
+        "est_profit": "0",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:35 PM",
+        "last_updated": "28-Jun-2025 15:35",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "414.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹414 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "28-Jun-2025 15:35"
+            },
+            {
+                "GMP Date": "27-06-2025 Allotment",
+                "IPO Price": "414.00",
+                "GMP": "₹3",
+                "Sub2 Sauda Rate": "100/1400",
+                "Estimated Listing Price": "₹417 ( 0.72% )",
+                "Estimated Profit": "₹108",
+                "Last Updated": "27-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "26-06-2025 Close",
+                "IPO Price": "414.00",
+                "GMP": "₹3",
+                "Sub2 Sauda Rate": "100/1400",
+                "Estimated Listing Price": "₹417 ( 0.72% )",
+                "Estimated Profit": "₹108",
+                "Last Updated": "26-Jun-2025 23:28"
+            },
+            {
+                "GMP Date": "25-06-2025",
+                "IPO Price": "414.00",
+                "GMP": "₹3",
+                "Sub2 Sauda Rate": "100/1400",
+                "Estimated Listing Price": "₹417 ( 0.72% )",
+                "Estimated Profit": "₹108",
+                "Last Updated": "25-Jun-2025 23:30"
+            },
+            {
+                "GMP Date": "24-06-2025 Open",
+                "IPO Price": "414.00",
+                "GMP": "₹9",
+                "Sub2 Sauda Rate": "200/2800",
+                "Estimated Listing Price": "₹423 ( 2.17% )",
+                "Estimated Profit": "₹324",
+                "Last Updated": "24-Jun-2025 23:34"
+            },
+            {
+                "GMP Date": "23-06-2025",
+                "IPO Price": "414.00",
+                "GMP": "₹5",
+                "Sub2 Sauda Rate": "100/1400",
+                "Estimated Listing Price": "₹419 ( 1.21% )",
+                "Estimated Profit": "₹180",
+                "Last Updated": "23-Jun-2025 23:30"
+            },
+            {
+                "GMP Date": "22-06-2025",
+                "IPO Price": "414.00",
+                "GMP": "₹9",
+                "Sub2 Sauda Rate": "200/2800",
+                "Estimated Listing Price": "₹423 ( 2.17% )",
+                "Estimated Profit": "₹324",
+                "Last Updated": "22-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "21-06-2025",
+                "IPO Price": "414.00",
+                "GMP": "₹11",
+                "Sub2 Sauda Rate": "300/4200",
+                "Estimated Listing Price": "₹425 ( 2.66% )",
+                "Estimated Profit": "₹396",
+                "Last Updated": "21-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "20-06-2025",
+                "IPO Price": "414.00",
+                "GMP": "₹11",
+                "Sub2 Sauda Rate": "300/4200",
+                "Estimated Listing Price": "₹425 ( 2.66% )",
+                "Estimated Profit": "₹396",
+                "Last Updated": "20-Jun-2025 23:32"
+            },
+            {
+                "GMP Date": "19-06-2025",
+                "IPO Price": "414.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹414 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "19-Jun-2025 23:33"
+            },
+            {
+                "GMP Date": "18-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "18-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "17-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "17-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "16-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "16-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "15-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "15-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "14-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "14-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "13-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( % )",
+                "Estimated Profit": "",
+                "Last Updated": "13-Jun-2025 11:07"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1275,
+        "Company Name (from List API)": "Arisinfra Solutions",
+        "Seq": "1",
+        "id (GMP Data)": "20681",
+        "ipo_id (GMP Data)": "1275",
+        "gmp_date": "25-06-2025",
+        "gmp": "0",
+        "gmp_comments": "<p>Arisinfra Solutions was listed on the stock exchange on 25-06-2025. The IPO was subscribed 2.8x. The last GMP for Arisinfra Solutions IPO was &#8377;0, updated on Jun 25th 2025 05:55 AM. As per the last GMP, the expected profit/loss for the IPO was 0.00%.</p><p>The issue price of Arisinfra Solutions IPO (ARISINFRA,544419) was &#8377;222.00, listed at a price of &#8377;205.00, which is -7.66% lower than the allotment price.</p><p>The expected IPO listing price as per grey market was &#8377;222, listed below GMP price and marked as negative listing for GMP.</p>",
+        "gmp_compare_desc": "",
+        "subject_to_sauda": "0",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "222.00",
+        "estimated_listing_price": "222",
+        "gmp_percent_calc": "<span class=\"\">0.00%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "--",
+        "est_profit": "0",
+        "create_date": "2025-06-25T00:25:01.000Z",
+        "create_date_gmp": "Jun 25th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 25th 2025 05:55 AM",
+        "last_updated": "25-Jun-2025 5:55",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "25-06-2025 Listing",
+                "IPO Price": "222.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹222 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "25-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "24-06-2025",
+                "IPO Price": "222.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹222 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "24-Jun-2025 11:58"
+            },
+            {
+                "GMP Date": "23-06-2025 Allotment",
+                "IPO Price": "222.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹222 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "23-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "22-06-2025",
+                "IPO Price": "222.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹222 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "22-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "21-06-2025",
+                "IPO Price": "222.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹222 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "21-Jun-2025 23:34"
+            },
+            {
+                "GMP Date": "20-06-2025 Close",
+                "IPO Price": "222.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹222 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "20-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "19-06-2025",
+                "IPO Price": "222.00",
+                "GMP": "₹13",
+                "Sub2 Sauda Rate": "700/9800",
+                "Estimated Listing Price": "₹235 ( 5.86% )",
+                "Estimated Profit": "₹871",
+                "Last Updated": "19-Jun-2025 23:30"
+            },
+            {
+                "GMP Date": "18-06-2025 Open",
+                "IPO Price": "222.00",
+                "GMP": "₹25",
+                "Sub2 Sauda Rate": "1300/18200",
+                "Estimated Listing Price": "₹247 ( 11.26% )",
+                "Estimated Profit": "₹1675",
+                "Last Updated": "18-Jun-2025 23:30"
+            },
+            {
+                "GMP Date": "17-06-2025",
+                "IPO Price": "222.00",
+                "GMP": "₹25",
+                "Sub2 Sauda Rate": "1300/18200",
+                "Estimated Listing Price": "₹247 ( 11.26% )",
+                "Estimated Profit": "₹1675",
+                "Last Updated": "17-Jun-2025 23:36"
+            },
+            {
+                "GMP Date": "16-06-2025",
+                "IPO Price": "222.00",
+                "GMP": "₹25",
+                "Sub2 Sauda Rate": "1300/18200",
+                "Estimated Listing Price": "₹247 ( 11.26% )",
+                "Estimated Profit": "₹1675",
+                "Last Updated": "16-Jun-2025 23:36"
+            },
+            {
+                "GMP Date": "15-06-2025",
+                "IPO Price": "222.00",
+                "GMP": "₹25",
+                "Sub2 Sauda Rate": "1300/18200",
+                "Estimated Listing Price": "₹247 ( 11.26% )",
+                "Estimated Profit": "₹1675",
+                "Last Updated": "15-Jun-2025 23:32"
+            },
+            {
+                "GMP Date": "14-06-2025",
+                "IPO Price": "222.00",
+                "GMP": "₹25",
+                "Sub2 Sauda Rate": "1300/18200",
+                "Estimated Listing Price": "₹247 ( 11.26% )",
+                "Estimated Profit": "₹1675",
+                "Last Updated": "14-Jun-2025 23:36"
+            },
+            {
+                "GMP Date": "13-06-2025",
+                "IPO Price": "222.00",
+                "GMP": "₹25",
+                "Sub2 Sauda Rate": "1300/18200",
+                "Estimated Listing Price": "₹247 ( 11.26% )",
+                "Estimated Profit": "₹1675",
+                "Last Updated": "13-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "12-06-2025",
+                "IPO Price": "NA",
+                "GMP": "₹40",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹40 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "12-Jun-2025 23:29"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1311,
+        "Company Name (from List API)": "Cryogenic OGS",
+        "Seq": "1",
+        "id (GMP Data)": "20805",
+        "ipo_id (GMP Data)": "1311",
+        "gmp_date": "28-06-2025",
+        "gmp": "0",
+        "gmp_comments": "<p class='text-danger my-2'>GMP for Cryogenic OGS SME IPO has not started yet. We are updating the GMP information on a daily basis. Please visit us again soon for the latest GMP updates.</p>",
+        "gmp_compare_desc": "<p>The GMP for Cryogenic OGS SME IPO has started from 2 session. It is still very early to determine the direction of the GMP. We are updating the information every day, stay tuned with the latest GMP and more details. Stay tuned to learn more about <strong>Cryogenic OGS SME IPO daily GMP </strong> performance and expected expected listing price.</p>",
+        "subject_to_sauda": "-",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "",
+        "estimated_listing_price": "",
+        "gmp_percent_calc": "<span class=\"\">0.00%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "--",
+        "est_profit": "",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated": "28-Jun-2025 5:55",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( 0.00% )",
+                "Estimated Profit": "",
+                "Last Updated": "28-Jun-2025 5:55"
+            },
+            {
+                "GMP Date": "27-06-2025",
+                "IPO Price": "",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹ ( % )",
+                "Estimated Profit": "",
+                "Last Updated": "27-Jun-2025 13:07"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1307,
+        "Company Name (from List API)": "Silky Overseas",
+        "Seq": "1",
+        "id (GMP Data)": "20802",
+        "ipo_id (GMP Data)": "1307",
+        "gmp_date": "28-06-2025",
+        "gmp": "16",
+        "gmp_comments": "<p>Silky Overseas SME IPO <strong>last GMP is &#8377;16</strong>, last updated Jun 28th 2025 03:30 PM. With the price band of 161.00, Silky Overseas SME IPO's <strong>estimated listing price</strong> is <strong>&#8377;177</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>9.94%</strong>.<span class='d-block ps-5 my-3'><mark><strong>>> Silky Overseas SME IPO Retail Subject to Sauda: &#8377;9700 </strong></mark></span></p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 4 sessions grey market activities, today IPO GMP <strong>points upward</strong> and expects a strong listing. The lowest GMP is &#8377;0.00, while the highest GMP is &#8377;16.00. Stay with us to know the daily price trend of Silky Overseas SME IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "9700",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "161.00",
+        "estimated_listing_price": "177",
+        "gmp_percent_calc": "<span class=\"text-success fw-bold\">9.94%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "9700",
+        "est_profit": "12800",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:30 PM",
+        "last_updated": "28-Jun-2025 15:30",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "161.00",
+                "GMP": "₹16",
+                "Sub2 Sauda Rate": "9700",
+                "Estimated Listing Price": "₹177 ( 9.94% )",
+                "Estimated Profit": "₹12800",
+                "Last Updated": "28-Jun-2025 15:30"
+            },
+            {
+                "GMP Date": "27-06-2025",
+                "IPO Price": "161.00",
+                "GMP": "₹16",
+                "Sub2 Sauda Rate": "9700",
+                "Estimated Listing Price": "₹177 ( 9.94% )",
+                "Estimated Profit": "₹12800",
+                "Last Updated": "27-Jun-2025 23:31"
+            },
+            {
+                "GMP Date": "26-06-2025",
+                "IPO Price": "161.00",
+                "GMP": "₹16",
+                "Sub2 Sauda Rate": "9700",
+                "Estimated Listing Price": "₹177 ( 9.94% )",
+                "Estimated Profit": "₹12800",
+                "Last Updated": "26-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "25-06-2025",
+                "IPO Price": "161.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹161 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "25-Jun-2025 23:28"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1306,
+        "Company Name (from List API)": "Vandan Foods",
+        "Seq": "1",
+        "id (GMP Data)": "20801",
+        "ipo_id (GMP Data)": "1306",
+        "gmp_date": "28-06-2025",
+        "gmp": "5",
+        "gmp_comments": "<p>Vandan Foods SME IPO <strong>last GMP is &#8377;5</strong>, last updated Jun 28th 2025 03:35 PM. With the price band of 115.00, Vandan Foods SME IPO's <strong>estimated listing price</strong> is <strong>&#8377;120</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>4.35%</strong>.<span class='d-block ps-5 my-3'><mark><strong>>> Vandan Foods SME IPO Retail Subject to Sauda: &#8377;4600 </strong></mark></span></p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 4 sessions grey market activities, today IPO GMP <strong>points upward</strong> and expects a strong listing. The lowest GMP is &#8377;0.00, while the highest GMP is &#8377;5.00. Stay with us to know the daily price trend of Vandan Foods SME IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "4600",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "115.00",
+        "estimated_listing_price": "120",
+        "gmp_percent_calc": "<span class=\"text-success fw-bold\">4.35%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "4600",
+        "est_profit": "6000",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:35 PM",
+        "last_updated": "28-Jun-2025 15:35",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "115.00",
+                "GMP": "₹5",
+                "Sub2 Sauda Rate": "4600",
+                "Estimated Listing Price": "₹120 ( 4.35% )",
+                "Estimated Profit": "₹6000",
+                "Last Updated": "28-Jun-2025 15:35"
+            },
+            {
+                "GMP Date": "27-06-2025",
+                "IPO Price": "115.00",
+                "GMP": "₹5",
+                "Sub2 Sauda Rate": "4600",
+                "Estimated Listing Price": "₹120 ( 4.35% )",
+                "Estimated Profit": "₹6000",
+                "Last Updated": "27-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "26-06-2025",
+                "IPO Price": "115.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹115 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "26-Jun-2025 23:34"
+            },
+            {
+                "GMP Date": "25-06-2025",
+                "IPO Price": "115.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹115 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "25-Jun-2025 23:37"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1304,
+        "Company Name (from List API)": "Cedaar Textile IPO",
+        "Seq": "1",
+        "id (GMP Data)": "20800",
+        "ipo_id (GMP Data)": "1304",
+        "gmp_date": "28-06-2025",
+        "gmp": "10",
+        "gmp_comments": "<p>Cedaar Textile IPO SME IPO <strong>last GMP is &#8377;10</strong>, last updated Jun 28th 2025 03:36 PM. With the price band of 140.00, Cedaar Textile IPO SME IPO's <strong>estimated listing price</strong> is <strong>&#8377;150</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>7.14%</strong>.<span class='d-block ps-5 my-3'><mark><strong>>> Cedaar Textile IPO SME IPO Retail Subject to Sauda: &#8377;7600 </strong></mark></span></p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 5 sessions grey market activities, today IPO GMP <strong>points upward</strong> and expects a strong listing. The lowest GMP is &#8377;0.00, while the highest GMP is &#8377;10.00. Stay with us to know the daily price trend of Cedaar Textile IPO SME IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "7600",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "140.00",
+        "estimated_listing_price": "150",
+        "gmp_percent_calc": "<span class=\"text-success fw-bold\">7.14%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "7600",
+        "est_profit": "10000",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:36 PM",
+        "last_updated": "28-Jun-2025 15:36",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "140.00",
+                "GMP": "₹10",
+                "Sub2 Sauda Rate": "7600",
+                "Estimated Listing Price": "₹150 ( 7.14% )",
+                "Estimated Profit": "₹10000",
+                "Last Updated": "28-Jun-2025 15:36"
+            },
+            {
+                "GMP Date": "27-06-2025",
+                "IPO Price": "140.00",
+                "GMP": "₹10",
+                "Sub2 Sauda Rate": "7600",
+                "Estimated Listing Price": "₹150 ( 7.14% )",
+                "Estimated Profit": "₹10000",
+                "Last Updated": "27-Jun-2025 23:29"
+            },
+            {
+                "GMP Date": "26-06-2025",
+                "IPO Price": "140.00",
+                "GMP": "₹10",
+                "Sub2 Sauda Rate": "7600",
+                "Estimated Listing Price": "₹150 ( 7.14% )",
+                "Estimated Profit": "₹10000",
+                "Last Updated": "26-Jun-2025 23:28"
+            },
+            {
+                "GMP Date": "25-06-2025",
+                "IPO Price": "140.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹140 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "25-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "24-06-2025",
+                "IPO Price": "140.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹140 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "24-Jun-2025 23:28"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1301,
+        "Company Name (from List API)": "Marc Loire",
+        "Seq": "1",
+        "id (GMP Data)": "20797",
+        "ipo_id (GMP Data)": "1301",
+        "gmp_date": "28-06-2025",
+        "gmp": "0",
+        "gmp_comments": "<p>Marc Loire SME IPO <strong>last GMP is &#8377;0</strong>, last updated Jun 28th 2025 03:30 PM. With the price band of 100.00, Marc Loire SME IPO's <strong>estimated listing price</strong> is <strong>&#8377;100</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>0.00%</strong>.</p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 6 sessions grey market activities, today IPO GMP trend, no major movement is observed in GMP, expect same trend till listing day. Stay with us to know the daily price trend of Marc Loire SME IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "0",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "100.00",
+        "estimated_listing_price": "100",
+        "gmp_percent_calc": "<span class=\"\">0.00%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "--",
+        "est_profit": "0",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:30 PM",
+        "last_updated": "28-Jun-2025 15:30",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "100.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹100 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "28-Jun-2025 15:30"
+            },
+            {
+                "GMP Date": "27-06-2025",
+                "IPO Price": "100.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹100 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "27-Jun-2025 23:33"
+            },
+            {
+                "GMP Date": "26-06-2025",
+                "IPO Price": "100.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹100 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "26-Jun-2025 23:36"
+            },
+            {
+                "GMP Date": "25-06-2025",
+                "IPO Price": "100.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹100 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "25-Jun-2025 23:32"
+            },
+            {
+                "GMP Date": "24-06-2025",
+                "IPO Price": "100.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹100 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "24-Jun-2025 23:32"
+            },
+            {
+                "GMP Date": "23-06-2025",
+                "IPO Price": "100.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹100 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "23-Jun-2025 23:30"
+            }
+        ],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1302,
+        "Company Name (from List API)": "Pushpa Jewellers",
+        "Seq": "1",
+        "id (GMP Data)": "20798",
+        "ipo_id (GMP Data)": "1302",
+        "gmp_date": "28-06-2025",
+        "gmp": "0",
+        "gmp_comments": "<p>Pushpa Jewellers SME IPO <strong>last GMP is &#8377;0</strong>, last updated Jun 28th 2025 03:35 PM. With the price band of 147.00, Pushpa Jewellers SME IPO's <strong>estimated listing price</strong> is <strong>&#8377;147</strong> (cap price + today's GMP).The expected percentage gain/loss per share is <strong>0.00%</strong>.</p>",
+        "gmp_compare_desc": "<p>We update GMP on a daily basis and based on last 5 sessions grey market activities, today IPO GMP trend, no major movement is observed in GMP, expect same trend till listing day. Stay with us to know the daily price trend of Pushpa Jewellers SME IPO GMP with expected listing price.</p>",
+        "subject_to_sauda": "0",
+        "gmp_city": "",
+        "gmp_variation": "",
+        "max_ipo_price": "147.00",
+        "estimated_listing_price": "147",
+        "gmp_percent_calc": "<span class=\"\">0.00%</span>",
+        "gmp_desc_other": "-",
+        "up_down_status": "N",
+        "gmp_active_record_flag": "1",
+        "sub2": "--",
+        "est_profit": "0",
+        "create_date": "2025-06-28T00:25:01.000Z",
+        "create_date_gmp": "Jun 28th 2025 05:55 AM",
+        "last_updated_gmp": "Jun 28th 2025 03:35 PM",
+        "last_updated": "28-Jun-2025 15:35",
+        "GMP Trend History (Table)": [
+            {
+                "GMP Date": "28-06-2025",
+                "IPO Price": "147.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹147 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "28-Jun-2025 15:35"
+            },
+            {
+                "GMP Date": "27-06-2025",
+                "IPO Price": "147.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹147 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "27-Jun-2025 23:37"
+            },
+            {
+                "GMP Date": "26-06-2025",
+                "IPO Price": "147.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹147 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "26-Jun-2025 23:33"
+            },
+            {
+                "GMP Date": "25-06-2025",
+                "IPO Price": "147.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹147 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "25-Jun-2025 23:33"
+            },
+            {
+                "GMP Date": "24-06-2025",
+                "IPO Price": "147.00",
+                "GMP": "₹0",
+                "Sub2 Sauda Rate": "--",
+                "Estimated Listing Price": "₹147 ( 0.00% )",
+                "Estimated Profit": "₹0",
+                "Last Updated": "24-Jun-2025 23:30"
+            }
+        ],
+        "Scrape Status": "Success"
+    }
+]
