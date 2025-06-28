@@ -202,28 +202,28 @@ def scrape_company_names_and_logos(base_url="https://www.investorgain.com", down
 
     return all_company_data
 
-def save_to_csv(data, filename="company_names_logos.csv"):
-    """
-    Saves company data to CSV file.
-    """
-    if not data:
-        print("No data to save.")
-        return
+# def save_to_csv(data, filename="company_names_logos.csv"):
+#     """
+#     Saves company data to CSV file.
+#     """
+#     if not data:
+#         print("No data to save.")
+#         return
 
-    fieldnames = [
-        'IPO ID', 'API Company Name', 'Scraped Company Name', 'IPO Category',
-        'Detail URL', 'Company Logo URL', 'Local Logo Path'
-    ]
+#     fieldnames = [
+#         'IPO ID', 'API Company Name', 'Scraped Company Name', 'IPO Category',
+#         'Detail URL', 'Company Logo URL', 'Local Logo Path'
+#     ]
 
-    try:
-        with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            writer.writeheader()
-            for row in data:
-                writer.writerow({k: row.get(k, '') for k in fieldnames})
-        print(f"✓ Data saved to CSV: {filename}")
-    except IOError as e:
-        print(f"✗ Error saving CSV: {e}")
+#     try:
+#         with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
+#             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+#             writer.writeheader()
+#             for row in data:
+#                 writer.writerow({k: row.get(k, '') for k in fieldnames})
+#         print(f"✓ Data saved to CSV: {filename}")
+#     except IOError as e:
+#         print(f"✗ Error saving CSV: {e}")
 
 def save_to_json(data, filename="company_names_logos.json"):
     """
@@ -272,7 +272,7 @@ if __name__ == "__main__":
     if company_data:
         # Save to both formats
         save_to_json(company_data)
-        save_to_csv(company_data)
+        # save_to_csv(company_data)
         
         # Print summary
         print_summary(company_data)
@@ -287,3 +287,4 @@ if __name__ == "__main__":
         print("No data was scraped.")
     
     print("\n=== Scraping Complete ===")
+

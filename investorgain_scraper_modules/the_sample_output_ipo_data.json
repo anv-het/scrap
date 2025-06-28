@@ -1,0 +1,463 @@
+
+
+{
+  "IPO Details": {
+    "IPO Issue Opening Date": "24th Jun 2025",
+    "IPO Issue Closing Date": "26th Jun 2025",
+    "IPO Issue Price": "₹67.00-71.00 Per Share",
+    "DRHP": "https://www.sebi.gov.in/filings/public-issues/oct-2024/globe-civil-projects-limited_87298.html",
+    "RHP": "https://www.sebi.gov.in/filings/public-issues/jun-2025/globe-civil-projects-limited-rhp_94642.html",
+    "Anchor List": "https://www.chittorgarh.net/reports/anchor-investor/gcpl-anchorallocationreport.pdf",
+    "IPO Listing At": "BSE, NSE",
+    "Retail Quota": "Not less than 35% of the Issue",
+    "IPO Issue Type": "Book Build Issue",
+    "IPO Issue Size": "₹119.00 Cr",
+    "Fresh Issue": "₹119.00 Cr",
+    "Face Value": "₹10 Per Equity Share",
+    "Promoter Holding Pre IPO": "88.14",
+    "Promoter Holding Post IPO": "63.43"
+  },
+  "IPO Important Dates": {
+    "Basis of Allotment Date": "27th Jun 2025",
+    "Refunds Initiation": "30th Jun 2025",
+    "Credit of Shares to Demat": "30th Jun 2025",
+    "IPO Listing Date": "1st Jul 2025"
+  },
+  "IPO Lots": {
+    "Issue Price": "₹67.00-71.00",
+    "Market Lot": "211 Shares",
+    "Retail Min": "₹14,981",
+    "Min Small HNI Lots(2-10 Lakh)": "2954 shares (14 lots) -₹2,09,734",
+    "Min Big HNI Lots(10+ Lakh)": "14137 shares (67 lots) -₹10,03,727"
+  },
+  "IPO GMP": [
+    {
+      "GMP Date": "24-06-2025",
+      "IPO Price": "71.00",
+      "GMP": "₹13",
+      "Sub2 Sauda Rate": "2100/29400",
+      "Estimated Listing Price": "₹84 (18.31%)",
+      "Estimated Profit*": "₹2743",
+      "Last Updated": "24-Jun-2025 21:37"
+    }
+  ],
+  "About Company": "Globe Civil Project is an integrated engineering, procurement, and construction (EPC) company. The company is engaged in infrastructure projects, like Transport and logistics projects, social and commercial projects, and non-infrastructure projects like commercial offices and housing.The company has also diversified into specialized infrastructure and non-infrastructure projects like railway bridges, airport terminal, elevated railway terminal, and railway bridges and hospitals.Additionally, the company also provides mechanical, electrical, and plumbing, architectural and structural work, etcIt is also a registered Class-1 Super contractor with the Central Public Work Department (“CPWD”), Government of India to tender for any work up to Rs 650 crore.",
+  "IPO Strengths": [
+    "Strong project management and execution capabilities.",
+    "Growing order book and higher pre-qualification credentials",
+    "Strong and consistent financial performance track record",
+    "Experienced promoters and management team."
+  ],
+  "IPO Objective": [
+    {
+      "S.No.": "1",
+      "Objects of the Issue": "Funding working capital requirements of the Company.",
+      "Expected Amount (Rs. in crores)": "75.00"
+    },
+    {
+      "S.No.": "2",
+      "Objects of the Issue": "Capital expenditure towards purchase of construction equipments/ machineries.",
+      "Expected Amount (Rs. in crores)": "14.26"
+    },
+    {
+      "S.No.": "3",
+      "Objects of the Issue": "General corporate purposes.",
+      "Expected Amount (Rs. in crores)": ""
+    }
+  ],
+  "Live Subscription Summary": {
+    "Qualified Institutional Buyers": "33,52,112.00 Shares (28.57%)",
+    "Non-Institutional Investors": "25,14,084 Shares (21.43%)",
+    "Small NII (SNII- Bid below ₹10L)": "8,38,028 Shares (7.14%)",
+    "Big NII (BNII- Bid above ₹10L)": "16,76,056 Shares (14.29%)",
+    "Retail Individual Investor": "58,66,196 Shares (50.00%)"
+  },
+  "IPO Bidding Live Updates": [
+    {
+      "Day": "",
+      "": "# of Share Offered",
+      "QIB": "33,52,112",
+      "NII": "25,14,084",
+      "SNII(Below ₹10L)": "8,38,028",
+      "BNII(Above ₹10L)": "16,76,056",
+      "RII": "58,66,196",
+      "Total": "1,17,32,392"
+    },
+    {
+      "Day": "",
+      "": "Number of Lots Offered",
+      "QIB": "15887",
+      "NII": "11915",
+      "SNII(Below ₹10L)": "3972",
+      "BNII(Above ₹10L)": "7943",
+      "RII": "27802",
+      "Total": "55604"
+    },
+    {
+      "Day": "1",
+      "": "24th Jun 2025 17:06",
+      "QIB": "8.06x",
+      "NII": "8.17x",
+      "SNII(Below ₹10L)": "8.33x",
+      "BNII(Above ₹10L)": "8.04x",
+      "RII": "5.84x",
+      "Total": "6.97x"
+    }
+  ],
+  "Company Financial Information (Restated Consolidated)": [
+    {
+      "Metric": "Assets",
+      "31 Dec 2024": "374.60",
+      "31 Mar 2024": "317.83",
+      "31 Mar 2023": "275.04",
+      "31 Mar 2022": "229.79"
+    },
+    {
+      "Metric": "Revenue",
+      "31 Dec 2024": "256.74",
+      "31 Mar 2024": "334.81",
+      "31 Mar 2023": "235.17",
+      "31 Mar 2022": "286.78"
+    },
+    {
+      "Metric": "Profit After Tax",
+      "31 Dec 2024": "17.79",
+      "31 Mar 2024": "15.38",
+      "31 Mar 2023": "4.85",
+      "31 Mar 2022": "5.20"
+    },
+    {
+      "Metric": "EBITDA",
+      "31 Dec 2024": "39.30",
+      "31 Mar 2024": "44.65",
+      "31 Mar 2023": "20.80",
+      "31 Mar 2022": "22.91"
+    },
+    {
+      "Metric": "Net Worth",
+      "31 Dec 2024": "99.83",
+      "31 Mar 2024": "77.67",
+      "31 Mar 2023": "62.44",
+      "31 Mar 2022": "57.45"
+    },
+    {
+      "Metric": "Reserves and Surplus",
+      "31 Dec 2024": "56.87",
+      "31 Mar 2024": "75.19",
+      "31 Mar 2023": "59.97",
+      "31 Mar 2022": "54.98"
+    },
+    {
+      "Metric": "Total Borrowing",
+      "31 Dec 2024": "137.97",
+      "31 Mar 2024": "124.48",
+      "31 Mar 2023": "97.00",
+      "31 Mar 2022": "70.76"
+    }
+  ],
+  "IPO Peer Comparison": [
+    {
+      "Company": "Globe Civil Projects Limited",
+      "EPS Basic": "3.58",
+      "EPS Diluted": "3.58",
+      "NAV": "18.1",
+      "P/E(x)": "",
+      "RoNW": "19.8",
+      "Financial statements": "Consolidated"
+    },
+    {
+      "Company": "B.l.kashyap And Sons Ltd.",
+      "EPS Basic": "2.33",
+      "EPS Diluted": "2.33",
+      "NAV": "22.02",
+      "P/E(x)": "29.57",
+      "RoNW": "10.58",
+      "Financial statements": "Consolidated"
+    },
+    {
+      "Company": "Ceigall India Limited",
+      "EPS Basic": "19.37",
+      "EPS Diluted": "19.37",
+      "NAV": "57.68",
+      "P/E(x)": "12.88",
+      "RoNW": "33.57",
+      "Financial statements": "Consolidated"
+    },
+    {
+      "Company": "Psp Projects Ltd",
+      "EPS Basic": "34.16",
+      "EPS Diluted": "34.16",
+      "NAV": "222.5",
+      "P/E(x)": "20.38",
+      "RoNW": "13.49",
+      "Financial statements": "Consolidated"
+    },
+    {
+      "Company": "Capacite Infraprojects Ltd",
+      "EPS Basic": "16.09",
+      "EPS Diluted": "16.09",
+      "NAV": "179.3",
+      "P/E(x)": "20.56",
+      "RoNW": "7.93",
+      "Financial statements": "Consolidated"
+    },
+    {
+      "Company": "Ahluwalia Contracts (india) Ltd.",
+      "EPS Basic": "55.95",
+      "EPS Diluted": "55.95",
+      "NAV": "238.84",
+      "P/E(x)": "16.41",
+      "RoNW": "23.43",
+      "Financial statements": "Consolidated"
+    }
+  ],
+  "Last Updated": "24-Jun-2025 21:07:03"
+}
+
+
+
+
+
+
+### 📌 **IPO Details**
+
+* **IPO Dates:**
+
+  * Opening Date: 24th June 2025
+  * Closing Date: 26th June 2025
+* **Issue Type:** Book Build Issue
+* **Price Band:** ₹67.00 – ₹71.00 per share
+* **Listing At:** BSE, NSE
+* **Face Value:** ₹10 per equity share
+* **Issue Size:** ₹119.00 Cr (Entirely Fresh Issue)
+* **Retail Quota:** Not less than 35%
+* **Promoter Holding:**
+
+  * Pre-IPO: 88.14%
+  * Post-IPO: 63.43%
+* **Official Documents:**
+
+  * [DRHP](https://www.sebi.gov.in/filings/public-issues/oct-2024/globe-civil-projects-limited_87298.html)
+  * [RHP](https://www.sebi.gov.in/filings/public-issues/jun-2025/globe-civil-projects-limited-rhp_94642.html)
+  * [GCPL Anchor Allocation Report](https://www.chittorgarh.net/reports/anchor-investor/gcpl-anchorallocationreport.pdf)
+
+
+### 📊 **IPO Important Dates**
+
+* **Basis of Allotment:** 27th June 2025
+* **Refund Initiation:** 30th June 2025
+* **Credit to Demat Account:** 30th June 2025
+* **Listing Date:** 1st July 2025
+
+---
+
+### 📦 **IPO Lot & Investment Details**
+
+* **Price Band:** ₹67.00 – ₹71.00
+* **Market Lot:** 211 Shares
+* **Minimum Retail Investment:** ₹14,981
+* **Small HNI (₹2–10 Lakh):** 2,954 shares (14 lots) – ₹2,09,734
+* **Big HNI (₹10+ Lakh):** 14,137 shares (67 lots) – ₹10,03,727
+
+---
+
+### 💹 **IPO GMP (Grey Market Premium)** *(As of 24-Jun-2025 21:37)*
+
+* **GMP:** ₹13
+* **IPO Price:** ₹71.00
+* **Estimated Listing Price:** ₹84 (18.31% gain)
+* **Estimated Profit (Retail Lot):** ₹2,743
+* **Sub2 Sauda Rate:** ₹2,100/₹29,400
+
+---
+
+### 🏗️ **About the Company**
+
+* **Name:** Globe Civil Projects Limited
+* **Business:** Integrated EPC (Engineering, Procurement, Construction) services
+* **Sectors:** Transport & logistics, commercial & social infrastructure, housing, railway/airport terminals, hospitals
+* **Other Services:** MEP (Mechanical, Electrical, Plumbing), architectural, and structural works
+* **Government Recognition:** Class-1 Super Contractor with CPWD (eligible for tenders up to ₹650 Cr)
+
+---
+
+### 💪 **IPO Strengths**
+
+* Strong project execution & management capabilities
+* Expanding order book and bidding credentials
+* Solid financial performance
+* Experienced promoter and management team
+
+---
+
+### 🎯 **IPO Objectives**
+
+1. **Working Capital Requirements:** ₹75.00 Cr
+2. **Construction Equipment Purchase:** ₹14.26 Cr
+3. **General Corporate Purposes:** (No specific amount disclosed)
+
+---
+
+### 📈 **Live Subscription Summary**
+
+* **QIB:** 33,52,112 Shares (28.57%)
+* **NII:** 25,14,084 Shares (21.43%)
+
+  * Small NII: 8,38,028 (7.14%)
+  * Big NII: 16,76,056 (14.29%)
+* **Retail Investors (RII):** 58,66,196 Shares (50.00%)
+
+---
+
+### 📊 **IPO Bidding Status (as of Day 1 – 24th Jun 2025, 17:06)**
+
+* **QIB:** 8.06x
+* **NII:** 8.17x
+
+  * Small NII: 8.33x
+  * Big NII: 8.04x
+* **Retail (RII):** 5.84x
+* **Total Subscription:** 6.97x
+
+---
+
+### 📉 **Company Financials (₹ in Crores)**
+
+#### 📅 As of:
+
+| Metric                 | 31 Dec 2024 | 31 Mar 2024 | 31 Mar 2023 | 31 Mar 2022 |
+| ---------------------- | ----------- | ----------- | ----------- | ----------- |
+| **Assets**             | 374.60      | 317.83      | 275.04      | 229.79      |
+| **Revenue**            | 256.74      | 334.81      | 235.17      | 286.78      |
+| **PAT**                | 17.79       | 15.38       | 4.85        | 5.20        |
+| **EBITDA**             | 39.30       | 44.65       | 20.80       | 22.91       |
+| **Net Worth**          | 99.83       | 77.67       | 62.44       | 57.45       |
+| **Reserves & Surplus** | 56.87       | 75.19       | 59.97       | 54.98       |
+| **Total Borrowing**    | 137.97      | 124.48      | 97.00       | 70.76       |
+
+---
+
+### 🏢 **Peer Comparison**
+
+| Company                         | EPS (₹) | NAV (₹) | P/E (x) | RoNW (%) |
+| ------------------------------- | ------- | ------- | ------- | -------- |
+| **Globe Civil Projects Ltd**    | 3.58    | 18.1    | *TBD*   | 19.8     |
+| B.L. Kashyap & Sons Ltd.        | 2.33    | 22.02   | 29.57   | 10.58    |
+| Ceigall India Ltd               | 19.37   | 57.68   | 12.88   | 33.57    |
+| PSP Projects Ltd                | 34.16   | 222.5   | 20.38   | 13.49    |
+| Capacite Infraprojects Ltd      | 16.09   | 179.3   | 20.56   | 7.93     |
+| Ahluwalia Contracts (India) Ltd | 55.95   | 238.84  | 16.41   | 23.43    |
+
+
+### 📅 **Last Updated:** 24-Jun-2025 21:07:03
+
+
+=================================================================================================================================================
+
+Here’s the same info in plain text format, without the values, suitable for a text file:
+
+---
+
+**IPO Details**
+
+* IPO Issue Opening Date
+* IPO Issue Closing Date
+* IPO Issue Price
+* DRHP Link
+* RHP Link
+* Anchor List Link
+* IPO Listing At
+* Retail Quota
+* IPO Issue Type
+* IPO Issue Size
+* Fresh Issue Amount
+* Face Value per Equity Share
+* Promoter Holding Pre IPO
+* Promoter Holding Post IPO
+
+**IPO Important Dates**
+
+* Basis of Allotment Date
+* Refunds Initiation Date
+* Credit of Shares to Demat Date
+* IPO Listing Date
+
+**IPO Lots**
+
+* Issue Price Range
+* Market Lot Size
+* Retail Minimum Investment
+* Minimum Small HNI Lots and Investment
+* Minimum Big HNI Lots and Investment
+
+**IPO GMP (Grey Market Premium)**
+
+* GMP Date
+* IPO Price
+* GMP Value
+* Sub2 Sauda Rate
+* Estimated Listing Price
+* Estimated Profit for Retail Investors
+* Last Updated Time
+
+**About Company**
+
+* Nature of Business
+* Types of Infrastructure and Non-Infrastructure Projects
+* Additional Services Provided
+* Government Registration and Tender Eligibility
+
+**IPO Strengths**
+
+* Strong project management and execution capabilities
+* Growing order book and pre-qualification credentials
+* Strong and consistent financial performance track record
+* Experienced promoters and management team
+
+**IPO Objectives**
+
+1. Funding working capital requirements
+2. Capital expenditure for construction equipment and machinery
+3. General corporate purposes
+
+**Live Subscription Summary**
+
+* Shares applied by Qualified Institutional Buyers (QIB)
+* Shares applied by Non-Institutional Investors (NII)
+* Shares applied by Small Non-Institutional Investors (SNII)
+* Shares applied by Big Non-Institutional Investors (BNII)
+* Shares applied by Retail Individual Investors (RII)
+
+**IPO Bidding Live Updates**
+
+* Number of Shares Offered in QIB, NII, SNII, BNII, and RII categories
+* Number of Lots Offered in each category
+* Day 1 Subscription Multiples for QIB, NII, SNII, BNII, RII, and Total
+
+**Company Financial Information (Restated Consolidated)**
+
+* Assets over last few years
+* Revenue over last few years
+* Profit After Tax (PAT) over last few years
+* EBITDA over last few years
+* Net Worth over last few years
+* Reserves and Surplus over last few years
+* Total Borrowing over last few years
+
+**IPO Peer Comparison**
+
+* Companies for comparison
+* Basic and Diluted EPS
+* Net Asset Value (NAV)
+* Price to Earnings Ratio (P/E)
+* Return on Net Worth (RoNW)
+* Financial Statement Type
+
+---
+
+
+
+
+
+
+
