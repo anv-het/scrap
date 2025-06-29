@@ -54,8 +54,8 @@ def fetch_ipo_details(ipo):
         ipo_id = ipo['id']
         slug = ipo['urlrewrite_folder_name']
         company_name = ipo['company_short_name']
-        detail_url = f"https://www.investorgain.com/ipo/{slug}-ipo/{ipo_id}/"
-
+        detail_url = f"https://www.investorgain.com/ipo/{slug}/{ipo_id}/"
+        print(f"🔍 Scraping details for: {company_name} ({detail_url})")
         res = safe_request(detail_url)
         soup = BeautifulSoup(res.text, 'html.parser')
 
