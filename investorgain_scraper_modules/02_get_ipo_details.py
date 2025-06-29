@@ -426,14 +426,14 @@ def scrape_full_ipo_details_from_pages(base_url="https://www.investorgain.com"):
             
             # --- Extract data from detail page ---
             # important_dates_scraped = extract_ipo_important_dates(soup)
-            # company_about_details_scraped = extract_company_about(soup)
-            ipo_other_details_scraped = extract_ipo_other_details(soup) # NEW: Scrape other IPO details
+            company_about_details_scraped = extract_company_about(soup)
+            # ipo_other_details_scraped = extract_ipo_other_details(soup) # NEW: Scrape other IPO details
             # summary_block_details_scraped = extract_summary_block_details(soup) # Scrape summary block details
             
             # --- Update combined data with scraped values ---
             # current_ipo_data.update(important_dates_scraped)
-            # current_ipo_data.update(company_about_details_scraped)
-            current_ipo_data.update(ipo_other_details_scraped) # Add new other IPO details
+            current_ipo_data.update(company_about_details_scraped)
+            # current_ipo_data.update(ipo_other_details_scraped) # Add new other IPO details
             # current_ipo_data.update(summary_block_details_scraped) # Add new summary block details
 
             # --- Add parsed date status for key dates ---
