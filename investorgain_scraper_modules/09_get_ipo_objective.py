@@ -24,6 +24,16 @@ def safe_request(url):
     proxy = {"http": random.choice(proxies_list), "https": random.choice(proxies_list)} if USE_PROXIES else None
     return requests.get(url, headers=headers, timeout=10, proxies=proxy)
 
+def fetch_ipo_list():
+    try:
+        res = safe_request(ipo_list_api)
+        data = res.json()
+        return data.get("ipoList", [])
+    except Exception as e:
+        print(f"❌ Failed to fetch IPO list: {str(e)}")
+        return []
+
+
 def extract_ipo_objectives(soup):
     objectives = []
     try:
@@ -105,7 +115,12 @@ def fetch_ipo_details(ipo):
 def scrape_all_ipo_data():
     print("📡 Fetching IPO list...")
     resp = requests.get(ipo_list_api, headers=headers)
-    ipo_data = resp.json().get('ipoList', [])
+    # ipo_data = resp.json().get('ipoList', [])
+    ipo_data = fetch_ipo_list()
+    if not ipo_data:
+        print("⚠️ No IPO data retrieved. Exiting.")
+        return {}
+
 
     results = {}
     print(f"🔍 Found {len(ipo_data)} IPOs. Scraping each...")
