@@ -111,47 +111,6 @@ def extract_company_about(soup):
         'About Company Text': about_company_text
     }
 
-def extract_ipo_important_dates(soup):
-    """
-    Extracts IPO Important Dates from the IPO detail page by targeting
-    <strong> tags with core date labels (like "Opening Date") and then getting their next sibling <td>.
-    This version processes the strong tag's full text content for matching, which handles
-    cases like "SME IPO Issue Opening Date:" or "IPO Issue Opening Date:".
-    """
-    dates_data = {}
-    
-    # Define patterns for the core date labels.
-    date_field_patterns = {
-        "IPO Open Date": re.compile(r'Opening Date', re.IGNORECASE),
-        "IPO Close Date": re.compile(r'Closing Date', re.IGNORECASE),
-        "Basis of Allotment": re.compile(r'Basis of Allotment Date', re.IGNORECASE),
-        "Initiation of Refunds": re.compile(r'Refunds Initiation', re.IGNORECASE),
-        "Credit of Shares to Demat": re.compile(r'Credit of Shares to Demat', re.IGNORECASE),
-        "Listing Date": re.compile(r'Listing Date', re.IGNORECASE), 
-    }
-
-    all_strong_tags = soup.find_all('strong')
-
-    for output_key, pattern in date_field_patterns.items():
-        found = False
-        for strong_tag in all_strong_tags:
-            strong_text = clean_text(strong_tag.get_text())
-            
-            if pattern.search(strong_text):
-                target_td = strong_tag.find_parent('td')
-                if target_td:
-                    value_td = target_td.find_next_sibling('td')
-                    if value_td:
-                        value = clean_text(value_td.get_text(strip=True))
-                        dates_data[output_key] = value
-                        found = True
-                        break # Break from inner loop once found for this key
-        
-    for key in date_field_patterns.keys():
-        if key not in dates_data:
-            dates_data[key] = 'N/A'
-    
-    return dates_data
 
 def extract_ipo_other_details(soup):
     """

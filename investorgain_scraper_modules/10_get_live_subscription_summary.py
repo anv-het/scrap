@@ -2,6 +2,103 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import re
+import zlib
+import brotli
+
+def clean_text(text):
+    """
+    Cleans extracted text by removing extra spaces, newlines, non-breaking spaces,
+    and common symbols like Rupee sign, commas, and percentage/ratio indicators.
+    """
+    if text:
+        text = text.replace('\xa0', ' ').replace('\n', ' ').strip()
+        text = re.sub(r'\s+', ' ', text) # Replace multiple spaces with a single space
+        text = text.replace('&#8377;', '').replace('₹', '').replace(',', '').replace('x', '').replace('%', '')
+    return text
+
+def convert_to_int(value):
+    """Converts a cleaned string to an integer, returning None if conversion fails."""
+    try:
+        # Convert to float first to handle cases like "1.00" shares
+        return int(float(value)) if value is not None and value.strip() else None
+    except (ValueError, TypeError):
+        return None
+
+def convert_to_float(value):
+    """Converts a cleaned string to a float, returning None if conversion fails."""
+    try:
+        return float(value) if value is not None and value.strip() else None
+    except (ValueError, TypeError):
+        return None
+
+# ( ... keep fetch_ipo_list_from_api and fetch_ipo_subscription_data unchanged ... )
+
+# --- REFINING ONLY THIS FUNCTION ---
+def parse_ipo_share_allocation(html_string):
+    """
+    Parses the 'listItemsHTML' to extract IPO Share Allocation data.
+    Handles various formats of category names and ensures robust data extraction.
+    """
+    allocation_data = []
+    if not html_string:
+        return allocation_data
+
+    soup = BeautifulSoup(html_string, 'html.parser')
+    list_items = soup.find_all('li')
+
+    # Regex to capture different category name formats
+    # Group 1: Category Name (e.g., "Qualified Institutional Buyers", "Small NII (SNII- Bid below ₹10L)")
+    # Group 2: Shares allocated (e.g., "1,31,09,755.00 Shares")
+    # Group 3: Percentage (e.g., "28.37")
+    # This regex is more permissive for the category name to handle nested parentheses.
+    # It aims to capture everything before the colon as the category.
+    # The shares part captures digits, commas, periods, and optional " Shares".
+    # The percentage part captures digits and periods.
+    
+    # Updated regex for more robust matching of category names and values
+    allocation_regex = re.compile(
+        r'(.+?):\s*([\d,\.]+\s*Shares?)\s*\(([\d\.]+)%\)'
+    )
+
+    for item in list_items:
+        text = item.get_text().strip() # Get raw text, then clean after matching
+        
+        match = allocation_regex.search(text)
+        if match:
+            raw_category = match.group(1).strip()
+            raw_shares = match.group(2).strip()
+            raw_percentage = match.group(3).strip()
+
+            category = clean_text(raw_category)
+            shares_allocated = convert_to_int(clean_text(raw_shares.replace(' Shares', '')))
+            allocation_pct = convert_to_float(clean_text(raw_percentage))
+            
+            allocation_data.append({
+                "category": category,
+                "shares_allocated": shares_allocated,
+                "allocation_pct": allocation_pct
+            })
+        else:
+            print(f"  Warning: Could not parse list item for share allocation (regex mismatch): '{text}'") # Log unparsed items for debugging
+            # If a list item doesn't match the regex, include its raw text for inspection
+            allocation_data.append({
+                "category": clean_text(text),
+                "shares_allocated": None,
+                "allocation_pct": None,
+                "parsing_error": True
+            })
+
+    return allocation_data
+
+# ( ... keep parse_ipo_bidding_data_json, parse_ipo_daywise_subscription_table,
+#        parse_ipo_shares_bid_amount_table, save_to_json, and __main__ block unchanged ... )
+
+# The complete script would look like this (replace existing functions):
+
+import requests
+from bs4 import BeautifulSoup
+import json
+import re
 import zlib # For gzip decompression
 import brotli # For brotli decompression (install with: pip install brotli)
 
@@ -19,14 +116,15 @@ def clean_text(text):
 def convert_to_int(value):
     """Converts a cleaned string to an integer, returning None if conversion fails."""
     try:
-        return int(float(value)) # Convert to float first to handle decimals before int
+        # Convert to float first to handle cases like "1.00" shares
+        return int(float(value)) if value is not None and value.strip() else None
     except (ValueError, TypeError):
         return None
 
 def convert_to_float(value):
     """Converts a cleaned string to a float, returning None if conversion fails."""
     try:
-        return float(value)
+        return float(value) if value is not None and value.strip() else None
     except (ValueError, TypeError):
         return None
 
@@ -222,9 +320,11 @@ def parse_ipo_bidding_data_json(bidding_data_array):
         parsed_data.append(parsed_entry)
     return parsed_data
 
+# --- MODIFIED parse_ipo_share_allocation FUNCTION ---
 def parse_ipo_share_allocation(html_string):
     """
     Parses the 'listItemsHTML' to extract IPO Share Allocation data.
+    Handles various formats of category names and ensures robust data extraction.
     """
     allocation_data = []
     if not html_string:
@@ -233,14 +333,28 @@ def parse_ipo_share_allocation(html_string):
     soup = BeautifulSoup(html_string, 'html.parser')
     list_items = soup.find_all('li')
 
+    # Regex to capture different category name formats
+    # Group 1: Category Name (e.g., "Qualified Institutional Buyers", "Small NII (SNII- Bid below ₹10L)")
+    # Group 2: Shares allocated (e.g., "1,31,09,755.00 Shares")
+    # Group 3: Percentage (e.g., "28.37")
+    
+    # This regex is designed to be flexible for the category name and optional 'Shares' word.
+    allocation_regex = re.compile(
+        r'(.+?):\s*([\d,\.]+\s*(?:Shares)?)\s*\(([\d\.]+)\%\)'
+    )
+
     for item in list_items:
-        text = clean_text(item.get_text())
-        # Example: "Qualified Institutional Buyers: 37,65,767.00 Shares (29.48%)"
-        match = re.match(r'(.+?):\s*([\d\.,]+(?: Shares)?)\s*\(([\d\.]+)%\)', text)
+        text = item.get_text().strip() # Get raw text for regex matching
+
+        match = allocation_regex.search(text)
         if match:
-            category = clean_text(match.group(1)).replace(':', '') # Remove trailing colon from category
-            shares_allocated = convert_to_int(clean_text(match.group(2).replace(' Shares', '')))
-            allocation_pct = convert_to_float(clean_text(match.group(3)))
+            raw_category = match.group(1).strip()
+            raw_shares = match.group(2).strip()
+            raw_percentage = match.group(3).strip()
+
+            category = clean_text(raw_category)
+            shares_allocated = convert_to_int(clean_text(raw_shares.replace(' Shares', '')))
+            allocation_pct = convert_to_float(clean_text(raw_percentage))
             
             allocation_data.append({
                 "category": category,
@@ -248,21 +362,17 @@ def parse_ipo_share_allocation(html_string):
                 "allocation_pct": allocation_pct
             })
         else:
-            # Handle cases like Small NII/Big NII which might have extra text
-            match_nii = re.match(r'(.+?)\s*\((.+?)\):\s*([\d\.,]+(?: Shares)?)\s*\(([\d\.]+)%\)', text)
-            if match_nii:
-                category = clean_text(f"{match_nii.group(1)} ({match_nii.group(2)})")
-                shares_allocated = convert_to_int(clean_text(match_nii.group(3).replace(' Shares', '')))
-                allocation_pct = convert_to_float(clean_text(match_nii.group(4)))
-                allocation_data.append({
-                    "category": category,
-                    "shares_allocated": shares_allocated,
-                    "allocation_pct": allocation_pct
-                })
-            else:
-                # print(f"  Warning: Could not parse list item for share allocation: {text[:100]}") # Debug unparsed items
-                pass
+            print(f"  Warning: Could not parse list item for share allocation (regex mismatch): '{text}'")
+            # If a list item doesn't match, include its raw text for inspection
+            allocation_data.append({
+                "category": clean_text(text),
+                "shares_allocated": None,
+                "allocation_pct": None,
+                "parsing_error": True # Flag this entry for review
+            })
+
     return allocation_data
+
 
 def parse_ipo_daywise_subscription_table(html_table_string):
     """
@@ -274,47 +384,44 @@ def parse_ipo_daywise_subscription_table(html_table_string):
 
     soup = BeautifulSoup(html_table_string, 'html.parser')
     # Find the table by its caption or a unique th/class if needed
-    # Assuming the first table or the one with "IPO Bidding Live Updates" caption
     table = soup.find('table', caption="IPO Bidding Live Updates from BSE, NSE")
     if not table:
         table = soup.find('table', class_='table-striped') # Fallback if caption not found
         if not table:
-            # print("  ✗ IPO Day-wise Subscription table not found or malformed in sResultIPOBidding.")
             return daywise_data
 
     headers = [clean_text(th.get_text()) for th in table.find('thead').find_all('th')]
     
-    # Map headers to desired output keys
     header_mapping = {
         'Day': 'day_number',
-        'Bid Date': 'date_time', # Adjust if actual header is slightly different
+        'Bid Date': 'date_time', 
         'QIB': 'qib_ratio',
         'NII': 'nii_ratio',
-        'SNII (Below ₹10L)': 'snii_ratio', # Match based on actual header
-        'SNII': 'snii_ratio', # Fallback
-        'BNII (Above ₹10L)': 'bnii_ratio', # Match based on actual header
-        'BNII': 'bnii_ratio', # Fallback
+        'SNII (Below ₹10L)': 'snii_ratio',
+        'SNII': 'snii_ratio',
+        'BNII (Above ₹10L)': 'bnii_ratio',
+        'BNII': 'bnii_ratio',
         'RII': 'rii_ratio',
-        'Retail': 'rii_ratio', # common alternative
+        'Retail': 'rii_ratio',
         'Total': 'total_ratio'
     }
 
-    # Create an ordered list of output keys based on the table headers
     output_keys = []
     for h in headers:
+        found_match = False
         for mapped_h, out_key in header_mapping.items():
-            if mapped_h in h: # Check if mapped_h is part of the actual header
+            if mapped_h in h:
                 output_keys.append(out_key)
+                found_match = True
                 break
-        else:
-            output_keys.append(clean_text(h).lower().replace(' ', '_')) # Default to cleaned header if no specific mapping
+        if not found_match:
+            output_keys.append(clean_text(h).lower().replace(' ', '_'))
 
     body_rows = table.find('tbody').find_all('tr')
     for row in body_rows:
         row_data = {}
         cells = row.find_all('td')
         if len(cells) < len(output_keys):
-            # print(f"  Warning: Skipping Day-wise row due to column count mismatch: {clean_text(row.get_text())[:100]}")
             continue
 
         for i, cell in enumerate(cells):
@@ -322,7 +429,6 @@ def parse_ipo_daywise_subscription_table(html_table_string):
                 key = output_keys[i]
                 value = clean_text(cell.get_text())
                 
-                # Apply type conversions
                 if key == 'day_number':
                     row_data[key] = convert_to_int(value)
                 elif '_ratio' in key:
@@ -344,9 +450,6 @@ def parse_ipo_shares_bid_amount_table(html_table_string):
 
     soup = BeautifulSoup(html_table_string, 'html.parser')
     
-    # This table typically doesn't have a caption, so we'll look for specific headers.
-    # It usually has 'Category', 'Shares Offered', 'Shares Bid', 'Amount (Cr)'
-    # We need to find the table that contains these specific headers.
     target_table = None
     all_tables = soup.find_all('table')
     for table in all_tables:
@@ -356,7 +459,6 @@ def parse_ipo_shares_bid_amount_table(html_table_string):
             break
 
     if not target_table:
-        # print("  ✗ IPO Shares Bid Amount table not found or malformed in sResultIPOBidding.")
         return bid_amount_data
 
     headers = [clean_text(th.get_text()) for th in target_table.find('thead').find_all('th')]
@@ -365,17 +467,19 @@ def parse_ipo_shares_bid_amount_table(html_table_string):
         'Category': 'category',
         'Shares Offered': 'shares_offered',
         'Shares Bid': 'shares_bid',
-        'Amount (Cr.)': 'bid_amount_cr', # Adjust based on exact header
-        'Amount (Cr)': 'bid_amount_cr' # Common alternative
+        'Amount (Cr.)': 'bid_amount_cr',
+        'Amount (Cr)': 'bid_amount_cr'
     }
 
     output_keys = []
     for h in headers:
+        found_match = False
         for mapped_h, out_key in header_mapping.items():
-            if mapped_h in h: # Check if mapped_h is part of the actual header
+            if mapped_h in h:
                 output_keys.append(out_key)
+                found_match = True
                 break
-        else:
+        if not found_match:
             output_keys.append(clean_text(h).lower().replace(' ', '_'))
 
     body_rows = target_table.find('tbody').find_all('tr')
@@ -383,7 +487,6 @@ def parse_ipo_shares_bid_amount_table(html_table_string):
         row_data = {}
         cells = row.find_all('td')
         if len(cells) < len(output_keys):
-            # print(f"  Warning: Skipping Shares Bid Amount row due to column count mismatch: {clean_text(row.get_text())[:100]}")
             continue
 
         for i, cell in enumerate(cells):
@@ -446,23 +549,19 @@ if __name__ == "__main__":
             }
 
             if subscription_api_response and subscription_api_response.get('data'):
-                # Extract all fields from ipoBiddingData array
                 combined_subscription_info["IPO Bidding History (JSON)"] = parse_ipo_bidding_data_json(
                     subscription_api_response['data'].get("ipoBiddingData", [])
                 )
 
-                # Extract top-level metadata
                 data_section = subscription_api_response['data']
                 combined_subscription_info["metaTitle"] = clean_text(data_section.get("metaTitle", "N/A"))
                 combined_subscription_info["pageTitle"] = clean_text(data_section.get("pageTitle", "N/A"))
                 combined_subscription_info["metaDesc"] = clean_text(data_section.get("metaDesc", "N/A"))
                 
-                # These are at the root, not inside 'data'
                 combined_subscription_info["cacheKey"] = clean_text(subscription_api_response.get("cacheKey", "N/A"))
                 combined_subscription_info["currentTime"] = clean_text(subscription_api_response.get("currentTime", "N/A"))
 
 
-                # Parse HTML content
                 html_list_items = data_section.get("listItemsHTML", "")
                 combined_subscription_info["IPO Share Allocation"] = parse_ipo_share_allocation(html_list_items)
 
@@ -472,7 +571,6 @@ if __name__ == "__main__":
 
                 combined_subscription_info["Scrape Status"] = "Success"
 
-                # Optional: Verify tsb_ipo_id from IPO Bidding Data matches IPO ID
                 if combined_subscription_info["IPO Bidding History (JSON)"]:
                     bidding_ipo_id = combined_subscription_info["IPO Bidding History (JSON)"][0].get("tsb_ipo_id")
                     if bidding_ipo_id != None and str(bidding_ipo_id) != str(ipo_id):

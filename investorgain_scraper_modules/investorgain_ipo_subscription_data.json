@@ -7,7 +7,7 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1310",
-        "currentTime": "2025-06-28 16:30:16",
+        "currentTime": "2025-06-29 09:56:07",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
         "IPO Shares Bid Amount (Table)": [],
@@ -21,7 +21,7 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1308",
-        "currentTime": "2025-06-28 16:23:04",
+        "currentTime": "2025-06-29 09:55:27",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
         "IPO Shares Bid Amount (Table)": [],
@@ -124,8 +124,34 @@
         "pageTitle": "Indogulf Cropsciences Live Subscription",
         "metaDesc": "Indogulf Cropsciences Mainline Live Subscription. Total: 0.42 times as of 26th Jun 2025 17:07.",
         "cacheKey": "ig_iposubscription_bidding:1299",
-        "currentTime": "2025-06-28 16:30:43",
-        "IPO Share Allocation": [],
+        "currentTime": "2025-06-29 10:02:14",
+        "IPO Share Allocation": [
+            {
+                "category": "Qualified Institutional Buyers",
+                "shares_allocated": 3765767,
+                "allocation_pct": 29.48
+            },
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 2702703,
+                "allocation_pct": 21.16
+            },
+            {
+                "category": "Small NII (SNII- Bid below 10L)",
+                "shares_allocated": 900901,
+                "allocation_pct": 7.05
+            },
+            {
+                "category": "Big NII (BNII- Bid above 10L)",
+                "shares_allocated": 1801802,
+                "allocation_pct": 14.1
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 6306306,
+                "allocation_pct": 49.37
+            }
+        ],
         "IPO Daywise Subscription (Table)": [
             {
                 "day_number": null,
@@ -304,8 +330,39 @@
         "pageTitle": "Sambhv Steel Tubes Live Subscription",
         "metaDesc": "Sambhv Steel Tubes Mainline Live Subscription. Total: 0.41 times as of 25th Jun 2025 17:06.",
         "cacheKey": "ig_iposubscription_bidding:1279",
-        "currentTime": "2025-06-28 16:30:29",
-        "IPO Share Allocation": [],
+        "currentTime": "2025-06-29 10:06:40",
+        "IPO Share Allocation": [
+            {
+                "category": "Qualified Institutional Buyers",
+                "shares_allocated": 13109755,
+                "allocation_pct": 28.37
+            },
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 9832917,
+                "allocation_pct": 21.28
+            },
+            {
+                "category": "Small NII (SNII- Bid below 10L)",
+                "shares_allocated": 3277439,
+                "allocation_pct": 7.09
+            },
+            {
+                "category": "Big NII (BNII- Bid above 10L)",
+                "shares_allocated": 6554878,
+                "allocation_pct": 14.19
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 22942073,
+                "allocation_pct": 49.65
+            },
+            {
+                "category": "Employees Quota",
+                "shares_allocated": 320513,
+                "allocation_pct": 0.69
+            }
+        ],
         "IPO Daywise Subscription (Table)": [
             {
                 "day_number": null,
@@ -497,8 +554,44 @@
         "pageTitle": "HDB Financial Live Subscription",
         "metaDesc": "HDB Financial Mainline Live Subscription. Total: 0.40 times as of 25th Jun 2025 17:06.",
         "cacheKey": "ig_iposubscription_bidding:1276",
-        "currentTime": "2025-06-28 16:37:23",
-        "IPO Share Allocation": [],
+        "currentTime": "2025-06-29 10:01:27",
+        "IPO Share Allocation": [
+            {
+                "category": "Qualified Institutional Buyers",
+                "shares_allocated": 30351352,
+                "allocation_pct": 24.6
+            },
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 22763514,
+                "allocation_pct": 18.45
+            },
+            {
+                "category": "Small NII (SNII- Bid below 10L)",
+                "shares_allocated": 7587838,
+                "allocation_pct": 6.15
+            },
+            {
+                "category": "Big NII (BNII- Bid above 10L)",
+                "shares_allocated": 15175676,
+                "allocation_pct": 12.3
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 53114865,
+                "allocation_pct": 43.05
+            },
+            {
+                "category": "Employees Quota",
+                "shares_allocated": 270270,
+                "allocation_pct": 0.22
+            },
+            {
+                "category": "Shareholders and Other Quota",
+                "shares_allocated": 16891892,
+                "allocation_pct": 13.69
+            }
+        ],
         "IPO Daywise Subscription (Table)": [
             {
                 "day_number": null,
@@ -695,8 +788,34 @@
         "pageTitle": "Globe Civil Projects Live Subscription",
         "metaDesc": "Globe Civil Projects Mainline Live Subscription. Total: 6.97 times as of 24th Jun 2025 17:06.",
         "cacheKey": "ig_iposubscription_bidding:1280",
-        "currentTime": "2025-06-28 16:33:43",
-        "IPO Share Allocation": [],
+        "currentTime": "2025-06-29 10:03:47",
+        "IPO Share Allocation": [
+            {
+                "category": "Qualified Institutional Buyers",
+                "shares_allocated": 3352112,
+                "allocation_pct": 28.57
+            },
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 2514084,
+                "allocation_pct": 21.43
+            },
+            {
+                "category": "Small NII (SNII- Bid below 10L)",
+                "shares_allocated": 838028,
+                "allocation_pct": 7.14
+            },
+            {
+                "category": "Big NII (BNII- Bid above 10L)",
+                "shares_allocated": 1676056,
+                "allocation_pct": 14.29
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 5866196,
+                "allocation_pct": 50.0
+            }
+        ],
         "IPO Daywise Subscription (Table)": [
             {
                 "day_number": null,
@@ -883,8 +1002,34 @@
         "pageTitle": "Ellenbarrie Industrial Gases Live Subscription",
         "metaDesc": "Ellenbarrie Industrial Gases Mainline Live Subscription. Total: 0.08 times as of 24th Jun 2025 17:06.",
         "cacheKey": "ig_iposubscription_bidding:1278",
-        "currentTime": "2025-06-28 16:29:06",
-        "IPO Share Allocation": [],
+        "currentTime": "2025-06-29 10:03:30",
+        "IPO Share Allocation": [
+            {
+                "category": "Qualified Institutional Buyers",
+                "shares_allocated": 4262627,
+                "allocation_pct": 28.57
+            },
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 3196970,
+                "allocation_pct": 21.43
+            },
+            {
+                "category": "Small NII (SNII- Bid below 10L)",
+                "shares_allocated": 1065657,
+                "allocation_pct": 7.14
+            },
+            {
+                "category": "Big NII (BNII- Bid above 10L)",
+                "shares_allocated": 2131313,
+                "allocation_pct": 14.29
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 7459596,
+                "allocation_pct": 50.0
+            }
+        ],
         "IPO Daywise Subscription (Table)": [
             {
                 "day_number": null,
@@ -1071,8 +1216,39 @@
         "pageTitle": "Kalpataru Live Subscription",
         "metaDesc": "Kalpataru Mainline Live Subscription. Total: 0.10 times as of 24th Jun 2025 17:06.",
         "cacheKey": "ig_iposubscription_bidding:1277",
-        "currentTime": "2025-06-28 16:37:53",
-        "IPO Share Allocation": [],
+        "currentTime": "2025-06-29 09:53:53",
+        "IPO Share Allocation": [
+            {
+                "category": "Qualified Institutional Buyers",
+                "shares_allocated": 11406521,
+                "allocation_pct": 53.46
+            },
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 5703261,
+                "allocation_pct": 26.73
+            },
+            {
+                "category": "Small NII (SNII- Bid below 10L)",
+                "shares_allocated": 1901087,
+                "allocation_pct": 8.91
+            },
+            {
+                "category": "Big NII (BNII- Bid above 10L)",
+                "shares_allocated": 3802174,
+                "allocation_pct": 17.82
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 3802174,
+                "allocation_pct": 17.82
+            },
+            {
+                "category": "Employees Quota",
+                "shares_allocated": 422872,
+                "allocation_pct": 1.98
+            }
+        ],
         "IPO Daywise Subscription (Table)": [
             {
                 "day_number": null,
@@ -1124,194 +1300,6 @@
         "Scrape Status": "Success"
     },
     {
-        "IPO ID (from List API)": 1275,
-        "Company Name (from List API)": "Arisinfra Solutions",
-        "IPO Bidding History (JSON)": [
-            {
-                "Seq": 1,
-                "id (Subscription Data)": 7605,
-                "tsb_ipo_id": 1275,
-                "cor_id": 1971,
-                "bid_date": "18th Jun 2025 17:06",
-                "qib_offered": 6751297,
-                "nii_offered": 3375649,
-                "nii_offered_big": 2250432,
-                "nii_offered_small": 1125216,
-                "rii_offered": 2250432,
-                "emp_offered": 0,
-                "other_offered": 0,
-                "total_offered": 12377378,
-                "qib_shares_bid_for": 10988,
-                "nii_shares_bid_for": 690636,
-                "nii_shares_bid_for_big": 328769,
-                "nii_shares_bid_for_small": 347261,
-                "rii_shares_bid_for": 2478933,
-                "emp_shares_bid_for": 0,
-                "other_shares_bid_for": 0,
-                "total_shares_bid_for": 3180557,
-                "qib_bid_amt": 0.24,
-                "nii_bid_amt": 15.33,
-                "nii_bid_amt_big": 7.3,
-                "nii_bid_amt_small": 7.71,
-                "rii_bid_amt": 55.03,
-                "emp_bid_amt": 0.0,
-                "other_bid_amt": 0.0,
-                "total_bid_amt": 70.61,
-                "qib": 0.0,
-                "nii": 0.2,
-                "nii_big": 0.15,
-                "nii_small": 0.31,
-                "rii": 1.1,
-                "emp": 0.0,
-                "other": 0.0,
-                "total": 0.26,
-                "cor_date_added": "2025-06-18T17:05:04.000Z",
-                "create_date": "2025-06-18T17:10:01.000Z",
-                "ipo_category_desc": "IPO",
-                "listing_at": "BSE NSE",
-                "company_short_name": "Arisinfra Solutions"
-            },
-            {
-                "Seq": 2,
-                "id (Subscription Data)": 7608,
-                "tsb_ipo_id": 1275,
-                "cor_id": 1971,
-                "bid_date": "19th Jun 2025 17:06",
-                "qib_offered": 6751297,
-                "nii_offered": 3375649,
-                "nii_offered_big": 2250432,
-                "nii_offered_small": 1125216,
-                "rii_offered": 2250432,
-                "emp_offered": 0,
-                "other_offered": 0,
-                "total_offered": 12377378,
-                "qib_shares_bid_for": 5226067,
-                "nii_shares_bid_for": 4947816,
-                "nii_shares_bid_for_big": 2954097,
-                "nii_shares_bid_for_small": 1854426,
-                "rii_shares_bid_for": 7132619,
-                "emp_shares_bid_for": 0,
-                "other_shares_bid_for": 0,
-                "total_shares_bid_for": 17306502,
-                "qib_bid_amt": 116.02,
-                "nii_bid_amt": 109.84,
-                "nii_bid_amt_big": 65.58,
-                "nii_bid_amt_small": 41.17,
-                "rii_bid_amt": 158.34,
-                "emp_bid_amt": 0.0,
-                "other_bid_amt": 0.0,
-                "total_bid_amt": 384.2,
-                "qib": 0.77,
-                "nii": 1.47,
-                "nii_big": 1.31,
-                "nii_small": 1.65,
-                "rii": 3.17,
-                "emp": 0.0,
-                "other": 0.0,
-                "total": 1.4,
-                "cor_date_added": "2025-06-19T17:05:04.000Z",
-                "create_date": "2025-06-19T17:10:01.000Z",
-                "ipo_category_desc": "N/A",
-                "listing_at": "N/A",
-                "company_short_name": "N/A"
-            },
-            {
-                "Seq": 3,
-                "id (Subscription Data)": 7613,
-                "tsb_ipo_id": 1275,
-                "cor_id": 1971,
-                "bid_date": "20th Jun 2025 17:06",
-                "qib_offered": 6751297,
-                "nii_offered": 3375649,
-                "nii_offered_big": 2250432,
-                "nii_offered_small": 1125216,
-                "rii_offered": 2250432,
-                "emp_offered": 0,
-                "other_offered": 0,
-                "total_offered": 12377378,
-                "qib_shares_bid_for": 10151237,
-                "nii_shares_bid_for": 11220490,
-                "nii_shares_bid_for_big": 6709648,
-                "nii_shares_bid_for_small": 4056917,
-                "rii_shares_bid_for": 13273035,
-                "emp_shares_bid_for": 0,
-                "other_shares_bid_for": 0,
-                "total_shares_bid_for": 34644762,
-                "qib_bid_amt": 225.36,
-                "nii_bid_amt": 249.09,
-                "nii_bid_amt_big": 148.95,
-                "nii_bid_amt_small": 90.06,
-                "rii_bid_amt": 294.66,
-                "emp_bid_amt": 0.0,
-                "other_bid_amt": 0.0,
-                "total_bid_amt": 769.11,
-                "qib": 1.5,
-                "nii": 3.32,
-                "nii_big": 2.98,
-                "nii_small": 3.61,
-                "rii": 5.9,
-                "emp": 0.0,
-                "other": 0.0,
-                "total": 2.8,
-                "cor_date_added": "2025-06-20T17:05:04.000Z",
-                "create_date": "2025-06-20T17:10:01.000Z",
-                "ipo_category_desc": "N/A",
-                "listing_at": "N/A",
-                "company_short_name": "N/A"
-            }
-        ],
-        "metaTitle": "Arisinfra Solutions Mainline Live Subscription. Total: 0.26 times.",
-        "pageTitle": "Arisinfra Solutions Live Subscription",
-        "metaDesc": "Arisinfra Solutions Mainline Live Subscription. Total: 0.26 times as of 18th Jun 2025 17:06.",
-        "cacheKey": "ig_iposubscription_bidding:1275",
-        "currentTime": "2025-06-28 16:37:53",
-        "IPO Share Allocation": [],
-        "IPO Daywise Subscription (Table)": [
-            {
-                "day_number": null,
-                "": "# of Share Offered",
-                "qib_ratio": 6751297.0,
-                "nii_ratio": 2250432.0,
-                "rii_ratio": 2250432.0,
-                "total_ratio": 12377378.0
-            },
-            {
-                "day_number": null,
-                "": "Number of Lots Offered",
-                "qib_ratio": 100766.0,
-                "nii_ratio": 33589.0,
-                "rii_ratio": 33589.0,
-                "total_ratio": 184737.0
-            },
-            {
-                "day_number": 1,
-                "": "18th Jun 2025 17:06",
-                "qib_ratio": 0.0,
-                "nii_ratio": 0.15,
-                "rii_ratio": 1.1,
-                "total_ratio": 0.26
-            },
-            {
-                "day_number": 2,
-                "": "19th Jun 2025 17:06",
-                "qib_ratio": 0.77,
-                "nii_ratio": 1.31,
-                "rii_ratio": 3.17,
-                "total_ratio": 1.4
-            },
-            {
-                "day_number": 3,
-                "": "20th Jun 2025 17:06",
-                "qib_ratio": 1.5,
-                "nii_ratio": 2.98,
-                "rii_ratio": 5.9,
-                "total_ratio": 2.8
-            }
-        ],
-        "IPO Shares Bid Amount (Table)": [],
-        "Scrape Status": "Success"
-    },
-    {
         "IPO ID (from List API)": 1311,
         "Company Name (from List API)": "Cryogenic OGS",
         "IPO Bidding History (JSON)": [],
@@ -1319,7 +1307,7 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1311",
-        "currentTime": "2025-06-28 16:37:54",
+        "currentTime": "2025-06-29 10:05:51",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
         "IPO Shares Bid Amount (Table)": [],
@@ -1333,7 +1321,7 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1307",
-        "currentTime": "2025-06-28 16:29:56",
+        "currentTime": "2025-06-29 10:05:51",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
         "IPO Shares Bid Amount (Table)": [],
@@ -1347,7 +1335,7 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1306",
-        "currentTime": "2025-06-28 16:29:28",
+        "currentTime": "2025-06-29 10:05:51",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
         "IPO Shares Bid Amount (Table)": [],
@@ -1361,7 +1349,7 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1304",
-        "currentTime": "2025-06-28 16:28:00",
+        "currentTime": "2025-06-29 10:05:51",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
         "IPO Shares Bid Amount (Table)": [],
@@ -1375,7 +1363,7 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1301",
-        "currentTime": "2025-06-28 16:37:54",
+        "currentTime": "2025-06-29 10:05:52",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
         "IPO Shares Bid Amount (Table)": [],
@@ -1389,9 +1377,109 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1302",
-        "currentTime": "2025-06-28 16:30:43",
+        "currentTime": "2025-06-29 10:05:52",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
+        "IPO Shares Bid Amount (Table)": [],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1303,
+        "Company Name (from List API)": "Adcounty Media India",
+        "IPO Bidding History (JSON)": [
+            {
+                "Seq": 1,
+                "id (Subscription Data)": 7665,
+                "tsb_ipo_id": 1303,
+                "cor_id": 2365,
+                "bid_date": "27th Jun 2025 17:07",
+                "qib_offered": 1124800,
+                "nii_offered": 844800,
+                "nii_offered_big": 0,
+                "nii_offered_small": 0,
+                "rii_offered": 1971200,
+                "emp_offered": 0,
+                "other_offered": 0,
+                "total_offered": 3940800,
+                "qib_shares_bid_for": 2824000,
+                "nii_shares_bid_for": 776000,
+                "nii_shares_bid_for_big": 0,
+                "nii_shares_bid_for_small": 0,
+                "rii_shares_bid_for": 5115200,
+                "emp_shares_bid_for": 0,
+                "other_shares_bid_for": 0,
+                "total_shares_bid_for": 8715200,
+                "qib_bid_amt": 24.0,
+                "nii_bid_amt": 6.6,
+                "nii_bid_amt_big": 0.0,
+                "nii_bid_amt_small": 0.0,
+                "rii_bid_amt": 43.48,
+                "emp_bid_amt": 0.0,
+                "other_bid_amt": 0.0,
+                "total_bid_amt": 74.08,
+                "qib": 2.51,
+                "nii": 0.92,
+                "nii_big": 0.0,
+                "nii_small": 0.0,
+                "rii": 2.59,
+                "emp": 0.0,
+                "other": 0.0,
+                "total": 2.21,
+                "cor_date_added": "2025-06-27T17:15:05.000Z",
+                "create_date": "2025-06-27T17:20:01.000Z",
+                "ipo_category_desc": "SME IPO",
+                "listing_at": "BSE SME",
+                "company_short_name": "Adcounty Media India"
+            }
+        ],
+        "metaTitle": "Adcounty Media India SME Live Subscription. Total: 2.21 times.",
+        "pageTitle": "Adcounty Media India Live Subscription",
+        "metaDesc": "Adcounty Media India SME Live Subscription. Total: 2.21 times as of 27th Jun 2025 17:07.",
+        "cacheKey": "ig_iposubscription_bidding:1303",
+        "currentTime": "2025-06-29 10:05:52",
+        "IPO Share Allocation": [
+            {
+                "category": "Qualified Institutional Buyers",
+                "shares_allocated": 1124800,
+                "allocation_pct": 28.54
+            },
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 844800,
+                "allocation_pct": 21.44
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 1971200,
+                "allocation_pct": 50.02
+            }
+        ],
+        "IPO Daywise Subscription (Table)": [
+            {
+                "day_number": null,
+                "": "# of Share Offered",
+                "qib_ratio": 1124800.0,
+                "nii_ratio": 844800.0,
+                "rii_ratio": 1971200.0,
+                "total_ratio": 3940800.0
+            },
+            {
+                "day_number": null,
+                "": "Number of Lots Offered",
+                "qib_ratio": 703.0,
+                "nii_ratio": 528.0,
+                "rii_ratio": 1232.0,
+                "total_ratio": 2463.0
+            },
+            {
+                "day_number": 1,
+                "": "27th Jun 2025 17:07",
+                "qib_ratio": 2.51,
+                "nii_ratio": 0.92,
+                "rii_ratio": 2.59,
+                "total_ratio": 2.21
+            }
+        ],
         "IPO Shares Bid Amount (Table)": [],
         "Scrape Status": "Success"
     }
