@@ -91,7 +91,26 @@ def make_robust_request(url, custom_headers=None):
         print(f"  Decoding error for {url}: {e}")
         raise requests.exceptions.RequestException(f"Decoding error: {e}")
 
+
+def find_financial_table_alternative(soup):
+    print(" -*-*-*-*-*-*- Entered find_financial_table_alternative function *-*-*-*-*-*-*-*-*-*-*-*-*-**-*-*-")
+    """
+    Tries to find the financial table using heading proximity if standard ID-based lookup fails.
+    """
+    print("🔍 Trying alternative method to locate the financial table...")
+    heading = soup.find('h2', string=lambda text: text and 'Financial Information' in text)
+    if heading:
+        parent_div = heading.find_next('div', class_='table-responsive')
+        if parent_div:
+            table = parent_div.find('table')
+            if table:
+                print("✅ Alternative table found using heading proximity.")
+                return table
+    print("❌ Alternative method failed to locate the table.")
+    return None
+
 def scrape_and_format_financial_data(company_name, url):
+    print("enterd scrape_and_format_financial_data function")
     print(f"🌐 Scraping financial data for {company_name} from {url}")
     result = {
         "company_name": company_name,
@@ -110,6 +129,9 @@ def scrape_and_format_financial_data(company_name, url):
         soup = BeautifulSoup(html_content, 'html.parser')
 
         table = soup.find('table', {'id': 'financialTable'})
+        if not table:
+            # Call fallback method
+            table = find_financial_table_alternative(soup)
         if not table:
             result['error_message'] = "Financial table not found."
             return result

@@ -38,73 +38,6 @@
         "error_message": null
     },
     {
-        "id": 1276,
-        "urlrewrite_folder_name": "hdb-financial",
-        "urlrewrite_folder_name_main": "ipo",
-        "ipo_status": "Closed",
-        "company_name": "HDB Financial",
-        "url": "https://www.investorgain.com/ipo/hdb-financial/1276/",
-        "peer_comparison": [
-            {
-                "Company": "HDB Financial Services Limited",
-                "EPS Basic": "27.4",
-                "EPS Diluted": "27.3",
-                "NAV": "198.8",
-                "P/E(x)": "",
-                "Financial statements": "Consolidated"
-            },
-            {
-                "Company": "Bajaj Finance Limited",
-                "EPS Basic": "26.89",
-                "EPS Diluted": "26.82",
-                "NAV": "155.6",
-                "P/E(x)": "34.3",
-                "Financial statements": "Consolidated"
-            },
-            {
-                "Company": "Sundaram Finance Ltd.",
-                "EPS Basic": "170.53",
-                "EPS Diluted": "170.53",
-                "NAV": "1187.8",
-                "P/E(x)": "28.1",
-                "Financial statements": "Consolidated"
-            },
-            {
-                "Company": "L&T Finance Limited",
-                "EPS Basic": "10.61",
-                "EPS Diluted": "10.57",
-                "NAV": "102.5",
-                "P/E(x)": "17.9",
-                "Financial statements": "Consolidated"
-            },
-            {
-                "Company": "Mahindra & Mahindra Financial Services Ltd.",
-                "EPS Basic": "18.32",
-                "EPS Diluted": "18.31",
-                "NAV": "154.9",
-                "P/E(x)": "14.5",
-                "Financial statements": "Consolidated"
-            },
-            {
-                "Company": "Cholamandalam Investment And Finance Company Ltd",
-                "EPS Basic": "50.72",
-                "EPS Diluted": "50.6",
-                "NAV": "281.5",
-                "P/E(x)": "31.4",
-                "Financial statements": "Consolidated"
-            },
-            {
-                "Company": "Shriram Finance Limited",
-                "EPS Basic": "50.82",
-                "EPS Diluted": "50.75",
-                "NAV": "300.3",
-                "P/E(x)": "13",
-                "Financial statements": "Consolidated"
-            }
-        ],
-        "error_message": null
-    },
-    {
         "id": 1279,
         "urlrewrite_folder_name": "sambhv-steel-tubes-ipo",
         "urlrewrite_folder_name_main": "ipo",
@@ -174,6 +107,138 @@
                 "P/E(x)": "10.98",
                 "RoNW": "17.41",
                 "Financial statements": ""
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1276,
+        "urlrewrite_folder_name": "hdb-financial",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Closed",
+        "company_name": "HDB Financial",
+        "url": "https://www.investorgain.com/ipo/hdb-financial/1276/",
+        "peer_comparison": [
+            {
+                "Company": "HDB Financial Services Limited",
+                "EPS Basic": "27.4",
+                "EPS Diluted": "27.3",
+                "NAV": "198.8",
+                "P/E(x)": "",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Bajaj Finance Limited",
+                "EPS Basic": "26.89",
+                "EPS Diluted": "26.82",
+                "NAV": "155.6",
+                "P/E(x)": "34.3",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Sundaram Finance Ltd.",
+                "EPS Basic": "170.53",
+                "EPS Diluted": "170.53",
+                "NAV": "1187.8",
+                "P/E(x)": "28.1",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "L&T Finance Limited",
+                "EPS Basic": "10.61",
+                "EPS Diluted": "10.57",
+                "NAV": "102.5",
+                "P/E(x)": "17.9",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Mahindra & Mahindra Financial Services Ltd.",
+                "EPS Basic": "18.32",
+                "EPS Diluted": "18.31",
+                "NAV": "154.9",
+                "P/E(x)": "14.5",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Cholamandalam Investment And Finance Company Ltd",
+                "EPS Basic": "50.72",
+                "EPS Diluted": "50.6",
+                "NAV": "281.5",
+                "P/E(x)": "31.4",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Shriram Finance Limited",
+                "EPS Basic": "50.82",
+                "EPS Diluted": "50.75",
+                "NAV": "300.3",
+                "P/E(x)": "13",
+                "Financial statements": "Consolidated"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1280,
+        "urlrewrite_folder_name": "globe-civil-projects-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Closed",
+        "company_name": "Globe Civil Projects",
+        "url": "https://www.investorgain.com/ipo/globe-civil-projects-ipo/1280/",
+        "peer_comparison": [
+            {
+                "Company": "Globe Civil Projects Limited",
+                "EPS Basic": "3.58",
+                "EPS Diluted": "3.58",
+                "NAV": "18.1",
+                "P/E(x)": "",
+                "RoNW": "19.8",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "B.l.kashyap And Sons Ltd.",
+                "EPS Basic": "2.33",
+                "EPS Diluted": "2.33",
+                "NAV": "22.02",
+                "P/E(x)": "29.57",
+                "RoNW": "10.58",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Ceigall India Limited",
+                "EPS Basic": "19.37",
+                "EPS Diluted": "19.37",
+                "NAV": "57.68",
+                "P/E(x)": "12.88",
+                "RoNW": "33.57",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Psp Projects Ltd",
+                "EPS Basic": "34.16",
+                "EPS Diluted": "34.16",
+                "NAV": "222.5",
+                "P/E(x)": "20.38",
+                "RoNW": "13.49",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Capacite Infraprojects Ltd",
+                "EPS Basic": "16.09",
+                "EPS Diluted": "16.09",
+                "NAV": "179.3",
+                "P/E(x)": "20.56",
+                "RoNW": "7.93",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Ahluwalia Contracts (india) Ltd.",
+                "EPS Basic": "55.95",
+                "EPS Diluted": "55.95",
+                "NAV": "238.84",
+                "P/E(x)": "16.41",
+                "RoNW": "23.43",
+                "Financial statements": "Consolidated"
             }
         ],
         "error_message": null
@@ -321,30 +386,28 @@
         "error_message": null
     },
     {
-        "id": 1278,
-        "urlrewrite_folder_name": "ellenbarrie-industrial-gases-ipo",
+        "id": 1311,
+        "urlrewrite_folder_name": "cryogenic-ogs-sme-ipo",
         "urlrewrite_folder_name_main": "ipo",
-        "ipo_status": "Closed",
-        "company_name": "Ellenbarrie Industrial Gases",
-        "url": "https://www.investorgain.com/ipo/ellenbarrie-industrial-gases-ipo/1278/",
+        "ipo_status": "Upcoming",
+        "company_name": "Cryogenic OGS",
+        "url": "https://www.investorgain.com/ipo/cryogenic-ogs-sme-ipo/1311/",
         "peer_comparison": [
             {
-                "Company": "Ellenbarrie Industrial Gases Limited",
-                "EPS Basic": "6.36",
-                "EPS Diluted": "6.36",
-                "NAV": "25.48",
+                "Company": "Cryogenic OGS Limited",
+                "EPS Diluted": "5.12",
+                "NAV": "21.81",
                 "P/E(x)": "",
-                "RoNW": "24.97",
+                "RoNW": "23.49",
                 "Financial statements": "Standalone"
             },
             {
-                "Company": "Linde India Limited",
-                "EPS Basic": "53.33",
-                "EPS Diluted": "53.33",
-                "NAV": "447.91",
-                "P/E(x)": "140.74",
-                "RoNW": "11.91",
-                "Financial statements": "Consolidated"
+                "Company": "Loyal Equipments Limited",
+                "EPS Diluted": "6.95",
+                "NAV": "29",
+                "P/E(x)": "22.54",
+                "RoNW": "23.96",
+                "Financial statements": "Standalone"
             }
         ],
         "error_message": null
@@ -433,65 +496,67 @@
         "error_message": null
     },
     {
-        "id": 1280,
-        "urlrewrite_folder_name": "globe-civil-projects-ipo",
+        "id": 1306,
+        "urlrewrite_folder_name": "vandan-foods-sme-ipo",
         "urlrewrite_folder_name_main": "ipo",
-        "ipo_status": "Closed",
-        "company_name": "Globe Civil Projects",
-        "url": "https://www.investorgain.com/ipo/globe-civil-projects-ipo/1280/",
+        "ipo_status": "Upcoming",
+        "company_name": "Vandan Foods",
+        "url": "https://www.investorgain.com/ipo/vandan-foods-sme-ipo/1306/",
         "peer_comparison": [
             {
-                "Company": "Globe Civil Projects Limited",
-                "EPS Basic": "3.58",
-                "EPS Diluted": "3.58",
-                "NAV": "18.1",
+                "Company": "Vandan Foods Limited",
+                "EPS Basic": "4.64",
+                "EPS Diluted": "4.64",
+                "NAV": "16.62",
+                "P/E(x)": "24.78",
+                "RoNW": "27.92",
+                "Financial statements": ""
+            },
+            {
+                "Company": "N.k.industries Ltd.",
+                "EPS Basic": "-1.71",
+                "EPS Diluted": "-1.71",
+                "NAV": "-572.66",
                 "P/E(x)": "",
-                "RoNW": "19.8",
+                "RoNW": "0.34",
                 "Financial statements": "Consolidated"
             },
             {
-                "Company": "B.l.kashyap And Sons Ltd.",
-                "EPS Basic": "2.33",
-                "EPS Diluted": "2.33",
-                "NAV": "22.02",
-                "P/E(x)": "29.57",
-                "RoNW": "10.58",
+                "Company": "Jayant Agro-organics Ltd.",
+                "EPS Basic": "17.59",
+                "EPS Diluted": "17.59",
+                "NAV": "181.07",
+                "P/E(x)": "17.24",
+                "RoNW": "10.12",
                 "Financial statements": "Consolidated"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1278,
+        "urlrewrite_folder_name": "ellenbarrie-industrial-gases-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Closed",
+        "company_name": "Ellenbarrie Industrial Gases",
+        "url": "https://www.investorgain.com/ipo/ellenbarrie-industrial-gases-ipo/1278/",
+        "peer_comparison": [
+            {
+                "Company": "Ellenbarrie Industrial Gases Limited",
+                "EPS Basic": "6.36",
+                "EPS Diluted": "6.36",
+                "NAV": "25.48",
+                "P/E(x)": "",
+                "RoNW": "24.97",
+                "Financial statements": "Standalone"
             },
             {
-                "Company": "Ceigall India Limited",
-                "EPS Basic": "19.37",
-                "EPS Diluted": "19.37",
-                "NAV": "57.68",
-                "P/E(x)": "12.88",
-                "RoNW": "33.57",
-                "Financial statements": "Consolidated"
-            },
-            {
-                "Company": "Psp Projects Ltd",
-                "EPS Basic": "34.16",
-                "EPS Diluted": "34.16",
-                "NAV": "222.5",
-                "P/E(x)": "20.38",
-                "RoNW": "13.49",
-                "Financial statements": "Consolidated"
-            },
-            {
-                "Company": "Capacite Infraprojects Ltd",
-                "EPS Basic": "16.09",
-                "EPS Diluted": "16.09",
-                "NAV": "179.3",
-                "P/E(x)": "20.56",
-                "RoNW": "7.93",
-                "Financial statements": "Consolidated"
-            },
-            {
-                "Company": "Ahluwalia Contracts (india) Ltd.",
-                "EPS Basic": "55.95",
-                "EPS Diluted": "55.95",
-                "NAV": "238.84",
-                "P/E(x)": "16.41",
-                "RoNW": "23.43",
+                "Company": "Linde India Limited",
+                "EPS Basic": "53.33",
+                "EPS Diluted": "53.33",
+                "NAV": "447.91",
+                "P/E(x)": "140.74",
+                "RoNW": "11.91",
                 "Financial statements": "Consolidated"
             }
         ],
@@ -531,71 +596,6 @@
                 "P/E(x)": "37.92",
                 "RoNW": "10.9",
                 "Financial statements": "Standalone"
-            }
-        ],
-        "error_message": null
-    },
-    {
-        "id": 1311,
-        "urlrewrite_folder_name": "cryogenic-ogs-sme-ipo",
-        "urlrewrite_folder_name_main": "ipo",
-        "ipo_status": "Upcoming",
-        "company_name": "Cryogenic OGS",
-        "url": "https://www.investorgain.com/ipo/cryogenic-ogs-sme-ipo/1311/",
-        "peer_comparison": [
-            {
-                "Company": "Cryogenic OGS Limited",
-                "EPS Diluted": "5.12",
-                "NAV": "21.81",
-                "P/E(x)": "",
-                "RoNW": "23.49",
-                "Financial statements": "Standalone"
-            },
-            {
-                "Company": "Loyal Equipments Limited",
-                "EPS Diluted": "6.95",
-                "NAV": "29",
-                "P/E(x)": "22.54",
-                "RoNW": "23.96",
-                "Financial statements": "Standalone"
-            }
-        ],
-        "error_message": null
-    },
-    {
-        "id": 1306,
-        "urlrewrite_folder_name": "vandan-foods-sme-ipo",
-        "urlrewrite_folder_name_main": "ipo",
-        "ipo_status": "Upcoming",
-        "company_name": "Vandan Foods",
-        "url": "https://www.investorgain.com/ipo/vandan-foods-sme-ipo/1306/",
-        "peer_comparison": [
-            {
-                "Company": "Vandan Foods Limited",
-                "EPS Basic": "4.64",
-                "EPS Diluted": "4.64",
-                "NAV": "16.62",
-                "P/E(x)": "24.78",
-                "RoNW": "27.92",
-                "Financial statements": ""
-            },
-            {
-                "Company": "N.k.industries Ltd.",
-                "EPS Basic": "-1.71",
-                "EPS Diluted": "-1.71",
-                "NAV": "-572.66",
-                "P/E(x)": "",
-                "RoNW": "0.34",
-                "Financial statements": "Consolidated"
-            },
-            {
-                "Company": "Jayant Agro-organics Ltd.",
-                "EPS Basic": "17.59",
-                "EPS Diluted": "17.59",
-                "NAV": "181.07",
-                "P/E(x)": "17.24",
-                "RoNW": "10.12",
-                "Financial statements": "Consolidated"
             }
         ],
         "error_message": null
