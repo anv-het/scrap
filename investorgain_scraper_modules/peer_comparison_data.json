@@ -1,0 +1,761 @@
+[
+    {
+        "id": 1308,
+        "urlrewrite_folder_name": "crizac-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Upcoming",
+        "company_name": "Crizac",
+        "url": "https://www.investorgain.com/ipo/crizac-ipo/1308/",
+        "peer_comparison": [
+            {
+                "Company": "Crizac Limited",
+                "EPS Basic": "8.74",
+                "EPS Diluted": "8.74",
+                "NAV": "28.76",
+                "P/E(x)": "",
+                "RoNW": "30.38",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Indiamart Intermesh Ltd",
+                "EPS Basic": "91.84",
+                "EPS Diluted": "91.59",
+                "NAV": "363.43",
+                "P/E(x)": "27.18",
+                "RoNW": "25.2",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "IEL Education Ltd (AUD)",
+                "EPS Basic": "0.48",
+                "EPS Diluted": "0.48",
+                "NAV": "1.88",
+                "P/E(x)": "7.86",
+                "RoNW": "25.51",
+                "Financial statements": "Consolidated"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1276,
+        "urlrewrite_folder_name": "hdb-financial",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Closed",
+        "company_name": "HDB Financial",
+        "url": "https://www.investorgain.com/ipo/hdb-financial/1276/",
+        "peer_comparison": [
+            {
+                "Company": "HDB Financial Services Limited",
+                "EPS Basic": "27.4",
+                "EPS Diluted": "27.3",
+                "NAV": "198.8",
+                "P/E(x)": "",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Bajaj Finance Limited",
+                "EPS Basic": "26.89",
+                "EPS Diluted": "26.82",
+                "NAV": "155.6",
+                "P/E(x)": "34.3",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Sundaram Finance Ltd.",
+                "EPS Basic": "170.53",
+                "EPS Diluted": "170.53",
+                "NAV": "1187.8",
+                "P/E(x)": "28.1",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "L&T Finance Limited",
+                "EPS Basic": "10.61",
+                "EPS Diluted": "10.57",
+                "NAV": "102.5",
+                "P/E(x)": "17.9",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Mahindra & Mahindra Financial Services Ltd.",
+                "EPS Basic": "18.32",
+                "EPS Diluted": "18.31",
+                "NAV": "154.9",
+                "P/E(x)": "14.5",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Cholamandalam Investment And Finance Company Ltd",
+                "EPS Basic": "50.72",
+                "EPS Diluted": "50.6",
+                "NAV": "281.5",
+                "P/E(x)": "31.4",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Shriram Finance Limited",
+                "EPS Basic": "50.82",
+                "EPS Diluted": "50.75",
+                "NAV": "300.3",
+                "P/E(x)": "13",
+                "Financial statements": "Consolidated"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1279,
+        "urlrewrite_folder_name": "sambhv-steel-tubes-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Closed",
+        "company_name": "Sambhv Steel Tubes",
+        "url": "https://www.investorgain.com/ipo/sambhv-steel-tubes-ipo/1279/",
+        "peer_comparison": [
+            {
+                "Company": "Sambhv Steel Tubes Limited",
+                "EPS Basic": "3.79",
+                "EPS Diluted": "3.79",
+                "NAV": "18.19",
+                "P/E(x)": "",
+                "RoNW": "25.42",
+                "Financial statements": "Restated"
+            },
+            {
+                "Company": "Apl Apollo Tubes Ltd.",
+                "EPS Basic": "26.4",
+                "EPS Diluted": "26.4",
+                "NAV": "129.6",
+                "P/E(x)": "68.52",
+                "RoNW": "22.21",
+                "Financial statements": ""
+            },
+            {
+                "Company": "Hariom Pipe Industries Limited",
+                "EPS Basic": "20.34",
+                "EPS Diluted": "18.34",
+                "NAV": "160.5",
+                "P/E(x)": "21.15",
+                "RoNW": "13.56",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Hi-Tech Pipes Limited",
+                "EPS Basic": "3.25",
+                "EPS Diluted": "2.69",
+                "NAV": "38.2",
+                "P/E(x)": "35.52",
+                "RoNW": "8.9",
+                "Financial statements": ""
+            },
+            {
+                "Company": "JTL Industries Limited",
+                "EPS Basic": "6.63",
+                "EPS Diluted": "6.52",
+                "NAV": "43.72",
+                "P/E(x)": "10.16",
+                "RoNW": "19.15",
+                "Financial statements": ""
+            },
+            {
+                "Company": "Rama Steel Tubes Ltd",
+                "EPS Basic": "0.5",
+                "EPS Diluted": "0.49",
+                "NAV": "2.14",
+                "P/E(x)": "24.27",
+                "RoNW": "10.4",
+                "Financial statements": ""
+            },
+            {
+                "Company": "Surya Roshni Ltd.",
+                "EPS Basic": "30.51",
+                "EPS Diluted": "30.25",
+                "NAV": "187.63",
+                "P/E(x)": "10.98",
+                "RoNW": "17.41",
+                "Financial statements": ""
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1310,
+        "urlrewrite_folder_name": "travel-food-services-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Upcoming",
+        "company_name": "Travel Food Services",
+        "url": "https://www.investorgain.com/ipo/travel-food-services-ipo/1310/",
+        "peer_comparison": [
+            {
+                "Company": "Travel Food Services Limited",
+                "EPS Basic": "21.85",
+                "EPS Diluted": "21.85",
+                "NAV": "60.45",
+                "P/E(x)": "",
+                "RoNW": "36.14"
+            },
+            {
+                "Company": "Jubilant Foodworks Ltd",
+                "EPS Basic": "6.06",
+                "EPS Diluted": "6.06",
+                "NAV": "32.9",
+                "P/E(x)": "114.69",
+                "RoNW": "18.4"
+            },
+            {
+                "Company": "Devyani International Limited",
+                "EPS Basic": "0.39",
+                "EPS Diluted": "0.39",
+                "NAV": "8.76",
+                "P/E(x)": "432.56",
+                "RoNW": "4.48"
+            },
+            {
+                "Company": "Sapphire Foods India Limited",
+                "EPS Basic": "8.3",
+                "EPS Diluted": "8.21",
+                "NAV": "210.41",
+                "P/E(x)": "213.46",
+                "RoNW": "3.94"
+            },
+            {
+                "Company": "Westlife Foodworld Limited",
+                "EPS Basic": "4.44",
+                "EPS Diluted": "4.44",
+                "NAV": "37.72",
+                "P/E(x)": "182.92",
+                "RoNW": "11.77"
+            },
+            {
+                "Company": "Restaurant Brands Asia Limited",
+                "EPS Basic": "-4.4",
+                "EPS Diluted": "-4.4",
+                "NAV": "12.65",
+                "P/E(x)": "",
+                "RoNW": "34.78"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1299,
+        "urlrewrite_folder_name": "indogulf-cropsciences-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Open",
+        "company_name": "Indogulf Cropsciences",
+        "url": "https://www.investorgain.com/ipo/indogulf-cropsciences-ipo/1299/",
+        "peer_comparison": [
+            {
+                "Company": "Indogulf Cropsciences Limited",
+                "EPS Basic": "12",
+                "EPS Diluted": "11.94",
+                "NAV": "97.98",
+                "P/E(x)": "",
+                "RoNW": "12.19",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Aries Agro Ltd.",
+                "EPS Basic": "14.94",
+                "EPS Diluted": "14.94",
+                "NAV": "200.2",
+                "P/E(x)": "17.47",
+                "RoNW": "7.07",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Basant Agro Tech (india) Ltd.",
+                "EPS Basic": "0.43",
+                "EPS Diluted": "0.43",
+                "NAV": "19.22",
+                "P/E(x)": "44.58",
+                "RoNW": "2.27",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Best Agrolife Limited",
+                "EPS Basic": "44.94",
+                "EPS Diluted": "44.94",
+                "NAV": "273.64",
+                "P/E(x)": "12.23",
+                "RoNW": "16.42",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Bhagiradha Chemicals & Industries Ltd.",
+                "EPS Basic": "17.5",
+                "EPS Diluted": "16.1",
+                "NAV": "397.59",
+                "P/E(x)": "101.81",
+                "RoNW": "4.4",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Heranba Industries Limited",
+                "EPS Basic": "8.72",
+                "EPS Diluted": "8.72",
+                "NAV": "213.19",
+                "P/E(x)": "35.34",
+                "RoNW": "4.04",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "India Pesticides Limited",
+                "EPS Basic": "5.24",
+                "EPS Diluted": "5.24",
+                "NAV": "7.17",
+                "P/E(x)": "41.62",
+                "RoNW": "72.9",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Dharmaj Crop Guard Limited",
+                "EPS Basic": "13.13",
+                "EPS Diluted": "13.13",
+                "NAV": "106.33",
+                "P/E(x)": "18.02",
+                "RoNW": "12.35",
+                "Financial statements": "Consolidated"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1278,
+        "urlrewrite_folder_name": "ellenbarrie-industrial-gases-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Closed",
+        "company_name": "Ellenbarrie Industrial Gases",
+        "url": "https://www.investorgain.com/ipo/ellenbarrie-industrial-gases-ipo/1278/",
+        "peer_comparison": [
+            {
+                "Company": "Ellenbarrie Industrial Gases Limited",
+                "EPS Basic": "6.36",
+                "EPS Diluted": "6.36",
+                "NAV": "25.48",
+                "P/E(x)": "",
+                "RoNW": "24.97",
+                "Financial statements": "Standalone"
+            },
+            {
+                "Company": "Linde India Limited",
+                "EPS Basic": "53.33",
+                "EPS Diluted": "53.33",
+                "NAV": "447.91",
+                "P/E(x)": "140.74",
+                "RoNW": "11.91",
+                "Financial statements": "Consolidated"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1277,
+        "urlrewrite_folder_name": "kalpataru-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Closed",
+        "company_name": "Kalpataru",
+        "url": "https://www.investorgain.com/ipo/kalpataru-ipo/1277/",
+        "peer_comparison": [
+            {
+                "Company": "Kalpataru Limited",
+                "EPS Basic": "-7.21",
+                "EPS Diluted": "-7.21",
+                "NAV": "73.63",
+                "P/E(x)": "",
+                "RoNW": "-9.8",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Oberoi Realty Ltd.",
+                "EPS Basic": "52.99",
+                "EPS Diluted": "52.99",
+                "NAV": "380.76",
+                "P/E(x)": "33.75",
+                "RoNW": "13.92",
+                "Financial statements": ""
+            },
+            {
+                "Company": "Macrotech Developers Limited",
+                "EPS Basic": "16.03",
+                "EPS Diluted": "15.99",
+                "NAV": "175.66",
+                "P/E(x)": "77.82",
+                "RoNW": "8.87",
+                "Financial statements": ""
+            },
+            {
+                "Company": "Godrej Properties Ltd",
+                "EPS Basic": "26.09",
+                "EPS Diluted": "26.08",
+                "NAV": "359.39",
+                "P/E(x)": "112.18",
+                "RoNW": "7.26",
+                "Financial statements": ""
+            },
+            {
+                "Company": "Sunteck Realty Ltd.",
+                "EPS Basic": "4.99",
+                "EPS Diluted": "4.99",
+                "NAV": "213.28",
+                "P/E(x)": "115.97",
+                "RoNW": "2.27",
+                "Financial statements": ""
+            },
+            {
+                "Company": "Mahindra Lifespace Developers Ltd.",
+                "EPS Basic": "6.34",
+                "EPS Diluted": "6.34",
+                "NAV": "120.82",
+                "P/E(x)": "88.4",
+                "RoNW": "5.25",
+                "Financial statements": ""
+            },
+            {
+                "Company": "Keystone Realtors Limited",
+                "EPS Basic": "9.85",
+                "EPS Diluted": "9.82",
+                "NAV": "157.85",
+                "P/E(x)": "69.48",
+                "RoNW": "6.24",
+                "Financial statements": ""
+            },
+            {
+                "Company": "Prestige Estates Projects Ltd.",
+                "EPS Basic": "34.28",
+                "EPS Diluted": "34.28",
+                "NAV": "281.59",
+                "P/E(x)": "50.12",
+                "RoNW": "12.17",
+                "Financial statements": ""
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1280,
+        "urlrewrite_folder_name": "globe-civil-projects-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Closed",
+        "company_name": "Globe Civil Projects",
+        "url": "https://www.investorgain.com/ipo/globe-civil-projects-ipo/1280/",
+        "peer_comparison": [
+            {
+                "Company": "Globe Civil Projects Limited",
+                "EPS Basic": "3.58",
+                "EPS Diluted": "3.58",
+                "NAV": "18.1",
+                "P/E(x)": "",
+                "RoNW": "19.8",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "B.l.kashyap And Sons Ltd.",
+                "EPS Basic": "2.33",
+                "EPS Diluted": "2.33",
+                "NAV": "22.02",
+                "P/E(x)": "29.57",
+                "RoNW": "10.58",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Ceigall India Limited",
+                "EPS Basic": "19.37",
+                "EPS Diluted": "19.37",
+                "NAV": "57.68",
+                "P/E(x)": "12.88",
+                "RoNW": "33.57",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Psp Projects Ltd",
+                "EPS Basic": "34.16",
+                "EPS Diluted": "34.16",
+                "NAV": "222.5",
+                "P/E(x)": "20.38",
+                "RoNW": "13.49",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Capacite Infraprojects Ltd",
+                "EPS Basic": "16.09",
+                "EPS Diluted": "16.09",
+                "NAV": "179.3",
+                "P/E(x)": "20.56",
+                "RoNW": "7.93",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Ahluwalia Contracts (india) Ltd.",
+                "EPS Basic": "55.95",
+                "EPS Diluted": "55.95",
+                "NAV": "238.84",
+                "P/E(x)": "16.41",
+                "RoNW": "23.43",
+                "Financial statements": "Consolidated"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1307,
+        "urlrewrite_folder_name": "silky-overseas-sme-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Upcoming",
+        "company_name": "Silky Overseas",
+        "url": "https://www.investorgain.com/ipo/silky-overseas-sme-ipo/1307/",
+        "peer_comparison": [
+            {
+                "Company": "Silky Overseas Limited",
+                "EPS Basic": "13.74",
+                "EPS Diluted": "13.74",
+                "NAV": "37.6",
+                "P/E(x)": "",
+                "RoNW": "36.56",
+                "Financial statements": "Restated"
+            },
+            {
+                "Company": "Welspun Living Limited",
+                "EPS Basic": "6.18",
+                "EPS Diluted": "6.18",
+                "NAV": "4.78",
+                "P/E(x)": "20.84",
+                "RoNW": "14.27",
+                "Financial statements": "Standalone"
+            },
+            {
+                "Company": "Trident Ltd.",
+                "EPS Basic": "0.78",
+                "EPS Diluted": "0.78",
+                "NAV": "",
+                "P/E(x)": "37.92",
+                "RoNW": "10.9",
+                "Financial statements": "Standalone"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1311,
+        "urlrewrite_folder_name": "cryogenic-ogs-sme-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Upcoming",
+        "company_name": "Cryogenic OGS",
+        "url": "https://www.investorgain.com/ipo/cryogenic-ogs-sme-ipo/1311/",
+        "peer_comparison": [
+            {
+                "Company": "Cryogenic OGS Limited",
+                "EPS Diluted": "5.12",
+                "NAV": "21.81",
+                "P/E(x)": "",
+                "RoNW": "23.49",
+                "Financial statements": "Standalone"
+            },
+            {
+                "Company": "Loyal Equipments Limited",
+                "EPS Diluted": "6.95",
+                "NAV": "29",
+                "P/E(x)": "22.54",
+                "RoNW": "23.96",
+                "Financial statements": "Standalone"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1306,
+        "urlrewrite_folder_name": "vandan-foods-sme-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Upcoming",
+        "company_name": "Vandan Foods",
+        "url": "https://www.investorgain.com/ipo/vandan-foods-sme-ipo/1306/",
+        "peer_comparison": [
+            {
+                "Company": "Vandan Foods Limited",
+                "EPS Basic": "4.64",
+                "EPS Diluted": "4.64",
+                "NAV": "16.62",
+                "P/E(x)": "24.78",
+                "RoNW": "27.92",
+                "Financial statements": ""
+            },
+            {
+                "Company": "N.k.industries Ltd.",
+                "EPS Basic": "-1.71",
+                "EPS Diluted": "-1.71",
+                "NAV": "-572.66",
+                "P/E(x)": "",
+                "RoNW": "0.34",
+                "Financial statements": "Consolidated"
+            },
+            {
+                "Company": "Jayant Agro-organics Ltd.",
+                "EPS Basic": "17.59",
+                "EPS Diluted": "17.59",
+                "NAV": "181.07",
+                "P/E(x)": "17.24",
+                "RoNW": "10.12",
+                "Financial statements": "Consolidated"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1304,
+        "urlrewrite_folder_name": "cedaar-textile-sme-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Upcoming",
+        "company_name": "Cedaar Textile IPO",
+        "url": "https://www.investorgain.com/ipo/cedaar-textile-sme-ipo/1304/",
+        "peer_comparison": [
+            {
+                "Company": "Cedaar Textile Limited",
+                "EPS Basic": "8.63",
+                "EPS Diluted": "8.63",
+                "NAV": "63.7",
+                "P/E(x)": "",
+                "RoNW": "16.44",
+                "Financial statements": "Restated"
+            },
+            {
+                "Company": "Shiva Texyarn Ltd.",
+                "EPS Basic": "-8.55",
+                "EPS Diluted": "-8.55",
+                "NAV": "94.78",
+                "P/E(x)": "22.7",
+                "RoNW": "8.63",
+                "Financial statements": "Standalone"
+            },
+            {
+                "Company": "Vardhman Textiles Ltd.",
+                "EPS Basic": "21.01",
+                "EPS Diluted": "21.01",
+                "NAV": "304.49",
+                "P/E(x)": "17.03",
+                "RoNW": "7.11",
+                "Financial statements": "Standalone"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1301,
+        "urlrewrite_folder_name": "marc-loire-sme-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Upcoming",
+        "company_name": "Marc Loire",
+        "url": "https://www.investorgain.com/ipo/marc-loire-sme-ipo/1301/",
+        "peer_comparison": [
+            {
+                "Company": "Liberty Shoes",
+                "EPS Basic": "7.92",
+                "EPS Diluted": "7.92",
+                "NAV": "130.61",
+                "P/E(x)": "53.02",
+                "RoNW": "6.09",
+                "Financial statements": "Restated"
+            },
+            {
+                "Company": "Lehar Footwears Limited",
+                "EPS Basic": "6.15",
+                "EPS Diluted": "6.15",
+                "NAV": "63.6",
+                "P/E(x)": "39.66",
+                "RoNW": "9.67",
+                "Financial statements": "Restated"
+            },
+            {
+                "Company": "Sreeleathers Limited",
+                "EPS Basic": "9.75",
+                "EPS Diluted": "9.75",
+                "NAV": "199.57",
+                "P/E(x)": "25.16",
+                "RoNW": "4.88",
+                "Financial statements": "Restated"
+            },
+            {
+                "Company": "Marc Loire Fashions",
+                "EPS Basic": "9.41",
+                "EPS Diluted": "9.41",
+                "NAV": "21.51",
+                "P/E(x)": "10.63",
+                "RoNW": "43.75",
+                "Financial statements": "Restated"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1302,
+        "urlrewrite_folder_name": "pushpa-jewellers-sme-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Upcoming",
+        "company_name": "Pushpa Jewellers",
+        "url": "https://www.investorgain.com/ipo/pushpa-jewellers-sme-ipo/1302/",
+        "peer_comparison": [
+            {
+                "Company": "Pushpa Jewellers Limited",
+                "EPS Basic": "11.82",
+                "EPS Diluted": "11.82",
+                "NAV": "30.84",
+                "P/E(x)": "",
+                "RoNW": "38.34",
+                "Financial statements": "Restated"
+            },
+            {
+                "Company": "Sky Gold Ltd",
+                "EPS Basic": "56.13",
+                "EPS Diluted": "56.13",
+                "NAV": "336.63",
+                "P/E(x)": "5.52",
+                "RoNW": "16.67",
+                "Financial statements": "Standalone"
+            },
+            {
+                "Company": "Khazanchi Jewellers Ltd",
+                "EPS Basic": "18.15",
+                "EPS Diluted": "18.15",
+                "NAV": "93.52",
+                "P/E(x)": "30.98",
+                "RoNW": "19.41",
+                "Financial statements": "Standalone"
+            }
+        ],
+        "error_message": null
+    },
+    {
+        "id": 1303,
+        "urlrewrite_folder_name": "adcounty-media-india-sme-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Open",
+        "company_name": "Adcounty Media India",
+        "url": "https://www.investorgain.com/ipo/adcounty-media-india-sme-ipo/1303/",
+        "peer_comparison": [
+            {
+                "Company": "Adcounty Media India Limited",
+                "EPS Basic": "8.37",
+                "EPS Diluted": "8.37",
+                "P/E(x)": "",
+                "RoNW": "47.28",
+                "Financial statements": "Restated"
+            },
+            {
+                "Company": "Affle (india) Ltd",
+                "EPS Basic": "8.24",
+                "EPS Diluted": "8.24",
+                "P/E(x)": "65.26",
+                "RoNW": "1.6",
+                "Financial statements": "Standalone"
+            },
+            {
+                "Company": "Daps Advertising Ltd",
+                "EPS Basic": "2.29",
+                "EPS Diluted": "2.29",
+                "P/E(x)": "9.83",
+                "RoNW": "1.83",
+                "Financial statements": "Standalone"
+            }
+        ],
+        "error_message": null
+    }
+]
