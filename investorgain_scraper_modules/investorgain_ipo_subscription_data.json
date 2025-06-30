@@ -7,7 +7,7 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1310",
-        "currentTime": "2025-06-29 23:01:03",
+        "currentTime": "2025-06-30 11:48:02",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
         "IPO Shares Bid Amount (Table)": [],
@@ -21,7 +21,7 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1308",
-        "currentTime": "2025-06-29 22:50:35",
+        "currentTime": "2025-06-30 11:44:33",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
         "IPO Shares Bid Amount (Table)": [],
@@ -118,13 +118,57 @@
                 "ipo_category_desc": "N/A",
                 "listing_at": "N/A",
                 "company_short_name": "N/A"
+            },
+            {
+                "Seq": 3,
+                "id (Subscription Data)": 7680,
+                "tsb_ipo_id": 1299,
+                "cor_id": 2074,
+                "bid_date": "30th Jun 2025 11:36",
+                "qib_offered": 3765767,
+                "nii_offered": 2702703,
+                "nii_offered_big": 1801802,
+                "nii_offered_small": 900901,
+                "rii_offered": 6306306,
+                "emp_offered": 0,
+                "other_offered": 0,
+                "total_offered": 12774776,
+                "qib_shares_bid_for": 392175,
+                "nii_shares_bid_for": 19771290,
+                "nii_shares_bid_for_big": 12574170,
+                "nii_shares_bid_for_small": 7197120,
+                "rii_shares_bid_for": 30395790,
+                "emp_shares_bid_for": 0,
+                "other_shares_bid_for": 0,
+                "total_shares_bid_for": 50833440,
+                "qib_bid_amt": 4.35,
+                "nii_bid_amt": 219.46,
+                "nii_bid_amt_big": 139.57,
+                "nii_bid_amt_small": 79.89,
+                "rii_bid_amt": 337.39,
+                "emp_bid_amt": 0.0,
+                "other_bid_amt": 0.0,
+                "total_bid_amt": 564.25,
+                "qib": 0.1,
+                "nii": 7.32,
+                "nii_big": 6.98,
+                "nii_small": 7.99,
+                "rii": 4.82,
+                "emp": 0.0,
+                "other": 0.0,
+                "total": 3.98,
+                "cor_date_added": "2025-06-30T11:35:04.000Z",
+                "create_date": "2025-06-30T11:40:01.000Z",
+                "ipo_category_desc": "N/A",
+                "listing_at": "N/A",
+                "company_short_name": "N/A"
             }
         ],
         "metaTitle": "Indogulf Cropsciences Mainline Live Subscription. Total: 0.42 times.",
         "pageTitle": "Indogulf Cropsciences Live Subscription",
         "metaDesc": "Indogulf Cropsciences Mainline Live Subscription. Total: 0.42 times as of 26th Jun 2025 17:07.",
         "cacheKey": "ig_iposubscription_bidding:1299",
-        "currentTime": "2025-06-29 22:52:04",
+        "currentTime": "2025-06-30 11:43:09",
         "IPO Share Allocation": [
             {
                 "category": "Qualified Institutional Buyers",
@@ -184,6 +228,14 @@
                 "nii_ratio": 0.55,
                 "rii_ratio": 1.58,
                 "total_ratio": 0.98
+            },
+            {
+                "day_number": 3,
+                "": "30th Jun 2025 11:36",
+                "qib_ratio": 0.1,
+                "nii_ratio": 6.98,
+                "rii_ratio": 4.82,
+                "total_ratio": 3.98
             }
         ],
         "IPO Shares Bid Amount (Table)": [],
@@ -330,7 +382,7 @@
         "pageTitle": "Sambhv Steel Tubes Live Subscription",
         "metaDesc": "Sambhv Steel Tubes Mainline Live Subscription. Total: 0.41 times as of 25th Jun 2025 17:06.",
         "cacheKey": "ig_iposubscription_bidding:1279",
-        "currentTime": "2025-06-29 23:03:51",
+        "currentTime": "2025-06-30 11:50:28",
         "IPO Share Allocation": [
             {
                 "category": "Qualified Institutional Buyers",
@@ -554,7 +606,7 @@
         "pageTitle": "HDB Financial Live Subscription",
         "metaDesc": "HDB Financial Mainline Live Subscription. Total: 0.40 times as of 25th Jun 2025 17:06.",
         "cacheKey": "ig_iposubscription_bidding:1276",
-        "currentTime": "2025-06-29 23:04:07",
+        "currentTime": "2025-06-30 11:55:04",
         "IPO Share Allocation": [
             {
                 "category": "Qualified Institutional Buyers",
@@ -788,7 +840,7 @@
         "pageTitle": "Globe Civil Projects Live Subscription",
         "metaDesc": "Globe Civil Projects Mainline Live Subscription. Total: 6.97 times as of 24th Jun 2025 17:06.",
         "cacheKey": "ig_iposubscription_bidding:1280",
-        "currentTime": "2025-06-29 22:59:01",
+        "currentTime": "2025-06-30 11:49:43",
         "IPO Share Allocation": [
             {
                 "category": "Qualified Institutional Buyers",
@@ -1002,7 +1054,7 @@
         "pageTitle": "Ellenbarrie Industrial Gases Live Subscription",
         "metaDesc": "Ellenbarrie Industrial Gases Mainline Live Subscription. Total: 0.08 times as of 24th Jun 2025 17:06.",
         "cacheKey": "ig_iposubscription_bidding:1278",
-        "currentTime": "2025-06-29 22:52:09",
+        "currentTime": "2025-06-30 11:43:24",
         "IPO Share Allocation": [
             {
                 "category": "Qualified Institutional Buyers",
@@ -1216,7 +1268,7 @@
         "pageTitle": "Kalpataru Live Subscription",
         "metaDesc": "Kalpataru Mainline Live Subscription. Total: 0.10 times as of 24th Jun 2025 17:06.",
         "cacheKey": "ig_iposubscription_bidding:1277",
-        "currentTime": "2025-06-29 22:51:40",
+        "currentTime": "2025-06-30 11:47:34",
         "IPO Share Allocation": [
             {
                 "category": "Qualified Institutional Buyers",
@@ -1300,6 +1352,20 @@
         "Scrape Status": "Success"
     },
     {
+        "IPO ID (from List API)": 1313,
+        "Company Name (from List API)": "Chemkart India",
+        "IPO Bidding History (JSON)": [],
+        "metaTitle": "",
+        "pageTitle": "",
+        "metaDesc": "",
+        "cacheKey": "ig_iposubscription_bidding:1313",
+        "currentTime": "2025-06-30 11:51:06",
+        "IPO Share Allocation": [],
+        "IPO Daywise Subscription (Table)": [],
+        "IPO Shares Bid Amount (Table)": [],
+        "Scrape Status": "Success"
+    },
+    {
         "IPO ID (from List API)": 1311,
         "Company Name (from List API)": "Cryogenic OGS",
         "IPO Bidding History (JSON)": [],
@@ -1307,7 +1373,7 @@
         "pageTitle": "",
         "metaDesc": "",
         "cacheKey": "ig_iposubscription_bidding:1311",
-        "currentTime": "2025-06-29 23:01:26",
+        "currentTime": "2025-06-30 11:49:17",
         "IPO Share Allocation": [],
         "IPO Daywise Subscription (Table)": [],
         "IPO Shares Bid Amount (Table)": [],
@@ -1316,168 +1382,482 @@
     {
         "IPO ID (from List API)": 1307,
         "Company Name (from List API)": "Silky Overseas",
-        "IPO Bidding History (JSON)": [],
-        "metaTitle": "",
-        "pageTitle": "",
-        "metaDesc": "",
-        "cacheKey": "ig_iposubscription_bidding:1307",
-        "currentTime": "2025-06-29 23:02:36",
-        "IPO Share Allocation": [],
-        "IPO Daywise Subscription (Table)": [],
-        "IPO Shares Bid Amount (Table)": [],
-        "Scrape Status": "Success"
-    },
-    {
-        "IPO ID (from List API)": 1306,
-        "Company Name (from List API)": "Vandan Foods",
-        "IPO Bidding History (JSON)": [],
-        "metaTitle": "",
-        "pageTitle": "",
-        "metaDesc": "",
-        "cacheKey": "ig_iposubscription_bidding:1306",
-        "currentTime": "2025-06-29 23:02:36",
-        "IPO Share Allocation": [],
-        "IPO Daywise Subscription (Table)": [],
-        "IPO Shares Bid Amount (Table)": [],
-        "Scrape Status": "Success"
-    },
-    {
-        "IPO ID (from List API)": 1304,
-        "Company Name (from List API)": "Cedaar Textile IPO",
-        "IPO Bidding History (JSON)": [],
-        "metaTitle": "",
-        "pageTitle": "",
-        "metaDesc": "",
-        "cacheKey": "ig_iposubscription_bidding:1304",
-        "currentTime": "2025-06-29 23:02:36",
-        "IPO Share Allocation": [],
-        "IPO Daywise Subscription (Table)": [],
-        "IPO Shares Bid Amount (Table)": [],
-        "Scrape Status": "Success"
-    },
-    {
-        "IPO ID (from List API)": 1301,
-        "Company Name (from List API)": "Marc Loire",
-        "IPO Bidding History (JSON)": [],
-        "metaTitle": "",
-        "pageTitle": "",
-        "metaDesc": "",
-        "cacheKey": "ig_iposubscription_bidding:1301",
-        "currentTime": "2025-06-29 23:02:36",
-        "IPO Share Allocation": [],
-        "IPO Daywise Subscription (Table)": [],
-        "IPO Shares Bid Amount (Table)": [],
-        "Scrape Status": "Success"
-    },
-    {
-        "IPO ID (from List API)": 1302,
-        "Company Name (from List API)": "Pushpa Jewellers",
-        "IPO Bidding History (JSON)": [],
-        "metaTitle": "",
-        "pageTitle": "",
-        "metaDesc": "",
-        "cacheKey": "ig_iposubscription_bidding:1302",
-        "currentTime": "2025-06-29 23:02:37",
-        "IPO Share Allocation": [],
-        "IPO Daywise Subscription (Table)": [],
-        "IPO Shares Bid Amount (Table)": [],
-        "Scrape Status": "Success"
-    },
-    {
-        "IPO ID (from List API)": 1303,
-        "Company Name (from List API)": "Adcounty Media India",
         "IPO Bidding History (JSON)": [
             {
                 "Seq": 1,
-                "id (Subscription Data)": 7665,
-                "tsb_ipo_id": 1303,
-                "cor_id": 2365,
-                "bid_date": "27th Jun 2025 17:07",
-                "qib_offered": 1124800,
-                "nii_offered": 844800,
+                "id (Subscription Data)": 7672,
+                "tsb_ipo_id": 1307,
+                "cor_id": 2392,
+                "bid_date": "30th Jun 2025 11:46",
+                "qib_offered": 318400,
+                "nii_offered": 239200,
                 "nii_offered_big": 0,
                 "nii_offered_small": 0,
-                "rii_offered": 1971200,
+                "rii_offered": 557600,
                 "emp_offered": 0,
                 "other_offered": 0,
-                "total_offered": 3940800,
-                "qib_shares_bid_for": 2824000,
-                "nii_shares_bid_for": 776000,
+                "total_offered": 1115200,
+                "qib_shares_bid_for": 0,
+                "nii_shares_bid_for": 2400,
                 "nii_shares_bid_for_big": 0,
                 "nii_shares_bid_for_small": 0,
-                "rii_shares_bid_for": 5115200,
+                "rii_shares_bid_for": 36800,
                 "emp_shares_bid_for": 0,
                 "other_shares_bid_for": 0,
-                "total_shares_bid_for": 8715200,
-                "qib_bid_amt": 24.0,
-                "nii_bid_amt": 6.6,
+                "total_shares_bid_for": 39200,
+                "qib_bid_amt": 0.0,
+                "nii_bid_amt": 0.04,
                 "nii_bid_amt_big": 0.0,
                 "nii_bid_amt_small": 0.0,
-                "rii_bid_amt": 43.48,
+                "rii_bid_amt": 0.59,
                 "emp_bid_amt": 0.0,
                 "other_bid_amt": 0.0,
-                "total_bid_amt": 74.08,
-                "qib": 2.51,
-                "nii": 0.92,
+                "total_bid_amt": 0.63,
+                "qib": 0.0,
+                "nii": 0.01,
                 "nii_big": 0.0,
                 "nii_small": 0.0,
-                "rii": 2.59,
+                "rii": 0.07,
                 "emp": 0.0,
                 "other": 0.0,
-                "total": 2.21,
-                "cor_date_added": "2025-06-27T17:15:05.000Z",
-                "create_date": "2025-06-27T17:20:01.000Z",
+                "total": 0.04,
+                "cor_date_added": "2025-06-30T11:45:05.000Z",
+                "create_date": "2025-06-30T11:50:01.000Z",
                 "ipo_category_desc": "SME IPO",
-                "listing_at": "BSE SME",
-                "company_short_name": "Adcounty Media India"
+                "listing_at": "NSE SME",
+                "company_short_name": "Silky Overseas"
             }
         ],
-        "metaTitle": "Adcounty Media India SME Live Subscription. Total: 2.21 times.",
-        "pageTitle": "Adcounty Media India Live Subscription",
-        "metaDesc": "Adcounty Media India SME Live Subscription. Total: 2.21 times as of 27th Jun 2025 17:07.",
-        "cacheKey": "ig_iposubscription_bidding:1303",
-        "currentTime": "2025-06-29 22:56:03",
+        "metaTitle": "Silky Overseas SME Live Subscription. Total: 0.04 times.",
+        "pageTitle": "Silky Overseas Live Subscription",
+        "metaDesc": "Silky Overseas SME Live Subscription. Total: 0.04 times as of 30th Jun 2025 11:46.",
+        "cacheKey": "ig_iposubscription_bidding:1307",
+        "currentTime": "2025-06-30 11:56:25",
         "IPO Share Allocation": [
             {
                 "category": "Qualified Institutional Buyers",
-                "shares_allocated": 1124800,
-                "allocation_pct": 28.54
+                "shares_allocated": 318400,
+                "allocation_pct": 28.55
             },
             {
                 "category": "Non-Institutional Investors",
-                "shares_allocated": 844800,
-                "allocation_pct": 21.44
+                "shares_allocated": 239200,
+                "allocation_pct": 21.45
             },
             {
                 "category": "Retail Individual Investor",
-                "shares_allocated": 1971200,
-                "allocation_pct": 50.02
+                "shares_allocated": 557600,
+                "allocation_pct": 50.0
             }
         ],
         "IPO Daywise Subscription (Table)": [
             {
                 "day_number": null,
                 "": "# of Share Offered",
-                "qib_ratio": 1124800.0,
-                "nii_ratio": 844800.0,
-                "rii_ratio": 1971200.0,
-                "total_ratio": 3940800.0
+                "qib_ratio": 318400.0,
+                "nii_ratio": 239200.0,
+                "rii_ratio": 557600.0,
+                "total_ratio": 1115200.0
             },
             {
                 "day_number": null,
                 "": "Number of Lots Offered",
-                "qib_ratio": 703.0,
-                "nii_ratio": 528.0,
-                "rii_ratio": 1232.0,
-                "total_ratio": 2463.0
+                "qib_ratio": 398.0,
+                "nii_ratio": 299.0,
+                "rii_ratio": 697.0,
+                "total_ratio": 1394.0
             },
             {
                 "day_number": 1,
-                "": "27th Jun 2025 17:07",
-                "qib_ratio": 2.51,
-                "nii_ratio": 0.92,
-                "rii_ratio": 2.59,
-                "total_ratio": 2.21
+                "": "30th Jun 2025 11:46",
+                "qib_ratio": 0.0,
+                "nii_ratio": 0.01,
+                "rii_ratio": 0.07,
+                "total_ratio": 0.04
+            }
+        ],
+        "IPO Shares Bid Amount (Table)": [],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1306,
+        "Company Name (from List API)": "Vandan Foods",
+        "IPO Bidding History (JSON)": [
+            {
+                "Seq": 1,
+                "id (Subscription Data)": 7678,
+                "tsb_ipo_id": 1306,
+                "cor_id": 2169,
+                "bid_date": "30th Jun 2025 11:46",
+                "qib_offered": 0,
+                "nii_offered": 1254000,
+                "nii_offered_big": 0,
+                "nii_offered_small": 0,
+                "rii_offered": 1254000,
+                "emp_offered": 0,
+                "other_offered": 0,
+                "total_offered": 2508001,
+                "qib_shares_bid_for": 0,
+                "nii_shares_bid_for": 2400,
+                "nii_shares_bid_for_big": 0,
+                "nii_shares_bid_for_small": 0,
+                "rii_shares_bid_for": 136800,
+                "emp_shares_bid_for": 0,
+                "other_shares_bid_for": 0,
+                "total_shares_bid_for": 139200,
+                "qib_bid_amt": 0.0,
+                "nii_bid_amt": 0.03,
+                "nii_bid_amt_big": 0.0,
+                "nii_bid_amt_small": 0.0,
+                "rii_bid_amt": 1.57,
+                "emp_bid_amt": 0.0,
+                "other_bid_amt": 0.0,
+                "total_bid_amt": 1.6,
+                "qib": 0.0,
+                "nii": 0.0,
+                "nii_big": 0.0,
+                "nii_small": 0.0,
+                "rii": 0.11,
+                "emp": 0.0,
+                "other": 0.0,
+                "total": 0.06,
+                "cor_date_added": "2025-06-30T11:45:07.000Z",
+                "create_date": "2025-06-30T11:50:01.000Z",
+                "ipo_category_desc": "SME IPO",
+                "listing_at": "BSE SME",
+                "company_short_name": "Vandan Foods"
+            }
+        ],
+        "metaTitle": "Vandan Foods SME Live Subscription. Total: 0.06 times.",
+        "pageTitle": "Vandan Foods Live Subscription",
+        "metaDesc": "Vandan Foods SME Live Subscription. Total: 0.06 times as of 30th Jun 2025 11:46.",
+        "cacheKey": "ig_iposubscription_bidding:1306",
+        "currentTime": "2025-06-30 11:56:25",
+        "IPO Share Allocation": [
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 1254000,
+                "allocation_pct": 50.0
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 1254000,
+                "allocation_pct": 50.0
+            }
+        ],
+        "IPO Daywise Subscription (Table)": [
+            {
+                "day_number": null,
+                "": "# of Share Offered",
+                "nii_ratio": 1254000.0,
+                "rii_ratio": 1254000.0,
+                "total_ratio": 2508001.0
+            },
+            {
+                "day_number": null,
+                "": "Number of Lots Offered",
+                "nii_ratio": 1045.0,
+                "rii_ratio": 1045.0,
+                "total_ratio": 2090.0
+            },
+            {
+                "day_number": 1,
+                "": "30th Jun 2025 11:46",
+                "nii_ratio": 0.0,
+                "rii_ratio": 0.11,
+                "total_ratio": 0.06
+            }
+        ],
+        "IPO Shares Bid Amount (Table)": [],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1304,
+        "Company Name (from List API)": "Cedaar Textile IPO",
+        "IPO Bidding History (JSON)": [
+            {
+                "Seq": 1,
+                "id (Subscription Data)": 7673,
+                "tsb_ipo_id": 1304,
+                "cor_id": 2211,
+                "bid_date": "30th Jun 2025 11:36",
+                "qib_offered": 522000,
+                "nii_offered": 1328000,
+                "nii_offered_big": 0,
+                "nii_offered_small": 0,
+                "rii_offered": 1500000,
+                "emp_offered": 0,
+                "other_offered": 0,
+                "total_offered": 3350000,
+                "qib_shares_bid_for": 0,
+                "nii_shares_bid_for": 2000,
+                "nii_shares_bid_for_big": 0,
+                "nii_shares_bid_for_small": 0,
+                "rii_shares_bid_for": 27000,
+                "emp_shares_bid_for": 0,
+                "other_shares_bid_for": 0,
+                "total_shares_bid_for": 29000,
+                "qib_bid_amt": 0.0,
+                "nii_bid_amt": 0.03,
+                "nii_bid_amt_big": 0.0,
+                "nii_bid_amt_small": 0.0,
+                "rii_bid_amt": 0.38,
+                "emp_bid_amt": 0.0,
+                "other_bid_amt": 0.0,
+                "total_bid_amt": 0.41,
+                "qib": 0.0,
+                "nii": 0.0,
+                "nii_big": 0.0,
+                "nii_small": 0.0,
+                "rii": 0.02,
+                "emp": 0.0,
+                "other": 0.0,
+                "total": 0.01,
+                "cor_date_added": "2025-06-30T11:35:04.000Z",
+                "create_date": "2025-06-30T11:40:01.000Z",
+                "ipo_category_desc": "SME IPO",
+                "listing_at": "NSE SME",
+                "company_short_name": "Cedaar Tetile IPO"
+            }
+        ],
+        "metaTitle": "Cedaar Tetile IPO SME Live Subscription. Total: 0.01 times.",
+        "pageTitle": "Cedaar Tetile IPO Live Subscription",
+        "metaDesc": "Cedaar Tetile IPO SME Live Subscription. Total: 0.01 times as of 30th Jun 2025 11:36.",
+        "cacheKey": "ig_iposubscription_bidding:1304",
+        "currentTime": "2025-06-30 11:47:40",
+        "IPO Share Allocation": [
+            {
+                "category": "Qualified Institutional Buyers",
+                "shares_allocated": 522000,
+                "allocation_pct": 15.58
+            },
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 1328000,
+                "allocation_pct": 39.64
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 1500000,
+                "allocation_pct": 44.78
+            }
+        ],
+        "IPO Daywise Subscription (Table)": [
+            {
+                "day_number": null,
+                "": "# of Share Offered",
+                "qib_ratio": 522000.0,
+                "nii_ratio": 1328000.0,
+                "rii_ratio": 1500000.0,
+                "total_ratio": 3350000.0
+            },
+            {
+                "day_number": null,
+                "": "Number of Lots Offered",
+                "qib_ratio": 522.0,
+                "nii_ratio": 1328.0,
+                "rii_ratio": 1500.0,
+                "total_ratio": 3350.0
+            },
+            {
+                "day_number": 1,
+                "": "30th Jun 2025 11:36",
+                "qib_ratio": 0.0,
+                "nii_ratio": 0.0,
+                "rii_ratio": 0.02,
+                "total_ratio": 0.01
+            }
+        ],
+        "IPO Shares Bid Amount (Table)": [],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1301,
+        "Company Name (from List API)": "Marc Loire",
+        "IPO Bidding History (JSON)": [
+            {
+                "Seq": 1,
+                "id (Subscription Data)": 7677,
+                "tsb_ipo_id": 1301,
+                "cor_id": 2191,
+                "bid_date": "30th Jun 2025 11:46",
+                "qib_offered": 0,
+                "nii_offered": 997200,
+                "nii_offered_big": 0,
+                "nii_offered_small": 0,
+                "rii_offered": 997200,
+                "emp_offered": 0,
+                "other_offered": 0,
+                "total_offered": 1994401,
+                "qib_shares_bid_for": 0,
+                "nii_shares_bid_for": 0,
+                "nii_shares_bid_for_big": 0,
+                "nii_shares_bid_for_small": 0,
+                "rii_shares_bid_for": 39600,
+                "emp_shares_bid_for": 0,
+                "other_shares_bid_for": 0,
+                "total_shares_bid_for": 39600,
+                "qib_bid_amt": 0.0,
+                "nii_bid_amt": 0.0,
+                "nii_bid_amt_big": 0.0,
+                "nii_bid_amt_small": 0.0,
+                "rii_bid_amt": 0.4,
+                "emp_bid_amt": 0.0,
+                "other_bid_amt": 0.0,
+                "total_bid_amt": 0.4,
+                "qib": 0.0,
+                "nii": 0.0,
+                "nii_big": 0.0,
+                "nii_small": 0.0,
+                "rii": 0.04,
+                "emp": 0.0,
+                "other": 0.0,
+                "total": 0.02,
+                "cor_date_added": "2025-06-30T11:45:07.000Z",
+                "create_date": "2025-06-30T11:50:01.000Z",
+                "ipo_category_desc": "SME IPO",
+                "listing_at": "BSE SME",
+                "company_short_name": "Marc Loire"
+            }
+        ],
+        "metaTitle": "Marc Loire SME Live Subscription. Total: 0.02 times.",
+        "pageTitle": "Marc Loire Live Subscription",
+        "metaDesc": "Marc Loire SME Live Subscription. Total: 0.02 times as of 30th Jun 2025 11:46.",
+        "cacheKey": "ig_iposubscription_bidding:1301",
+        "currentTime": "2025-06-30 11:56:26",
+        "IPO Share Allocation": [
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 997200,
+                "allocation_pct": 50.0
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 997200,
+                "allocation_pct": 50.0
+            }
+        ],
+        "IPO Daywise Subscription (Table)": [
+            {
+                "day_number": null,
+                "": "# of Share Offered",
+                "nii_ratio": 997200.0,
+                "rii_ratio": 997200.0,
+                "total_ratio": 1994401.0
+            },
+            {
+                "day_number": null,
+                "": "Number of Lots Offered",
+                "nii_ratio": 831.0,
+                "rii_ratio": 831.0,
+                "total_ratio": 1662.0
+            },
+            {
+                "day_number": 1,
+                "": "30th Jun 2025 11:46",
+                "nii_ratio": 0.0,
+                "rii_ratio": 0.04,
+                "total_ratio": 0.02
+            }
+        ],
+        "IPO Shares Bid Amount (Table)": [],
+        "Scrape Status": "Success"
+    },
+    {
+        "IPO ID (from List API)": 1302,
+        "Company Name (from List API)": "Pushpa Jewellers",
+        "IPO Bidding History (JSON)": [
+            {
+                "Seq": 1,
+                "id (Subscription Data)": 7671,
+                "tsb_ipo_id": 1302,
+                "cor_id": 2346,
+                "bid_date": "30th Jun 2025 11:36",
+                "qib_offered": 2231000,
+                "nii_offered": 957000,
+                "nii_offered_big": 0,
+                "nii_offered_small": 0,
+                "rii_offered": 2231000,
+                "emp_offered": 0,
+                "other_offered": 0,
+                "total_offered": 5419000,
+                "qib_shares_bid_for": 0,
+                "nii_shares_bid_for": 0,
+                "nii_shares_bid_for_big": 0,
+                "nii_shares_bid_for_small": 0,
+                "rii_shares_bid_for": 40000,
+                "emp_shares_bid_for": 0,
+                "other_shares_bid_for": 0,
+                "total_shares_bid_for": 40000,
+                "qib_bid_amt": 0.0,
+                "nii_bid_amt": 0.0,
+                "nii_bid_amt_big": 0.0,
+                "nii_bid_amt_small": 0.0,
+                "rii_bid_amt": 0.59,
+                "emp_bid_amt": 0.0,
+                "other_bid_amt": 0.0,
+                "total_bid_amt": 0.59,
+                "qib": 0.0,
+                "nii": 0.0,
+                "nii_big": 0.0,
+                "nii_small": 0.0,
+                "rii": 0.02,
+                "emp": 0.0,
+                "other": 0.0,
+                "total": 0.01,
+                "cor_date_added": "2025-06-30T11:35:04.000Z",
+                "create_date": "2025-06-30T11:40:01.000Z",
+                "ipo_category_desc": "SME IPO",
+                "listing_at": "NSE SME",
+                "company_short_name": "Pushpa Jewellers"
+            }
+        ],
+        "metaTitle": "Pushpa Jewellers SME Live Subscription. Total: 0.01 times.",
+        "pageTitle": "Pushpa Jewellers Live Subscription",
+        "metaDesc": "Pushpa Jewellers SME Live Subscription. Total: 0.01 times as of 30th Jun 2025 11:36.",
+        "cacheKey": "ig_iposubscription_bidding:1302",
+        "currentTime": "2025-06-30 11:42:31",
+        "IPO Share Allocation": [
+            {
+                "category": "Qualified Institutional Buyers",
+                "shares_allocated": 2231000,
+                "allocation_pct": 41.17
+            },
+            {
+                "category": "Non-Institutional Investors",
+                "shares_allocated": 957000,
+                "allocation_pct": 17.66
+            },
+            {
+                "category": "Retail Individual Investor",
+                "shares_allocated": 2231000,
+                "allocation_pct": 41.17
+            }
+        ],
+        "IPO Daywise Subscription (Table)": [
+            {
+                "day_number": null,
+                "": "# of Share Offered",
+                "qib_ratio": 2231000.0,
+                "nii_ratio": 957000.0,
+                "rii_ratio": 2231000.0,
+                "total_ratio": 5419000.0
+            },
+            {
+                "day_number": null,
+                "": "Number of Lots Offered",
+                "qib_ratio": 2231.0,
+                "nii_ratio": 957.0,
+                "rii_ratio": 2231.0,
+                "total_ratio": 5419.0
+            },
+            {
+                "day_number": 1,
+                "": "30th Jun 2025 11:36",
+                "qib_ratio": 0.0,
+                "nii_ratio": 0.0,
+                "rii_ratio": 0.02,
+                "total_ratio": 0.01
             }
         ],
         "IPO Shares Bid Amount (Table)": [],

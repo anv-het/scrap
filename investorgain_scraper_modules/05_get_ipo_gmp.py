@@ -4,6 +4,8 @@ import json
 import re
 import zlib # To potentially decompress if needed
 import brotli # If 'br' (brotli) compression is used
+import time
+from datetime import datetime
 
 def clean_text(text):
     """
@@ -196,7 +198,8 @@ def parse_gmp_api_data(gmp_data_array):
             "create_date": clean_text(latest_gmp.get("create_date", "N/A")),
             "create_date_gmp": clean_text(latest_gmp.get("create_date_gmp", "N/A")),
             "last_updated_gmp": clean_text(latest_gmp.get("last_updated_gmp", "N/A")),
-            "last_updated": clean_text(latest_gmp.get("last_updated", "N/A"))
+            "last_updated": clean_text(latest_gmp.get("last_updated", "N/A")),
+            "scraped_at": datetime.now().isoformat()
         }
     return gmp_json_data
 

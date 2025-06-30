@@ -136,23 +136,6 @@
         "Lot Min HNI Lots": "N/A"
     },
     {
-        "IPO ID": 1275,
-        "API Company Name": "Arisinfra Solutions",
-        "API IPO Category": "Mainline",
-        "API Issue Size": "&#8377;499.60 Cr",
-        "API Issue Open Date": "18-06-2025",
-        "API Issue End Date": "20-06-2025",
-        "API Listing At": "BSE, NSE",
-        "API IPO Status": "Listed",
-        "Detail URL": "https://www.investorgain.com/ipo/arisinfra-solutions-ipo/1275/",
-        "Lot Issue Price": "₹210.00-222.00",
-        "Lot Market Lot": "67Shares",
-        "Lot Min Small HNI Lots (2-10 Lakh)": "938 shares (14 lots)-₹2,08,236",
-        "Lot Min Big HNI Lots (10+ Lakh)": "4556 shares (68 lots)-₹10,11,432",
-        "Lot Individual Investor": "N/A",
-        "Lot Min HNI Lots": "N/A"
-    },
-    {
         "IPO ID": 1311,
         "API Company Name": "Cryogenic OGS",
         "API IPO Category": "SME",
@@ -162,10 +145,10 @@
         "API Listing At": "BSE SME",
         "API IPO Status": "Upcoming",
         "Detail URL": "https://www.investorgain.com/ipo/cryogenic-ogs-sme-ipo/1311/",
-        "Lot Issue Price": "₹TBD",
-        "Lot Market Lot": "N/A",
-        "Lot Individual Investor": "N/A",
-        "Lot Min HNI Lots": "N/A",
+        "Lot Issue Price": "₹44.00-47.00",
+        "Lot Market Lot": "3,000Shares",
+        "Lot Individual Investor": "₹1,41,000",
+        "Lot Min HNI Lots": "6000 shares (2 lots)",
         "Lot Min Small HNI Lots (2-10 Lakh)": "N/A",
         "Lot Min Big HNI Lots (10+ Lakh)": "N/A"
     },
@@ -251,6 +234,23 @@
         "Lot Market Lot": "1,000Shares",
         "Lot Individual Investor": "₹1,47,000",
         "Lot Min HNI Lots": "2000 shares (2 lots)",
+        "Lot Min Small HNI Lots (2-10 Lakh)": "N/A",
+        "Lot Min Big HNI Lots (10+ Lakh)": "N/A"
+    },
+    {
+        "IPO ID": 1303,
+        "API Company Name": "Adcounty Media India",
+        "API IPO Category": "SME",
+        "API Issue Size": "&#8377;47.83 Cr",
+        "API Issue Open Date": "27-06-2025",
+        "API Issue End Date": "01-07-2025",
+        "API Listing At": "BSE SME",
+        "API IPO Status": "Open",
+        "Detail URL": "https://www.investorgain.com/ipo/adcounty-media-india-sme-ipo/1303/",
+        "Lot Issue Price": "₹80.00-85.00",
+        "Lot Market Lot": "1,600Shares",
+        "Lot Individual Investor": "₹1,36,000",
+        "Lot Min HNI Lots": "3200 shares (2 lots)",
         "Lot Min Small HNI Lots (2-10 Lakh)": "N/A",
         "Lot Min Big HNI Lots (10+ Lakh)": "N/A"
     }

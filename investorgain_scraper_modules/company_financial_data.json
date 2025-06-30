@@ -1,70 +1,5 @@
 [
     {
-        "id": 1299,
-        "url": "https://www.investorgain.com/ipo/indogulf-cropsciences-ipo/1299/",
-        "urlrewrite_folder_name": "indogulf-cropsciences-ipo",
-        "urlrewrite_folder_name_main": "ipo",
-        "ipo_status": "Open",
-        "Company Financial Information (Restated Consolidated)": [
-            {
-                "Metric": "Assets",
-                "31 Dec 2024": "597.81",
-                "31 Mar 2024": "542.25",
-                "31 Mar 2023": "517.51",
-                "31 Mar 2022": "413.59"
-            },
-            {
-                "Metric": "Revenue",
-                "31 Dec 2024": "466.31",
-                "31 Mar 2024": "555.79",
-                "31 Mar 2023": "552.19",
-                "31 Mar 2022": "490.23"
-            },
-            {
-                "Metric": "Profit After Tax",
-                "31 Dec 2024": "21.68",
-                "31 Mar 2024": "28.23",
-                "31 Mar 2023": "22.42",
-                "31 Mar 2022": "26.36"
-            },
-            {
-                "Metric": "EBITDA",
-                "31 Dec 2024": "44.78",
-                "31 Mar 2024": "55.74",
-                "31 Mar 2023": "49.04",
-                "31 Mar 2022": "47.24"
-            },
-            {
-                "Metric": "Net Worth",
-                "31 Dec 2024": "265.43",
-                "31 Mar 2024": "231.65",
-                "31 Mar 2023": "203.25",
-                "31 Mar 2022": "180.51"
-            },
-            {
-                "Metric": "Reserves and Surplus",
-                "31 Dec 2024": "216.64",
-                "31 Mar 2024": "208.01",
-                "31 Mar 2023": "179.60",
-                "31 Mar 2022": "156.87"
-            },
-            {
-                "Metric": "Total Borrowing",
-                "31 Dec 2024": "206.30",
-                "31 Mar 2024": "154.56",
-                "31 Mar 2023": "189.22",
-                "31 Mar 2022": "101.38"
-            },
-            {
-                "Metric": "Amount in ₹ Crore",
-                "31 Dec 2024": null,
-                "31 Mar 2024": null,
-                "31 Mar 2023": null,
-                "31 Mar 2022": null
-            }
-        ]
-    },
-    {
         "id": 1310,
         "url": "https://www.investorgain.com/ipo/travel-food-services-ipo/1310/",
         "urlrewrite_folder_name": "travel-food-services-ipo",
@@ -123,6 +58,71 @@
             {
                 "Metric": "Amount in ₹ Crore",
                 "30 Jun 2024": null,
+                "31 Mar 2024": null,
+                "31 Mar 2023": null,
+                "31 Mar 2022": null
+            }
+        ]
+    },
+    {
+        "id": 1279,
+        "url": "https://www.investorgain.com/ipo/sambhv-steel-tubes-ipo/1279/",
+        "urlrewrite_folder_name": "sambhv-steel-tubes-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Closed",
+        "Company Financial Information (Restated Consolidated)": [
+            {
+                "Metric": "Assets",
+                "31 Dec 2024": "1411.82",
+                "31 Mar 2024": "940.13",
+                "31 Mar 2023": "552.14",
+                "31 Mar 2022": "458.51"
+            },
+            {
+                "Metric": "Revenue",
+                "31 Dec 2024": "1018.81",
+                "31 Mar 2024": "1289.38",
+                "31 Mar 2023": "939.00",
+                "31 Mar 2022": "820.75"
+            },
+            {
+                "Metric": "Profit After Tax",
+                "31 Dec 2024": "40.69",
+                "31 Mar 2024": "82.44",
+                "31 Mar 2023": "60.38",
+                "31 Mar 2022": "72.11"
+            },
+            {
+                "Metric": "EBITDA",
+                "31 Dec 2024": "106.37",
+                "31 Mar 2024": "159.87",
+                "31 Mar 2023": "117.30",
+                "31 Mar 2022": "124.52"
+            },
+            {
+                "Metric": "Net Worth",
+                "31 Dec 2024": "478.46",
+                "31 Mar 2024": "438.28",
+                "31 Mar 2023": "210.40",
+                "31 Mar 2022": "149.30"
+            },
+            {
+                "Metric": "Reserves and Surplus",
+                "31 Dec 2024": null,
+                "31 Mar 2024": "197.28",
+                "31 Mar 2023": "190.31",
+                "31 Mar 2022": "129.21"
+            },
+            {
+                "Metric": "Total Borrowing",
+                "31 Dec 2024": "619.15",
+                "31 Mar 2024": "346.88",
+                "31 Mar 2023": "282.77",
+                "31 Mar 2022": "241.29"
+            },
+            {
+                "Metric": "Amount in ₹ Crore",
+                "31 Dec 2024": null,
                 "31 Mar 2024": null,
                 "31 Mar 2023": null,
                 "31 Mar 2022": null
@@ -238,121 +238,64 @@
         ]
     },
     {
-        "id": 1279,
-        "url": "https://www.investorgain.com/ipo/sambhv-steel-tubes-ipo/1279/",
-        "urlrewrite_folder_name": "sambhv-steel-tubes-ipo",
+        "id": 1299,
+        "url": "https://www.investorgain.com/ipo/indogulf-cropsciences-ipo/1299/",
+        "urlrewrite_folder_name": "indogulf-cropsciences-ipo",
         "urlrewrite_folder_name_main": "ipo",
-        "ipo_status": "Closed",
+        "ipo_status": "Open",
         "Company Financial Information (Restated Consolidated)": [
             {
                 "Metric": "Assets",
-                "31 Dec 2024": "1411.82",
-                "31 Mar 2024": "940.13",
-                "31 Mar 2023": "552.14",
-                "31 Mar 2022": "458.51"
+                "31 Dec 2024": "597.81",
+                "31 Mar 2024": "542.25",
+                "31 Mar 2023": "517.51",
+                "31 Mar 2022": "413.59"
             },
             {
                 "Metric": "Revenue",
-                "31 Dec 2024": "1018.81",
-                "31 Mar 2024": "1289.38",
-                "31 Mar 2023": "939.00",
-                "31 Mar 2022": "820.75"
+                "31 Dec 2024": "466.31",
+                "31 Mar 2024": "555.79",
+                "31 Mar 2023": "552.19",
+                "31 Mar 2022": "490.23"
             },
             {
                 "Metric": "Profit After Tax",
-                "31 Dec 2024": "40.69",
-                "31 Mar 2024": "82.44",
-                "31 Mar 2023": "60.38",
-                "31 Mar 2022": "72.11"
+                "31 Dec 2024": "21.68",
+                "31 Mar 2024": "28.23",
+                "31 Mar 2023": "22.42",
+                "31 Mar 2022": "26.36"
             },
             {
                 "Metric": "EBITDA",
-                "31 Dec 2024": "106.37",
-                "31 Mar 2024": "159.87",
-                "31 Mar 2023": "117.30",
-                "31 Mar 2022": "124.52"
+                "31 Dec 2024": "44.78",
+                "31 Mar 2024": "55.74",
+                "31 Mar 2023": "49.04",
+                "31 Mar 2022": "47.24"
             },
             {
                 "Metric": "Net Worth",
-                "31 Dec 2024": "478.46",
-                "31 Mar 2024": "438.28",
-                "31 Mar 2023": "210.40",
-                "31 Mar 2022": "149.30"
+                "31 Dec 2024": "265.43",
+                "31 Mar 2024": "231.65",
+                "31 Mar 2023": "203.25",
+                "31 Mar 2022": "180.51"
             },
             {
                 "Metric": "Reserves and Surplus",
-                "31 Dec 2024": null,
-                "31 Mar 2024": "197.28",
-                "31 Mar 2023": "190.31",
-                "31 Mar 2022": "129.21"
+                "31 Dec 2024": "216.64",
+                "31 Mar 2024": "208.01",
+                "31 Mar 2023": "179.60",
+                "31 Mar 2022": "156.87"
             },
             {
                 "Metric": "Total Borrowing",
-                "31 Dec 2024": "619.15",
-                "31 Mar 2024": "346.88",
-                "31 Mar 2023": "282.77",
-                "31 Mar 2022": "241.29"
+                "31 Dec 2024": "206.30",
+                "31 Mar 2024": "154.56",
+                "31 Mar 2023": "189.22",
+                "31 Mar 2022": "101.38"
             },
             {
                 "Metric": "Amount in ₹ Crore",
                 "31 Dec 2024": null,
-                "31 Mar 2024": null,
-                "31 Mar 2023": null,
-                "31 Mar 2022": null
-            }
-        ]
-    },
-    {
-        "id": 1311,
-        "url": "https://www.investorgain.com/ipo/cryogenic-ogs-sme-ipo/1311/",
-        "urlrewrite_folder_name": "cryogenic-ogs-sme-ipo",
-        "urlrewrite_folder_name_main": "ipo",
-        "ipo_status": "Upcoming",
-        "Company Financial Information (Restated Consolidated)": [
-            {
-                "Metric": "Assets",
-                "31 Mar 2024": "28.35",
-                "31 Mar 2023": "24.00",
-                "31 Mar 2022": "22.43"
-            },
-            {
-                "Metric": "Revenue",
-                "31 Mar 2024": "25.67",
-                "31 Mar 2023": "22.71",
-                "31 Mar 2022": "24.00"
-            },
-            {
-                "Metric": "Profit After Tax",
-                "31 Mar 2024": "5.38",
-                "31 Mar 2023": "4.08",
-                "31 Mar 2022": "3.28"
-            },
-            {
-                "Metric": "EBITDA",
-                "31 Mar 2024": "6.39",
-                "31 Mar 2023": "5.65",
-                "31 Mar 2022": "4.35"
-            },
-            {
-                "Metric": "Net Worth",
-                "31 Mar 2024": "22.90",
-                "31 Mar 2023": "17.52",
-                "31 Mar 2022": "13.44"
-            },
-            {
-                "Metric": "Reserves and Surplus",
-                "31 Mar 2024": "22.40",
-                "31 Mar 2023": "17.02",
-                "31 Mar 2022": "12.94"
-            },
-            {
-                "Metric": "Total Borrowing",
-                "31 Mar 2024": null,
-                "31 Mar 2023": null,
-                "31 Mar 2022": "1.56"
-            },
-            {
-                "Metric": "Amount in ₹ Crore",
                 "31 Mar 2024": null,
                 "31 Mar 2023": null,
                 "31 Mar 2022": null
@@ -413,6 +356,63 @@
                 "31 Mar 2025": null,
                 "31 Mar 2024": null,
                 "31 Mar 2023": null
+            }
+        ]
+    },
+    {
+        "id": 1311,
+        "url": "https://www.investorgain.com/ipo/cryogenic-ogs-sme-ipo/1311/",
+        "urlrewrite_folder_name": "cryogenic-ogs-sme-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Upcoming",
+        "Company Financial Information (Restated Consolidated)": [
+            {
+                "Metric": "Assets",
+                "31 Mar 2024": "28.35",
+                "31 Mar 2023": "24.00",
+                "31 Mar 2022": "22.43"
+            },
+            {
+                "Metric": "Revenue",
+                "31 Mar 2024": "25.67",
+                "31 Mar 2023": "22.71",
+                "31 Mar 2022": "24.00"
+            },
+            {
+                "Metric": "Profit After Tax",
+                "31 Mar 2024": "5.38",
+                "31 Mar 2023": "4.08",
+                "31 Mar 2022": "3.28"
+            },
+            {
+                "Metric": "EBITDA",
+                "31 Mar 2024": "6.39",
+                "31 Mar 2023": "5.65",
+                "31 Mar 2022": "4.35"
+            },
+            {
+                "Metric": "Net Worth",
+                "31 Mar 2024": "22.90",
+                "31 Mar 2023": "17.52",
+                "31 Mar 2022": "13.44"
+            },
+            {
+                "Metric": "Reserves and Surplus",
+                "31 Mar 2024": "22.40",
+                "31 Mar 2023": "17.02",
+                "31 Mar 2022": "12.94"
+            },
+            {
+                "Metric": "Total Borrowing",
+                "31 Mar 2024": null,
+                "31 Mar 2023": null,
+                "31 Mar 2022": "1.56"
+            },
+            {
+                "Metric": "Amount in ₹ Crore",
+                "31 Mar 2024": null,
+                "31 Mar 2023": null,
+                "31 Mar 2022": null
             }
         ]
     },
@@ -540,71 +540,6 @@
         ]
     },
     {
-        "id": 1304,
-        "url": "https://www.investorgain.com/ipo/cedaar-textile-sme-ipo/1304/",
-        "urlrewrite_folder_name": "cedaar-textile-sme-ipo",
-        "urlrewrite_folder_name_main": "ipo",
-        "ipo_status": "Upcoming",
-        "Company Financial Information (Restated Consolidated)": [
-            {
-                "Metric": "Assets",
-                "31 Dec 2024": "222.77",
-                "31 Mar 2024": "198.23",
-                "31 Mar 2023": "175.84",
-                "31 Mar 2022": "154.45"
-            },
-            {
-                "Metric": "Revenue",
-                "31 Dec 2024": "113.91",
-                "31 Mar 2024": "191.01",
-                "31 Mar 2023": "161.88",
-                "31 Mar 2022": "220.44"
-            },
-            {
-                "Metric": "Profit After Tax",
-                "31 Dec 2024": "7.06",
-                "31 Mar 2024": "11.05",
-                "31 Mar 2023": "4.59",
-                "31 Mar 2022": "7.99"
-            },
-            {
-                "Metric": "EBITDA",
-                "31 Dec 2024": null,
-                "31 Mar 2024": "28.81",
-                "31 Mar 2023": "15.63",
-                "31 Mar 2022": "15.26"
-            },
-            {
-                "Metric": "Net Worth",
-                "31 Dec 2024": "60.70",
-                "31 Mar 2024": "25.24",
-                "31 Mar 2023": "14.19",
-                "31 Mar 2022": "9.60"
-            },
-            {
-                "Metric": "Reserves and Surplus",
-                "31 Dec 2024": "51.17",
-                "31 Mar 2024": "17.74",
-                "31 Mar 2023": "13.94",
-                "31 Mar 2022": "9.35"
-            },
-            {
-                "Metric": "Total Borrowing",
-                "31 Dec 2024": "120.63",
-                "31 Mar 2024": "146.15",
-                "31 Mar 2023": "137.01",
-                "31 Mar 2022": "121.01"
-            },
-            {
-                "Metric": "Amount in ₹ Crore",
-                "31 Dec 2024": null,
-                "31 Mar 2024": null,
-                "31 Mar 2023": null,
-                "31 Mar 2022": null
-            }
-        ]
-    },
-    {
         "id": 1307,
         "url": "https://www.investorgain.com/ipo/silky-overseas-sme-ipo/1307/",
         "urlrewrite_folder_name": "silky-overseas-sme-ipo",
@@ -663,6 +598,71 @@
             {
                 "Metric": "Amount in ₹ Crore",
                 "31 Jan 2025": null,
+                "31 Mar 2024": null,
+                "31 Mar 2023": null,
+                "31 Mar 2022": null
+            }
+        ]
+    },
+    {
+        "id": 1304,
+        "url": "https://www.investorgain.com/ipo/cedaar-textile-sme-ipo/1304/",
+        "urlrewrite_folder_name": "cedaar-textile-sme-ipo",
+        "urlrewrite_folder_name_main": "ipo",
+        "ipo_status": "Upcoming",
+        "Company Financial Information (Restated Consolidated)": [
+            {
+                "Metric": "Assets",
+                "31 Dec 2024": "222.77",
+                "31 Mar 2024": "198.23",
+                "31 Mar 2023": "175.84",
+                "31 Mar 2022": "154.45"
+            },
+            {
+                "Metric": "Revenue",
+                "31 Dec 2024": "113.91",
+                "31 Mar 2024": "191.01",
+                "31 Mar 2023": "161.88",
+                "31 Mar 2022": "220.44"
+            },
+            {
+                "Metric": "Profit After Tax",
+                "31 Dec 2024": "7.06",
+                "31 Mar 2024": "11.05",
+                "31 Mar 2023": "4.59",
+                "31 Mar 2022": "7.99"
+            },
+            {
+                "Metric": "EBITDA",
+                "31 Dec 2024": null,
+                "31 Mar 2024": "28.81",
+                "31 Mar 2023": "15.63",
+                "31 Mar 2022": "15.26"
+            },
+            {
+                "Metric": "Net Worth",
+                "31 Dec 2024": "60.70",
+                "31 Mar 2024": "25.24",
+                "31 Mar 2023": "14.19",
+                "31 Mar 2022": "9.60"
+            },
+            {
+                "Metric": "Reserves and Surplus",
+                "31 Dec 2024": "51.17",
+                "31 Mar 2024": "17.74",
+                "31 Mar 2023": "13.94",
+                "31 Mar 2022": "9.35"
+            },
+            {
+                "Metric": "Total Borrowing",
+                "31 Dec 2024": "120.63",
+                "31 Mar 2024": "146.15",
+                "31 Mar 2023": "137.01",
+                "31 Mar 2022": "121.01"
+            },
+            {
+                "Metric": "Amount in ₹ Crore",
+                "31 Dec 2024": null,
                 "31 Mar 2024": null,
                 "31 Mar 2023": null,
                 "31 Mar 2022": null
