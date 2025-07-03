@@ -1,0 +1,323 @@
+{
+    "headers": [
+        "Current IPOs",
+        "IPO GMP",
+        "Price",
+        "Gain",
+        "Date",
+        "Subject",
+        "Type"
+    ],
+    "data": [
+        {
+            "Current IPOs": "Indogulf\nCropsciences",
+            "Current IPOs__link": "https://ipowatch.in/indogulf-cropsciences-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 14",
+            "Price": "Rs. 111",
+            "Gain": "12.61%",
+            "Date": "26-30\nJune",
+            "Subject": "Rs. 1,200",
+            "Type": "Mainboard"
+        },
+        {
+            "Current IPOs": "Crizac",
+            "Current IPOs__link": "https://ipowatch.in/crizac-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 41",
+            "Price": "Rs. 245",
+            "Gain": "16.73%",
+            "Date": "2-4\nJuly",
+            "Subject": "Rs. 1,700",
+            "Type": "Mainboard"
+        },
+        {
+            "Current IPOs": "Travel\nFood\nServices",
+            "Current IPOs__link": "https://ipowatch.in/travel-food-services-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 94",
+            "Price": "Rs. 1100",
+            "Gain": "8.54%",
+            "Date": "7-9\nJuly",
+            "Subject": "Rs. 900",
+            "Type": "Mainboard"
+        },
+        {
+            "Current IPOs": "Anthem\nBiosciences",
+            "Current IPOs__link": "https://ipowatch.in/anthem-biosciences-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. -",
+            "Gain": "-%",
+            "Date": "2025",
+            "Subject": "Rs. -",
+            "Type": "Mainboard"
+        },
+        {
+            "Current IPOs": "NSDL",
+            "Current IPOs__link": "https://ipowatch.in/nsdl-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. -",
+            "Gain": "-%",
+            "Date": "July\n2025",
+            "Subject": "Rs. -",
+            "Type": "Mainboard"
+        },
+        {
+            "Current IPOs": "PRO\nFX\nTechs",
+            "Current IPOs__link": "https://ipowatch.in/pro-fx-tech-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 13",
+            "Price": "Rs. 87",
+            "Gain": "14.94%",
+            "Date": "26-30\nJune",
+            "Subject": "Rs. 15,800",
+            "Type": "NSE\nSME"
+        },
+        {
+            "Current IPOs": "Ace\nAlpha\nTech",
+            "Current IPOs__link": "https://ipowatch.in/ace-alpha-tech-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 30",
+            "Price": "Rs. 69",
+            "Gain": "43.47%",
+            "Date": "26-30\nJune",
+            "Subject": "Rs. 45,600",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Valencia\nIndia",
+            "Current IPOs__link": "https://ipowatch.in/valencia-india-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 110",
+            "Gain": "-%",
+            "Date": "26-30\nJune",
+            "Subject": "Rs. -",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Moving\nMedia\nEntertainment",
+            "Current IPOs__link": "https://ipowatch.in/moving-media-entertainment-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "16",
+            "Price": "Rs. 70",
+            "Gain": "22.85%",
+            "Date": "26-30\nJune",
+            "Subject": "Rs. 24,300",
+            "Type": "NSE\nSME"
+        },
+        {
+            "Current IPOs": "Neetu\nYoshi",
+            "Current IPOs__link": "https://ipowatch.in/neetu-yoshi-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 25",
+            "Price": "Rs. 75",
+            "Gain": "33.33%",
+            "Date": "27-1\nJuly",
+            "Subject": "Rs. 30,400",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Adcounty\nMedia\nIndia",
+            "Current IPOs__link": "https://ipowatch.in/adcounty-media-india-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 50",
+            "Price": "Rs. 85",
+            "Gain": "58.82%",
+            "Date": "27-1\nJuly",
+            "Subject": "Rs. 60,800",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Marc\nLoire",
+            "Current IPOs__link": "https://ipowatch.in/marc-loire-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 100",
+            "Gain": "-%",
+            "Date": "30-2\nJuly",
+            "Subject": "Rs. -",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Cedaar\nTextile",
+            "Current IPOs__link": "https://ipowatch.in/cedaar-textile-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 10",
+            "Price": "Rs. 140",
+            "Gain": "7.14%",
+            "Date": "30-2\nJuly",
+            "Subject": "Rs. 7,600",
+            "Type": "NSE\nSME"
+        },
+        {
+            "Current IPOs": "Pushpa\nJewellers",
+            "Current IPOs__link": "https://ipowatch.in/pushpa-jewellers-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 147",
+            "Gain": "-%",
+            "Date": "30-2\nJuly",
+            "Subject": "Rs. -",
+            "Type": "NSE\nSME"
+        },
+        {
+            "Current IPOs": "Silky\nOverseas",
+            "Current IPOs__link": "https://ipowatch.in/silky-overseas-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 45",
+            "Price": "Rs. 161",
+            "Gain": "27.95%",
+            "Date": "30-2\nJuly",
+            "Subject": "Rs. 27,400",
+            "Type": "NSE\nSME"
+        },
+        {
+            "Current IPOs": "Vandan\nFoods",
+            "Current IPOs__link": "https://ipowatch.in/vandan-foods-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 115",
+            "Gain": "-%",
+            "Date": "30-2\nJuly",
+            "Subject": "Rs. -",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Cryogenic\nOGS",
+            "Current IPOs__link": "https://ipowatch.in/cryogenic-ogs-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 20",
+            "Price": "Rs. 47",
+            "Gain": "42.55%",
+            "Date": "3-7\nJuly",
+            "Subject": "Rs. 45,600",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "White\nForce",
+            "Current IPOs__link": "https://ipowatch.in/white-force-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. 6",
+            "Price": "Rs. 76",
+            "Gain": "7.89%",
+            "Date": "3-7\nJuly",
+            "Subject": "Rs. 6,100",
+            "Type": "NSE\nSME"
+        },
+        {
+            "Current IPOs": "Meta\nInfotech",
+            "Current IPOs__link": "https://ipowatch.in/meta-infotech-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 161",
+            "Gain": "-%",
+            "Date": "4-8\nJuly",
+            "Subject": "Rs. -",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Chemkart\nIndia",
+            "Current IPOs__link": "https://ipowatch.in/chemkart-india-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 248",
+            "Gain": "-%",
+            "Date": "7-9\nJuly",
+            "Subject": "Rs. -",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Smarten\nPower\nSystems",
+            "Current IPOs__link": "https://ipowatch.in/smarten-power-systems-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 100",
+            "Gain": "-%",
+            "Date": "7-9\nJuly",
+            "Subject": "Rs. -",
+            "Type": "NSE\nSME"
+        },
+        {
+            "Current IPOs": "GLEN\nIndustries",
+            "Current IPOs__link": "https://ipowatch.in/glen-industries-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 97",
+            "Gain": "-%",
+            "Date": "8-10\nJuly",
+            "Subject": "Rs. -",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "CFF\nFluid\nControl\nFPO",
+            "Current IPOs__link": "https://ipowatch.in/cff-fluid-control-fpo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 585",
+            "Gain": "-%",
+            "Date": "9-11\nJuly",
+            "Subject": "Rs. -",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Victory\nElectric",
+            "Current IPOs__link": "https://ipowatch.in/victory-electric-vehicles-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 72",
+            "Gain": "-%",
+            "Date": "2025",
+            "Subject": "Rs. -",
+            "Type": "NSE\nSME"
+        },
+        {
+            "Current IPOs": "Wagons\nLearning",
+            "Current IPOs__link": "https://ipowatch.in/wagons-learning-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. 82",
+            "Gain": "-%",
+            "Date": "2025",
+            "Subject": "Rs. -",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Priority\nJewels",
+            "Current IPOs__link": "https://ipowatch.in/priority-jewels-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. -",
+            "Gain": "-%",
+            "Date": "2025",
+            "Subject": "Rs. -",
+            "Type": "Mainboard"
+        },
+        {
+            "Current IPOs": "Hero\nFincorp",
+            "Current IPOs__link": "https://ipowatch.in/hero-fincorp-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. -",
+            "Gain": "-%",
+            "Date": "2025",
+            "Subject": "Rs. -",
+            "Type": "Mainboard"
+        },
+        {
+            "Current IPOs": "Tea\nPost",
+            "Current IPOs__link": "https://ipowatch.in/tea-post-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. -",
+            "Gain": "-%",
+            "Date": "2025",
+            "Subject": "Rs. -",
+            "Type": "Mainboard"
+        },
+        {
+            "Current IPOs": "BMW\nVentures",
+            "Current IPOs__link": "https://ipowatch.in/bmw-ventures-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. -",
+            "Gain": "-%",
+            "Date": "2025",
+            "Subject": "Rs. -",
+            "Type": "Mainboard"
+        },
+        {
+            "Current IPOs": "Solar91\nCleantech",
+            "Current IPOs__link": "https://ipowatch.in/solar91-cleantech-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. -",
+            "Gain": "-%",
+            "Date": "2025",
+            "Subject": "Rs. -",
+            "Type": "BSE\nSME"
+        },
+        {
+            "Current IPOs": "Rosmerta\nDigital",
+            "Current IPOs__link": "https://ipowatch.in/rosmerta-digital-services-ipo-date-review-price-allotment-details/",
+            "IPO GMP": "Rs. -",
+            "Price": "Rs. -",
+            "Gain": "-%",
+            "Date": "2025",
+            "Subject": "Rs. -",
+            "Type": "BSE\nSME"
+        }
+    ]
+}
