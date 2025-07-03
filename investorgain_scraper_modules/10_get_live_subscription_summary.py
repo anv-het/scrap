@@ -407,7 +407,7 @@ def parse_ipo_shares_bid_amount_table(html_table_string):
     return bid_amount_data
 
 
-def save_to_json(data, filename="investorgain_ipo_subscription_data.json"):
+def save_to_json(data, filename="10_investorgain_ipo_subscription_data.json"):
     """
     Saves the scraped data to a JSON file.
     """

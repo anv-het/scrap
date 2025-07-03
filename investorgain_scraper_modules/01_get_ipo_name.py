@@ -225,7 +225,7 @@ def scrape_company_names_and_logos(base_url="https://www.investorgain.com", down
 #     except IOError as e:
 #         print(f"✗ Error saving CSV: {e}")
 
-def save_to_json(data, filename="company_names_logos.json"):
+def save_to_json(data, filename="01_company_names_logos.json"):
     """
     Saves company data to JSON file.
     """

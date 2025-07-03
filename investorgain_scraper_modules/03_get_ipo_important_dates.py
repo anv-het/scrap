@@ -223,7 +223,7 @@ def scrape_ipo_important_dates(base_url="https://www.investorgain.com"):
 
     return all_dates_data
 
-def save_to_json(data, filename="ipo_important_dates.json"):
+def save_to_json(data, filename="03_ipo_important_dates.json"):
     """
     Saves IPO dates data to JSON file.
     """

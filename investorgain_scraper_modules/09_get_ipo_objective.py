@@ -137,7 +137,7 @@ def scrape_all_ipo_data():
 if __name__ == "__main__":
     all_ipo_data = scrape_all_ipo_data()
 
-    with open('ipo_strengths_objectives_data.json', 'w', encoding='utf-8') as f:
+    with open('09_ipo_strengths_objectives_data.json', 'w', encoding='utf-8') as f:
         json.dump(all_ipo_data, f, ensure_ascii=False, indent=2)
 
     print("\n✅ All IPO Strengths & Objectives saved to 'ipo_strengths_objectives_data.json'")

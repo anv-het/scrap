@@ -122,7 +122,7 @@ def scrape_ipo_lots_table(url):
 
 
 
-def save_to_json(data, filename="ipo_lots_data.json"):
+def save_to_json(data, filename="04_ipo_lots_data.json"):
     """
     Saves the scraped data to a JSON file.
     """
@@ -133,16 +133,6 @@ def save_to_json(data, filename="ipo_lots_data.json"):
     except IOError as e:
         print(f"✗ Error saving JSON: {e}")
 
-def save_to_json(data, filename="investorgain_all_ipo_data.json"):
-    """
-    Saves the scraped data to a JSON file.
-    """
-    try:
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-        print(f"\n✓ All Investorgain IPO data saved to JSON: {filename}")
-    except IOError as e:
-        print(f"✗ Error saving JSON: {e}")
 
 if __name__ == "__main__":
     print("=== Investorgain All IPO Data Scraper ===")

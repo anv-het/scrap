@@ -1,0 +1,137 @@
+[
+    {
+        "IPO ID": 1317,
+        "API Company Name": "Anthem Biosciences",
+        "Scraped Company Name": "Anthem Biosciences",
+        "IPO Category": "Mainline",
+        "Detail URL": "https://www.investorgain.com/ipo/anthem-biosciences-ipo/1317/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/anthem-logo.jpg",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1310,
+        "API Company Name": "Travel Food Services",
+        "Scraped Company Name": "Travel Food Services",
+        "IPO Category": "Mainline",
+        "Detail URL": "https://www.investorgain.com/ipo/travel-food-services-ipo/1310/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/travel-food-services-logo.png",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1308,
+        "API Company Name": "Crizac",
+        "Scraped Company Name": "Crizac",
+        "IPO Category": "Mainline",
+        "Detail URL": "https://www.investorgain.com/ipo/crizac-ipo/1308/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/crizac-logo.jpeg",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1299,
+        "API Company Name": "Indogulf Cropsciences",
+        "Scraped Company Name": "Indogulf Cropsciences",
+        "IPO Category": "Mainline",
+        "Detail URL": "https://www.investorgain.com/ipo/indogulf-cropsciences-ipo/1299/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/indogulf-cropsciences-ipo-logo.png",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1276,
+        "API Company Name": "HDB Financial",
+        "Scraped Company Name": "HDB Financial",
+        "IPO Category": "Mainline",
+        "Detail URL": "https://www.investorgain.com/ipo/hdb-financial/1276/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/hbd-financial-logo.jpeg",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1279,
+        "API Company Name": "Sambhv Steel Tubes",
+        "Scraped Company Name": "Sambhv Steel Tubes",
+        "IPO Category": "Mainline",
+        "Detail URL": "https://www.investorgain.com/ipo/sambhv-steel-tubes-ipo/1279/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/sambhv-steel-logo.jpeg .jpeg",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1277,
+        "API Company Name": "Kalpataru",
+        "Scraped Company Name": "Kalpataru",
+        "IPO Category": "Mainline",
+        "Detail URL": "https://www.investorgain.com/ipo/kalpataru-ipo/1277/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/kalpataru-logo.png",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1278,
+        "API Company Name": "Ellenbarrie Industrial Gases",
+        "Scraped Company Name": "Ellenbarrie Industrial Gases",
+        "IPO Category": "Mainline",
+        "Detail URL": "https://www.investorgain.com/ipo/ellenbarrie-industrial-gases-ipo/1278/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/ellenbarrie-industrial-logo.png",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1280,
+        "API Company Name": "Globe Civil Projects",
+        "Scraped Company Name": "Globe Civil Projects",
+        "IPO Category": "Mainline",
+        "Detail URL": "https://www.investorgain.com/ipo/globe-civil-projects-ipo/1280/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/globe-civil-logo.png",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1320,
+        "API Company Name": "CFF Fluid Control",
+        "Scraped Company Name": "N/A",
+        "IPO Category": "SME",
+        "Detail URL": "https://www.investorgain.com/ipo/cff-fluid-control-sme-fpo/1320/",
+        "Company Logo URL": "https://www.chittorgarh.net/ig/images/logo/investorgain-com-logo.png",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1319,
+        "API Company Name": "GLEN Industries",
+        "Scraped Company Name": "GLEN Industries SME",
+        "IPO Category": "SME",
+        "Detail URL": "https://www.investorgain.com/ipo/glen-industries-sme-ipo/1319/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/glen-industries-ipo-logo.jpg",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1318,
+        "API Company Name": "Smarten Power Systems",
+        "Scraped Company Name": "Smarten Power Systems SME",
+        "IPO Category": "SME",
+        "Detail URL": "https://www.investorgain.com/ipo/smarten-power-systems-sme-ipo/1318/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/smarten-power-logo.png",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1313,
+        "API Company Name": "Chemkart India",
+        "Scraped Company Name": "Chemkart India SME",
+        "IPO Category": "SME",
+        "Detail URL": "https://www.investorgain.com/ipo/chemkart-india-sme-ipo/1313/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/chemkart-ipo-logo.png",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1314,
+        "API Company Name": "Meta Infotech",
+        "Scraped Company Name": "Meta Infotech SME",
+        "IPO Category": "SME",
+        "Detail URL": "https://www.investorgain.com/ipo/meta-infotech-sme-ipo/1314/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/meta-infotech-ipo-logo.png",
+        "Local Logo Path": "N/A"
+    },
+    {
+        "IPO ID": 1315,
+        "API Company Name": "White Force",
+        "Scraped Company Name": "White Force SME",
+        "IPO Category": "SME",
+        "Detail URL": "https://www.investorgain.com/ipo/white-force/1315/",
+        "Company Logo URL": "https://www.chittorgarh.net/images/ipo/white-force-logo.jpeg",
+        "Local Logo Path": "N/A"
+    }
+]

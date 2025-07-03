@@ -258,7 +258,7 @@ def parse_gmp_trend_table(html_table_string):
 
     return gmp_trend_data
 
-def save_to_json(data, filename="investorgain_ipo_gmp_data.json"):
+def save_to_json(data, filename="05_investorgain_ipo_gmp_data.json"):
     """
     Saves the scraped data to a JSON file.
     """

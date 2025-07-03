@@ -153,7 +153,7 @@ if ipo_data: # Only proceed if ipo_data was fetched successfully
 
 # Step 4: Save to JSON
 if results: # Only save if there are results
-    with open('ipo_strengths_detailed.json', 'w', encoding='utf-8') as f:
+    with open('07_ipo_strengths_detailed.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     print("✅ Done. Saved to 'ipo_strengths_detailed.json'")
 else:

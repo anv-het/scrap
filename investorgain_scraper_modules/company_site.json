@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1308,
+        "company_short_name": "Crizac",
+        "ipo_status": "Open",
+        "Incorporation": "2011",
+        "Sector": "Education",
+        "Website": "http://www.crizac.com/",
+        "IPO Issue Size": "₹860.00 Cr"
+    },
+    {
+        "id": 1299,
+        "company_short_name": "Indogulf Cropsciences",
+        "ipo_status": "Listed",
+        "Incorporation": "1993",
+        "Sector": "Pesticides & Agrochemicals",
+        "Website": "http://www.groupindogulf.com/",
+        "IPO Issue Size": "₹200.66 Cr"
+    },
+    {
+        "id": 1320,
+        "company_short_name": "CFF Fluid Control",
+        "ipo_status": "Upcoming",
+        "Incorporation": "2012",
+        "Sector": "Aerospace & Defense",
+        "Website": "http://www.cffdefensys.com/",
+        "IPO Issue Size": "₹83.19 Cr"
+    },
+    {
+        "id": 1278,
+        "company_short_name": "Ellenbarrie Industrial Gases",
+        "ipo_status": "Listed",
+        "Incorporation": "1973",
+        "Sector": "Industrial Gases",
+        "Website": "http://www.ellenbarrie.com/",
+        "IPO Issue Size": "₹852.53 Cr"
+    },
+    {
+        "id": 1317,
+        "company_short_name": "Anthem Biosciences",
+        "ipo_status": "Upcoming",
+        "Incorporation": "2006",
+        "Sector": "Pharmaceuticals",
+        "Website": "https://www.anthembio.com/",
+        "IPO Issue Size": "₹3395.00 Cr"
+    },
+    {
+        "id": 1277,
+        "company_short_name": "Kalpataru",
+        "ipo_status": "Listed",
+        "Incorporation": "1988",
+        "Sector": "Residential, Commercial Projects",
+        "Website": "http://www.kalpataru.com/",
+        "IPO Issue Size": "₹1590.00 Cr"
+    },
+    {
+        "id": 1310,
+        "company_short_name": "Travel Food Services",
+        "ipo_status": "Upcoming",
+        "Incorporation": "400018",
+        "Sector": "Restaurants",
+        "Website": "https://www.travelfoodservices.com/",
+        "IPO Issue Size": "₹2000.00 Cr"
+    },
+    {
+        "id": 1319,
+        "company_short_name": "GLEN Industries",
+        "ipo_status": "Upcoming",
+        "Incorporation": "2007",
+        "Sector": "Packaging",
+        "Website": "http://www.glen-india.com/",
+        "IPO Issue Size": "₹59.86 Cr"
+    },
+    {
+        "id": 1276,
+        "company_short_name": "HDB Financial",
+        "ipo_status": "Listed",
+        "Incorporation": "2007",
+        "Sector": "Non Banking Financial Company (NBFC)",
+        "Website": "http://hdbfs.com/",
+        "IPO Issue Size": "₹12500.00 Cr"
+    },
+    {
+        "id": 1280,
+        "company_short_name": "Globe Civil Projects",
+        "ipo_status": "Listed",
+        "Incorporation": "2002",
+        "Sector": "Civil Construction",
+        "Website": "http://www.globecivilprojects.com/",
+        "IPO Issue Size": "₹119.00 Cr"
+    },
+    {
+        "id": 1279,
+        "company_short_name": "Sambhv Steel Tubes",
+        "ipo_status": "Listed",
+        "Incorporation": "2017",
+        "Sector": "Iron & Steel Products",
+        "Website": "http://www.sambhv.com/",
+        "IPO Issue Size": "₹540.00 Cr"
+    },
+    {
+        "id": 1315,
+        "company_short_name": "White Force",
+        "ipo_status": "Open",
+        "Incorporation": "2017",
+        "Sector": "Other Consumer Services",
+        "Website": "https://www.white-force.com/",
+        "IPO Issue Size": "₹22.06 Cr"
+    },
+    {
+        "id": 1318,
+        "company_short_name": "Smarten Power Systems",
+        "ipo_status": "Upcoming",
+        "Incorporation": "2014",
+        "Sector": "Other Electrical Equipment",
+        "Website": "http://www.smartenpowersystems.com/",
+        "IPO Issue Size": "₹47.50 Cr"
+    },
+    {
+        "id": 1313,
+        "company_short_name": "Chemkart India",
+        "ipo_status": "Upcoming",
+        "Incorporation": "2020",
+        "Sector": "Other Consumer Services",
+        "Website": "https://chemkart.com/",
+        "IPO Issue Size": "₹75.96 Cr"
+    },
+    {
+        "id": 1314,
+        "company_short_name": "Meta Infotech",
+        "ipo_status": "Upcoming",
+        "Incorporation": "1998",
+        "Sector": "IT Enabled Services",
+        "Website": "http://www.metainfotech.com/",
+        "IPO Issue Size": "₹76.12 Cr"
+    }
+]

@@ -172,7 +172,7 @@ def scrape_and_format_financial_data(company_name, url):
 
     return result
 
-def save_to_json(data, filename="company_financial_data.json"):
+def save_to_json(data, filename="12_company_financial_data.json"):
     try:
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
