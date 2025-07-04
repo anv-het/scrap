@@ -133,7 +133,7 @@ def save_to_json(data, filename="ipo_lots_data.json"):
     except IOError as e:
         print(f"✗ Error saving JSON: {e}")
 
-def save_to_json(data, filename="investorgain_all_ipo_data.json"):
+def save_to_json(data, filename="investorgain_lots_ipo_data.json"):
     """
     Saves the scraped data to a JSON file.
     """
@@ -222,6 +222,6 @@ if __name__ == "__main__":
     
     #print save data in to file name 
     print("\n ====== save data in to file name ====== ")
-    save_to_json(all_combined_ipo_data, "investorgain_all_ipo_data.json")
+    save_to_json(all_combined_ipo_data, "investorgain_lots_ipo_data.json")
     print("\n=== Script Complete ===")
 

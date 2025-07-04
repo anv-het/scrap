@@ -1,4 +1,81 @@
 {
+  "Globe Civil Projects": {
+    "id": 1280,
+    "url": "https://www.investorgain.com/ipo/globe-civil-projects-ipo/1280/",
+    "urlrewrite_folder_name": "globe-civil-projects-ipo",
+    "urlrewrite_folder_name_main": "ipo",
+    "ipo_status": "Listed",
+    "strengths": [
+      "Strong project management and execution capabilities.",
+      "Growing order book and higher pre-qualification credentials",
+      "Strong and consistent financial performance track record",
+      "Experienced promoters and management team.",
+      ""
+    ],
+    "objectives": [
+      {
+        "s_no": "1",
+        "object": "Funding working capital requirements of the Company.",
+        "amount": "75.00"
+      },
+      {
+        "s_no": "2",
+        "object": "Capital expenditure towards purchase of construction equipments/ machineries.",
+        "amount": "14.26"
+      },
+      {
+        "s_no": "3",
+        "object": "General corporate purposes.",
+        "amount": ""
+      }
+    ],
+    "scraped_at": "2025-07-01T19:01:33.073039"
+  },
+  "Crizac": {
+    "id": 1308,
+    "url": "https://www.investorgain.com/ipo/crizac-ipo/1308/",
+    "urlrewrite_folder_name": "crizac-ipo",
+    "urlrewrite_folder_name_main": "ipo",
+    "ipo_status": "Upcoming",
+    "strengths": [
+      "One of the providers of international recruitment solutions with significant experience",
+      "Strong relationship with global network of institutions of higher education",
+      "Wide ranging network of educational agents for sourcing students for recruitment",
+      "Scalable proprietary technology platform",
+      "Experienced Promoters supported with strong domain expertise"
+    ],
+    "objectives": [
+      "No IPO Objectives found"
+    ],
+    "scraped_at": "2025-07-01T19:01:33.105206"
+  },
+  "Kalpataru": {
+    "id": 1277,
+    "url": "https://www.investorgain.com/ipo/kalpataru-ipo/1277/",
+    "urlrewrite_folder_name": "kalpataru-ipo",
+    "urlrewrite_folder_name_main": "ipo",
+    "ipo_status": "Listed",
+    "strengths": [
+      "Prominent real estate company in the Mumbai Metropolitan Region in Maharashtra",
+      "Well-established brand with the ability to sell throughout the construction phase",
+      "Strong project pipeline with growth visibility",
+      "Proven end-to-end execution capabilities with continuous innovation",
+      "Experienced and qualified management team"
+    ],
+    "objectives": [
+      {
+        "s_no": "1",
+        "object": "Repayment/pre-payment, in full or in part, of certain borrowings availed by: Company; and Subsidiaries",
+        "amount": "1,192.50"
+      },
+      {
+        "s_no": "2",
+        "object": "General corporate purposes.",
+        "amount": ""
+      }
+    ],
+    "scraped_at": "2025-07-01T19:01:33.248667"
+  },
   "Sambhv Steel Tubes": {
     "id": 1279,
     "url": "https://www.investorgain.com/ipo/sambhv-steel-tubes-ipo/1279/",
@@ -20,44 +97,58 @@
         "amount": ""
       }
     ],
-    "scraped_at": "2025-06-30T11:56:18.866541"
+    "scraped_at": "2025-07-01T19:01:33.336009"
   },
-  "Indogulf Cropsciences": {
-    "id": 1299,
-    "url": "https://www.investorgain.com/ipo/indogulf-cropsciences-ipo/1299/",
-    "urlrewrite_folder_name": "indogulf-cropsciences-ipo",
+  "Ellenbarrie Industrial Gases": {
+    "id": 1278,
+    "url": "https://www.investorgain.com/ipo/ellenbarrie-industrial-gases-ipo/1278/",
+    "urlrewrite_folder_name": "ellenbarrie-industrial-gases-ipo",
     "urlrewrite_folder_name_main": "ipo",
-    "ipo_status": "Open",
+    "ipo_status": "Listed",
     "strengths": [
-      "Diversified product portfolio and specialized products across all three verticals",
-      "Established distribution network in India and abroad",
-      "Backward integrated manufacturing infrastructure",
-      "Strong R&D and product development capabilities",
-      "Experienced promoters and management team"
+      "Leading Manufacturer of Industrial Gases, Well Positioned to Capitalise on Industry Tailwinds",
+      "Comprehensive Product Portfolio, catering to Diverse End-use Industries",
+      "Diversified customer base with long-standing relationship",
+      "Expansive Operational and Distribution Capabilities across East and South India",
+      "Experienced Promoters and Management Team"
     ],
     "objectives": [
       {
         "s_no": "1",
-        "object": "Funding working capital requirements of our Company",
-        "amount": "65.00"
+        "object": "Repayment/prepayment, in full or in part, of certain outstanding borrowings availed by the Company.",
+        "amount": "210.00"
       },
       {
         "s_no": "2",
-        "object": "Repayment/ prepayment, in full or in part, of certain outstanding borrowings availed by our Company",
-        "amount": "34.12"
+        "object": "Setting up of an air separation unit at the Uluberia-II plant with a capacity of 220 TPD.",
+        "amount": "104.50"
       },
       {
         "s_no": "3",
-        "object": "Capital expenditure of our Company for setting up an in-house dry flowable (DF) plant at Barwasni, District Sonipat, Haryana",
-        "amount": "14.00"
-      },
-      {
-        "s_no": "4",
-        "object": "General corporate purposes",
+        "object": "General corporate purposes.",
         "amount": ""
       }
     ],
-    "scraped_at": "2025-06-30T11:56:19.062509"
+    "scraped_at": "2025-07-01T19:01:33.368009"
+  },
+  "Anthem Biosciences": {
+    "id": 1317,
+    "url": "https://www.investorgain.com/ipo/anthem-biosciences-ipo/1317/",
+    "urlrewrite_folder_name": "anthem-biosciences-ipo",
+    "urlrewrite_folder_name_main": "ipo",
+    "ipo_status": "Upcoming",
+    "strengths": [
+      "One of the fastest-growing CRDMO with comprehensive service offerings for both small molecules and biologics",
+      "Innovation-focused approach with technologically advanced solutions across modalities and manufacturing practices",
+      "Differentiated business model catering to small pharmaceutical and emerging biotech companies",
+      "Long-standing relationships with a large, diversified and loyal customer base",
+      "Wide specialty ingredients portfolio, to capitalize on large market opportunity",
+      "Automated manufacturing infrastructure with a consistent regulatory compliance track record"
+    ],
+    "objectives": [
+      "No IPO Objectives found"
+    ],
+    "scraped_at": "2025-07-01T19:01:33.413587"
   },
   "Chemkart India": {
     "id": 1313,
@@ -87,25 +178,7 @@
         "amount": ""
       }
     ],
-    "scraped_at": "2025-06-30T11:56:19.304561"
-  },
-  "Crizac": {
-    "id": 1308,
-    "url": "https://www.investorgain.com/ipo/crizac-ipo/1308/",
-    "urlrewrite_folder_name": "crizac-ipo",
-    "urlrewrite_folder_name_main": "ipo",
-    "ipo_status": "Upcoming",
-    "strengths": [
-      "One of the providers of international recruitment solutions with significant experience",
-      "Strong relationship with global network of institutions of higher education",
-      "Wide ranging network of educational agents for sourcing students for recruitment",
-      "Scalable proprietary technology platform",
-      "Experienced Promoters supported with strong domain expertise"
-    ],
-    "objectives": [
-      "No IPO Objectives found"
-    ],
-    "scraped_at": "2025-06-30T11:56:19.360187"
+    "scraped_at": "2025-07-01T19:01:33.442921"
   },
   "HDB Financial": {
     "id": 1276,
@@ -128,66 +201,7 @@
         "amount": ""
       }
     ],
-    "scraped_at": "2025-06-30T11:56:19.399898"
-  },
-  "Kalpataru": {
-    "id": 1277,
-    "url": "https://www.investorgain.com/ipo/kalpataru-ipo/1277/",
-    "urlrewrite_folder_name": "kalpataru-ipo",
-    "urlrewrite_folder_name_main": "ipo",
-    "ipo_status": "Closed",
-    "strengths": [
-      "Prominent real estate company in the Mumbai Metropolitan Region in Maharashtra",
-      "Well-established brand with the ability to sell throughout the construction phase",
-      "Strong project pipeline with growth visibility",
-      "Proven end-to-end execution capabilities with continuous innovation",
-      "Experienced and qualified management team"
-    ],
-    "objectives": [
-      {
-        "s_no": "1",
-        "object": "Repayment/pre-payment, in full or in part, of certain borrowings availed by: Company; and Subsidiaries",
-        "amount": "1,192.50"
-      },
-      {
-        "s_no": "2",
-        "object": "General corporate purposes.",
-        "amount": ""
-      }
-    ],
-    "scraped_at": "2025-06-30T11:56:19.517225"
-  },
-  "Globe Civil Projects": {
-    "id": 1280,
-    "url": "https://www.investorgain.com/ipo/globe-civil-projects-ipo/1280/",
-    "urlrewrite_folder_name": "globe-civil-projects-ipo",
-    "urlrewrite_folder_name_main": "ipo",
-    "ipo_status": "Closed",
-    "strengths": [
-      "Strong project management and execution capabilities.",
-      "Growing order book and higher pre-qualification credentials",
-      "Strong and consistent financial performance track record",
-      "Experienced promoters and management team.",
-      ""
-    ],
-    "objectives": [
-      {
-        "s_no": "1",
-        "object": "Funding working capital requirements of the Company.",
-        "amount": "75.00"
-      },
-      {
-        "s_no": "2",
-        "object": "Capital expenditure towards purchase of construction equipments/ machineries.",
-        "amount": "14.26"
-      },
-      {
-        "s_no": "3",
-        "object": "General corporate purposes.",
-        "amount": ""
-      }
-    ],
-    "scraped_at": "2025-06-30T11:56:19.704143"
+    "scraped_at": "2025-07-01T19:01:33.476795"
   },
   "Travel Food Services": {
     "id": 1310,
@@ -205,7 +219,109 @@
     "objectives": [
       "No IPO Objectives found"
     ],
-    "scraped_at": "2025-06-30T11:56:19.833278"
+    "scraped_at": "2025-07-01T19:01:33.869737"
+  },
+  "Indogulf Cropsciences": {
+    "id": 1299,
+    "url": "https://www.investorgain.com/ipo/indogulf-cropsciences-ipo/1299/",
+    "urlrewrite_folder_name": "indogulf-cropsciences-ipo",
+    "urlrewrite_folder_name_main": "ipo",
+    "ipo_status": "Closed",
+    "strengths": [
+      "Diversified product portfolio and specialized products across all three verticals",
+      "Established distribution network in India and abroad",
+      "Backward integrated manufacturing infrastructure",
+      "Strong R&D and product development capabilities",
+      "Experienced promoters and management team"
+    ],
+    "objectives": [
+      {
+        "s_no": "1",
+        "object": "Funding working capital requirements of our Company",
+        "amount": "65.00"
+      },
+      {
+        "s_no": "2",
+        "object": "Repayment/ prepayment, in full or in part, of certain outstanding borrowings availed by our Company",
+        "amount": "34.12"
+      },
+      {
+        "s_no": "3",
+        "object": "Capital expenditure of our Company for setting up an in-house dry flowable (DF) plant at Barwasni, District Sonipat, Haryana",
+        "amount": "14.00"
+      },
+      {
+        "s_no": "4",
+        "object": "General corporate purposes",
+        "amount": ""
+      }
+    ],
+    "scraped_at": "2025-07-01T19:01:34.008483"
+  },
+  "White Force": {
+    "id": 1315,
+    "url": "https://www.investorgain.com/ipo/white-force/1315/",
+    "urlrewrite_folder_name": "white-force",
+    "urlrewrite_folder_name_main": "ipo",
+    "ipo_status": "Upcoming",
+    "strengths": [
+      "Long-standing relationships with customers",
+      "Experienced promoter and management",
+      "Scalable business model",
+      "Diversified customer base across industries",
+      "Strong financial position and good track record of financial performance"
+    ],
+    "objectives": [
+      {
+        "s_no": "1",
+        "object": "Funding of working capital requirements of the Company",
+        "amount": "190.00"
+      },
+      {
+        "s_no": "2",
+        "object": "General corporate purposes",
+        "amount": "0.00"
+      }
+    ],
+    "scraped_at": "2025-07-01T19:01:34.789646"
+  },
+  "Meta Infotech": {
+    "id": 1314,
+    "url": "https://www.investorgain.com/ipo/meta-infotech-sme-ipo/1314/",
+    "urlrewrite_folder_name": "meta-infotech-sme-ipo",
+    "urlrewrite_folder_name_main": "ipo",
+    "ipo_status": "Upcoming",
+    "strengths": [
+      "“One Stop Shop” for comprehensive cybersecurity services",
+      "Experienced Management team and skilled employees",
+      "Long standing relationship with marquee customer base",
+      "Diversified customer base across industries",
+      "Long standing relationships with various Cybersecurity OEM Developers",
+      "Stable and consistent financial performance"
+    ],
+    "objectives": [
+      {
+        "s_no": "1",
+        "object": "Repayment in full or in part, of certain of the outstanding borrowings",
+        "amount": "16.70"
+      },
+      {
+        "s_no": "2",
+        "object": "Funding capital expenditure towards establishment of new office premises at Unit no 911, 9th Floor, MINT Sahar, Andheri - kurla Road, Andheri east, Mumbai",
+        "amount": "1.20"
+      },
+      {
+        "s_no": "3",
+        "object": "Setup of an interactive experience centre at our registered office situated at Unit no 118 and 119, 1st Floor, Ackruti Star, MIDC, Andheri East, Mumbai 400093",
+        "amount": "0.91"
+      },
+      {
+        "s_no": "4",
+        "object": "General Corporate Purpose",
+        "amount": ""
+      }
+    ],
+    "scraped_at": "2025-07-01T19:01:34.965872"
   },
   "Cryogenic OGS": {
     "id": 1311,
@@ -237,39 +353,7 @@
         "amount": ""
       }
     ],
-    "scraped_at": "2025-06-30T11:56:19.871747"
-  },
-  "Ellenbarrie Industrial Gases": {
-    "id": 1278,
-    "url": "https://www.investorgain.com/ipo/ellenbarrie-industrial-gases-ipo/1278/",
-    "urlrewrite_folder_name": "ellenbarrie-industrial-gases-ipo",
-    "urlrewrite_folder_name_main": "ipo",
-    "ipo_status": "Closed",
-    "strengths": [
-      "Leading Manufacturer of Industrial Gases, Well Positioned to Capitalise on Industry Tailwinds",
-      "Comprehensive Product Portfolio, catering to Diverse End-use Industries",
-      "Diversified customer base with long-standing relationship",
-      "Expansive Operational and Distribution Capabilities across East and South India",
-      "Experienced Promoters and Management Team"
-    ],
-    "objectives": [
-      {
-        "s_no": "1",
-        "object": "Repayment/prepayment, in full or in part, of certain outstanding borrowings availed by the Company.",
-        "amount": "210.00"
-      },
-      {
-        "s_no": "2",
-        "object": "Setting up of an air separation unit at the Uluberia-II plant with a capacity of 220 TPD.",
-        "amount": "104.50"
-      },
-      {
-        "s_no": "3",
-        "object": "General corporate purposes.",
-        "amount": ""
-      }
-    ],
-    "scraped_at": "2025-06-30T11:56:19.906160"
+    "scraped_at": "2025-07-01T19:01:35.246110"
   },
   "Silky Overseas": {
     "id": 1307,
@@ -306,7 +390,7 @@
         "amount": ""
       }
     ],
-    "scraped_at": "2025-06-30T11:56:20.835658"
+    "scraped_at": "2025-07-01T19:01:35.302856"
   },
   "Vandan Foods": {
     "id": 1306,
@@ -344,130 +428,6 @@
         "amount": "7.51"
       }
     ],
-    "scraped_at": "2025-06-30T11:56:20.975710"
-  },
-  "Pushpa Jewellers": {
-    "id": 1302,
-    "url": "https://www.investorgain.com/ipo/pushpa-jewellers-sme-ipo/1302/",
-    "urlrewrite_folder_name": "pushpa-jewellers-sme-ipo",
-    "urlrewrite_folder_name_main": "ipo",
-    "ipo_status": "Open",
-    "strengths": [
-      "Distinctive Brand Identity and Innovative Design",
-      "Experienced Promoters and senior management team",
-      "Quality Assurance with hallmark",
-      "Efficient Inventory Management"
-    ],
-    "objectives": [
-      {
-        "s_no": "1",
-        "object": "To meet working capital Expenses",
-        "amount": "45.39"
-      },
-      {
-        "s_no": "2",
-        "object": "To Finance Establishment of proposed new showroom",
-        "amount": ""
-      },
-      {
-        "s_no": "3",
-        "object": "Cost of Capital expenditure for the proposed new showroom",
-        "amount": "1.90"
-      },
-      {
-        "s_no": "4",
-        "object": "Cost of Inventory for the proposed new showroom",
-        "amount": "3.46"
-      },
-      {
-        "s_no": "5",
-        "object": "General Corporate Purposes",
-        "amount": ""
-      },
-      {
-        "s_no": "6",
-        "object": "To meet the offer related expenses",
-        "amount": ""
-      }
-    ],
-    "scraped_at": "2025-06-30T11:56:21.316928"
-  },
-  "Marc Loire": {
-    "id": 1301,
-    "url": "https://www.investorgain.com/ipo/marc-loire-sme-ipo/1301/",
-    "urlrewrite_folder_name": "marc-loire-sme-ipo",
-    "urlrewrite_folder_name_main": "ipo",
-    "ipo_status": "Open",
-    "strengths": [
-      "Strong Brand Recognition",
-      "Strong Supply Chain",
-      "Strong Online Presence",
-      "Strong Financial Performance",
-      "Strong Promoter Background",
-      "Strong Integrated System"
-    ],
-    "objectives": [
-      {
-        "s_no": "1",
-        "object": "Funding Capital Expenditure for expansion of the Retail Network by launching 15 new Exclusive Brand Outlets (EBOs)",
-        "amount": "5.27"
-      },
-      {
-        "s_no": "2",
-        "object": "Funding Capital Expenditure for purchase of Multi-Purpose Racks",
-        "amount": "0.40"
-      },
-      {
-        "s_no": "3",
-        "object": "Working Capital Requirements",
-        "amount": "9.35"
-      },
-      {
-        "s_no": "4",
-        "object": "General Corporate Expenses",
-        "amount": "3.73"
-      }
-    ],
-    "scraped_at": "2025-06-30T11:56:21.571901"
-  },
-  "Cedaar Textile IPO": {
-    "id": 1304,
-    "url": "https://www.investorgain.com/ipo/cedaar-textile-sme-ipo/1304/",
-    "urlrewrite_folder_name": "cedaar-textile-sme-ipo",
-    "urlrewrite_folder_name_main": "ipo",
-    "ipo_status": "Open",
-    "strengths": [
-      "Focus on Sustainability, Quality, Innovation and Technology",
-      "Strong Industry Relationship",
-      "Sourcing, Production & Delivery"
-    ],
-    "objectives": [
-      {
-        "s_no": "1",
-        "object": "Installation of Grid-tied Solar PV Rooftop System for Captive evacuation",
-        "amount": "8.00"
-      },
-      {
-        "s_no": "2",
-        "object": "Modernization of the Machines",
-        "amount": "17.00"
-      },
-      {
-        "s_no": "3",
-        "object": "To meet working capital requirements",
-        "amount": "24.90"
-      },
-      {
-        "s_no": "4",
-        "object": "General Corporate Purpose; and",
-        "amount": ""
-      },
-      {
-        "s_no": "5",
-        "object": "Issue Expenses",
-        "amount": ""
-      }
-    ],
-    "scraped_at": "2025-06-30T11:56:28.678732"
+    "scraped_at": "2025-07-01T19:01:35.421293"
   }
 }
